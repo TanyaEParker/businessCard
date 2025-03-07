@@ -1,18 +1,18 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { CameraEnvironmentMap as CameraEnvironmentMap_0 } from "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap";
-import { DefaultCookieConsent as DefaultCookieConsent_1 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
-import { DefaultLoader as DefaultLoader_2 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
-import { DirectionalLight as DirectionalLight_4 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { ImageTracker as ImageTracker_5 } from "@zcomponent/zappar-three/lib/components/trackers/ImageTracker";
-import { OverrideOpacity as OverrideOpacity_6 } from "@zcomponent/three/lib/behaviors/OverrideOpacity";
-import { PlayLayerClip as PlayLayerClip_7 } from "@zcomponent/core/lib/behaviors/PlayLayerClip";
-import { ZapparCamera as ZapparCamera_8 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
-import { Plane as Plane_9 } from "@zcomponent/three/lib/components/meshes/Plane";
-import { LaunchURL as LaunchURL_10 } from "@zcomponent/core/lib/behaviors/LaunchURL";
-import { MeshBasicMaterial as MeshBasicMaterial_11 } from "@zcomponent/three/lib/components/materials/MeshBasicMaterial";
-import { Text as Text_12 } from "@zcomponent/three/lib/components/text/Text";
+import { Plane as Plane_0 } from "@zcomponent/three/lib/components/meshes/Plane";
+import { LaunchURL as LaunchURL_1 } from "@zcomponent/core/lib/behaviors/LaunchURL";
+import { MeshBasicMaterial as MeshBasicMaterial_2 } from "@zcomponent/three/lib/components/materials/MeshBasicMaterial";
+import { CameraEnvironmentMap as CameraEnvironmentMap_3 } from "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap";
+import { DefaultCookieConsent as DefaultCookieConsent_4 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
+import { DefaultLoader as DefaultLoader_5 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { Group as Group_6 } from "@zcomponent/three/lib/components/Group";
+import { DirectionalLight as DirectionalLight_7 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
+import { ImageTracker as ImageTracker_8 } from "@zcomponent/zappar-three/lib/components/trackers/ImageTracker";
+import { OverrideOpacity as OverrideOpacity_9 } from "@zcomponent/three/lib/behaviors/OverrideOpacity";
+import { PlayLayerClip as PlayLayerClip_10 } from "@zcomponent/core/lib/behaviors/PlayLayerClip";
+import { Text as Text_11 } from "@zcomponent/three/lib/components/text/Text";
+import { ZapparCamera as ZapparCamera_12 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
 
 interface ConstructorProps {
 
@@ -27,64 +27,64 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		CameraEnvironmentMap: CameraEnvironmentMap_0 & {
+		Button: Plane_0 & {
+			behaviors: {
+				0: LaunchURL_1,
+			}
+		},
+		Button_Material: MeshBasicMaterial_2 & {
 			behaviors: {
 
 			}
 		},
-		DefaultCookieConsent: DefaultCookieConsent_1 & {
+		CameraEnvironmentMap: CameraEnvironmentMap_3 & {
 			behaviors: {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_2 & {
+		DefaultCookieConsent: DefaultCookieConsent_4 & {
 			behaviors: {
 
 			}
 		},
-		Defaults: Group_3 & {
+		DefaultLoader: DefaultLoader_5 & {
 			behaviors: {
 
 			}
 		},
-		DirectionalLight: DirectionalLight_4 & {
+		Defaults: Group_6 & {
 			behaviors: {
 
 			}
 		},
-		ImageTracker: ImageTracker_5 & {
-			behaviors: {
-				0: OverrideOpacity_6,
-				1: PlayLayerClip_7,
-				2: PlayLayerClip_7,
-			}
-		},
-		ZapparCamera: ZapparCamera_8 & {
+		DirectionalLight: DirectionalLight_7 & {
 			behaviors: {
 
 			}
 		},
-		Shade: Plane_9 & {
+		ImageTracker: ImageTracker_8 & {
+			behaviors: {
+				0: OverrideOpacity_9,
+				1: PlayLayerClip_10,
+				2: PlayLayerClip_10,
+			}
+		},
+		Shade: Plane_0 & {
 			behaviors: {
 
 			}
 		},
-		Button: Plane_9 & {
-			behaviors: {
-				0: LaunchURL_10,
-			}
-		},
-		Shade_Material: MeshBasicMaterial_11 & {
+		Shade_Material: MeshBasicMaterial_2 & {
 			behaviors: {
 
 			}
 		},
-		Button_Material: MeshBasicMaterial_11 & {
+		Text: Text_11 & {
 			behaviors: {
 
 			}
 		},
-		Text: Text_12 & {
+		ZapparCamera: ZapparCamera_12 & {
 			behaviors: {
 
 			}

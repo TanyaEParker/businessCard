@@ -63,7 +63,17 @@
 			.zcomponent-launched .splash {
 				display: none;
 			}
-
+            #ContactsButton
+            {
+                margin-top: 4dvh;
+                font-weight: 700;
+                border: none;
+                width: 150px;
+                aspect-ratio:2.2;
+                border-radius: 2dvh;
+                background: rgb(210,210,210);
+                color: black;
+            }
 			#launchButton
             {
                 display:none;

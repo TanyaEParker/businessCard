@@ -28,6 +28,5 @@ function addToContacts()
      document.body.appendChild(a);
      a.click();
      document.body.removeChild(a);
-    // console.log(contactsSupported)
 };
 
