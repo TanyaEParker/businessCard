@@ -9,6 +9,30 @@
 				"order": "a2",
 				"scriptName": "Visible",
 				"tracks": {
+					"e1fb6072ccf84fa0b6df7a23c3b732a9": {
+						"blend": "overlay",
+						"entityID": "d9647a78243941d4b26ccf6339bdbe98",
+						"id": "e1fb6072ccf84fa0b6df7a23c3b732a9",
+						"keyframes": {
+							"7df817bb1e55407c877e6a14a395ec38": {
+								"id": "7df817bb1e55407c877e6a14a395ec38",
+								"t": 0,
+								"v": 1
+							}
+						},
+						"order": "a0",
+						"property": [
+							"opacity"
+						],
+						"type": "property",
+						"weight": {
+							"73663c5899f34d5eb404a31920d175f9-blend": {
+								"id": "73663c5899f34d5eb404a31920d175f9-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					}
 				},
 				"type": "state"
 			},
@@ -20,13 +44,13 @@
 				"order": "a3",
 				"scriptName": "Hidden",
 				"tracks": {
-					"e1120a6858b34e0797b5499cef87a2c2": {
+					"7474f9170ca94cb4b592e1da4ce8809e": {
 						"blend": "overlay",
-						"entityID": "1ee506c3926a49b1bdd570826630a371",
-						"id": "e1120a6858b34e0797b5499cef87a2c2",
+						"entityID": "d9647a78243941d4b26ccf6339bdbe98",
+						"id": "7474f9170ca94cb4b592e1da4ce8809e",
 						"keyframes": {
-							"6534303e2c774f568eb8d18bd6b3f342": {
-								"id": "6534303e2c774f568eb8d18bd6b3f342",
+							"faf01ae3c1344783aa0c1391d29e6215": {
+								"id": "faf01ae3c1344783aa0c1391d29e6215",
 								"t": 0,
 								"v": 0
 							}
@@ -37,6 +61,11 @@
 						],
 						"type": "property",
 						"weight": {
+							"42f93156eda5474b9656590d766ed163-blend": {
+								"id": "42f93156eda5474b9656590d766ed163-blend",
+								"t": 0,
+								"v": 1
+							}
 						}
 					}
 				},
@@ -77,47 +106,42 @@
 		}
 	},
 	"behaviors": {
-		"06ee1b0813df4c6483cd691ae733e86c": {
-			"id": "06ee1b0813df4c6483cd691ae733e86c",
+		"3da43aa1bd9546cf8885595ecda45e8e": {
+			"id": "3da43aa1bd9546cf8885595ecda45e8e",
+			"label": "PlayLayerClip",
 			"parent": {
-				"id": "a62fe980dfce45cf8795917667827b08",
-				"order": "a1"
+				"id": "acd4f5c1adc8477f852d899e6ac45357",
+				"order": "a1",
+				"scriptName": "PlayLayerClip0"
 			},
 			"type": "@zcomponent/core/lib/behaviors/PlayLayerClip#PlayLayerClip"
 		},
-		"1ee506c3926a49b1bdd570826630a371": {
-			"id": "1ee506c3926a49b1bdd570826630a371",
+		"69a1b2e100b44224b7224851cc35fd1e": {
+			"id": "69a1b2e100b44224b7224851cc35fd1e",
+			"label": "PlayLayerClip",
 			"parent": {
-				"id": "a62fe980dfce45cf8795917667827b08",
-				"order": "a0"
+				"id": "acd4f5c1adc8477f852d899e6ac45357",
+				"order": "a0",
+				"scriptName": "PlayLayerClip"
+			},
+			"type": "@zcomponent/core/lib/behaviors/PlayLayerClip#PlayLayerClip"
+		},
+		"d9647a78243941d4b26ccf6339bdbe98": {
+			"id": "d9647a78243941d4b26ccf6339bdbe98",
+			"label": "OverrideOpacity",
+			"parent": {
+				"id": "acd4f5c1adc8477f852d899e6ac45357",
+				"order": "a2",
+				"scriptName": "OverrideOpacity"
 			},
 			"type": "@zcomponent/three/lib/behaviors/OverrideOpacity#OverrideOpacity"
-		},
-		"909a63cb5ba94e60a1020c857006fc4f": {
-			"id": "909a63cb5ba94e60a1020c857006fc4f",
-			"parent": {
-				"id": "a62fe980dfce45cf8795917667827b08",
-				"order": "a2"
-			},
-			"type": "@zcomponent/core/lib/behaviors/PlayLayerClip#PlayLayerClip"
-		},
-		"db8eec0cbef142d69bdbb8efb5bb1ac0": {
-			"id": "db8eec0cbef142d69bdbb8efb5bb1ac0",
-			"parent": {
-				"id": "5f7ad000db0f43449471f6c016637aa9",
-				"order": "a0"
-			},
-			"type": "@zcomponent/core/lib/behaviors/LaunchURL#LaunchURL"
 		}
 	},
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
-		"Button": {
-			"5f7ad000db0f43449471f6c016637aa9": true
-		},
-		"Button Material": {
-			"b7e995cef8914ec5b518257e45e67e3b": true
+		"Box": {
+			"389f0c20c3404a89adcb8ffd91d8e512": true
 		},
 		"CameraEnvironmentMap": {
 			"8cfafbf6de4a4576a4d0f90965423e85": true
@@ -130,35 +154,23 @@
 		},
 		"Defaults": {
 			"7b6fb4d895774174b5d151eec86b704c": true
-		},
-		"DirectionalLight": {
-			"857f9901b65b42c89a3ff04470d70738": true
 		},
 		"Group": {
 			"root": true
 		},
-		"ImageTracker": {
-			"a62fe980dfce45cf8795917667827b08": true
-		},
-		"Shade": {
-			"933d27398c1f447ab1c8affd700b03db": true
-		},
-		"Shade Material": {
-			"1bb75277a80441d8add107f47d1a82ce": true
-		},
-		"Text": {
-			"8c1de0747e024303a4705a6460844994": true
+		"ShadowPlane": {
+			"4ae2de48215643ef958e7d09e17c77d8": true
 		},
 		"ZapparCamera": {
 			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"business-card-back.png.zpt": {
+			"acd4f5c1adc8477f852d899e6ac45357": true
 		}
 	},
 	"entitiesByScriptName": {
-		"Button": {
-			"5f7ad000db0f43449471f6c016637aa9": true
-		},
-		"Button_Material": {
-			"b7e995cef8914ec5b518257e45e67e3b": true
+		"Box": {
+			"389f0c20c3404a89adcb8ffd91d8e512": true
 		},
 		"CameraEnvironmentMap": {
 			"8cfafbf6de4a4576a4d0f90965423e85": true
@@ -172,62 +184,42 @@
 		"Defaults": {
 			"7b6fb4d895774174b5d151eec86b704c": true
 		},
-		"DirectionalLight": {
-			"857f9901b65b42c89a3ff04470d70738": true
-		},
-		"ImageTracker": {
-			"a62fe980dfce45cf8795917667827b08": true
-		},
-		"Shade": {
-			"933d27398c1f447ab1c8affd700b03db": true
-		},
-		"Shade_Material": {
-			"1bb75277a80441d8add107f47d1a82ce": true
-		},
-		"Text": {
-			"8c1de0747e024303a4705a6460844994": true
+		"ShadowPlane": {
+			"4ae2de48215643ef958e7d09e17c77d8": true
 		},
 		"ZapparCamera": {
 			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"business_cardback_pngzpt": {
+			"acd4f5c1adc8477f852d899e6ac45357": true
 		}
 	},
 	"entityConstructorProps": {
-		"06ee1b0813df4c6483cd691ae733e86c": {
-			"event": "onAnchorVisible"
-		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
-		"1bb75277a80441d8add107f47d1a82ce": {
+		"389f0c20c3404a89adcb8ffd91d8e512": {
 		},
-		"1ee506c3926a49b1bdd570826630a371": {
+		"3da43aa1bd9546cf8885595ecda45e8e": {
+			"event": "onAnchorNotVisible"
+		},
+		"4ae2de48215643ef958e7d09e17c77d8": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
-		"5f7ad000db0f43449471f6c016637aa9": {
+		"69a1b2e100b44224b7224851cc35fd1e": {
+			"event": "onAnchorVisible"
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
-		"857f9901b65b42c89a3ff04470d70738": {
-		},
-		"8c1de0747e024303a4705a6460844994": {
-		},
 		"8cfafbf6de4a4576a4d0f90965423e85": {
 		},
-		"909a63cb5ba94e60a1020c857006fc4f": {
-			"event": "onAnchorNotVisible"
-		},
-		"933d27398c1f447ab1c8affd700b03db": {
-		},
-		"a62fe980dfce45cf8795917667827b08": {
-			"source": "file://./restaurant-flyer.zpt"
-		},
-		"b7e995cef8914ec5b518257e45e67e3b": {
+		"acd4f5c1adc8477f852d899e6ac45357": {
+			"source": "file://./../assets/targets/business-card-back.png.zpt"
 		},
 		"d056c264c3d345908a1345aeb612ed9d": {
 			"activateAtStart": true
 		},
-		"db8eec0cbef142d69bdbb8efb5bb1ac0": {
-			"event": "onClick"
+		"d9647a78243941d4b26ccf6339bdbe98": {
 		}
 	},
 	"entityPropOverrides": {
@@ -277,91 +269,50 @@
 		}
 	},
 	"entityProps": {
-		"06ee1b0813df4c6483cd691ae733e86c": {
-			"layerClip": "992dcf60741c4cdca3e11f29a0ce5cda"
-		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
-		"1bb75277a80441d8add107f47d1a82ce": {
-			"color": [
+		"389f0c20c3404a89adcb8ffd91d8e512": {
+			"position": [
+				0,
+				0,
+				0.0125
+			],
+			"scale": [
+				0.025,
+				0.025,
+				0.025
+			]
+		},
+		"3da43aa1bd9546cf8885595ecda45e8e": {
+			"layerClip": "02007d340c464b6ba3b9a8535c106fa5"
+		},
+		"4ae2de48215643ef958e7d09e17c77d8": {
+			"rotation": [
 				0,
 				0,
 				0
 			],
-			"opacity": 0.716238839285714,
-			"transparent": true
-		},
-		"1ee506c3926a49b1bdd570826630a371": {
+			"scale": [
+				0.02589467285503202,
+				0.02589467285503202,
+				0.02589467285503202
+			]
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
-		"5f7ad000db0f43449471f6c016637aa9": {
-			"position": [
-				0,
-				0,
-				0.016488167368326256
-			],
-			"scale": [
-				1,
-				0.32142965056772294,
-				1
-			]
+		"69a1b2e100b44224b7224851cc35fd1e": {
+			"layerClip": "992dcf60741c4cdca3e11f29a0ce5cda"
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
-		"857f9901b65b42c89a3ff04470d70738": {
-			"castShadow": true,
-			"position": [
-				0,
-				3.822578351542651,
-				0
-			]
-		},
-		"8c1de0747e024303a4705a6460844994": {
-			"anchorX": "center",
-			"anchorY": "middle",
-			"color": [
-				1,
-				1,
-				1
-			],
-			"position": [
-				0,
-				0,
-				0.03942499773099306
-			],
-			"text": "Visit Website"
-		},
 		"8cfafbf6de4a4576a4d0f90965423e85": {
 		},
-		"909a63cb5ba94e60a1020c857006fc4f": {
-			"layerClip": "02007d340c464b6ba3b9a8535c106fa5"
-		},
-		"933d27398c1f447ab1c8affd700b03db": {
-			"position": [
-				0,
-				0,
-				0
-			],
-			"scale": [
-				1.4397064605215555,
-				2.0017002882274473,
-				1
-			]
-		},
-		"a62fe980dfce45cf8795917667827b08": {
-		},
-		"b7e995cef8914ec5b518257e45e67e3b": {
-			"color": [
-				0,
-				0.1843137254901961,
-				0.3803921568627451
-			]
+		"acd4f5c1adc8477f852d899e6ac45357": {
 		},
 		"d056c264c3d345908a1345aeb612ed9d": {
 		},
-		"db8eec0cbef142d69bdbb8efb5bb1ac0": {
-			"url": "https://www.zappar.com"
+		"d9647a78243941d4b26ccf6339bdbe98": {
+			"opacity": 1
 		},
 		"root": {
 			"position": [
@@ -383,15 +334,25 @@
 			"scriptName": "DefaultCookieConsent",
 			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
 		},
-		"1bb75277a80441d8add107f47d1a82ce": {
-			"id": "1bb75277a80441d8add107f47d1a82ce",
-			"label": "Shade Material",
+		"389f0c20c3404a89adcb8ffd91d8e512": {
+			"id": "389f0c20c3404a89adcb8ffd91d8e512",
+			"label": "Box",
 			"parent": {
-				"id": "933d27398c1f447ab1c8affd700b03db",
+				"id": "acd4f5c1adc8477f852d899e6ac45357",
 				"order": "a0"
 			},
-			"scriptName": "Shade_Material",
-			"type": "@zcomponent/three/lib/components/materials/MeshBasicMaterial#MeshBasicMaterial"
+			"scriptName": "Box",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
+		"4ae2de48215643ef958e7d09e17c77d8": {
+			"id": "4ae2de48215643ef958e7d09e17c77d8",
+			"label": "ShadowPlane",
+			"parent": {
+				"id": "acd4f5c1adc8477f852d899e6ac45357",
+				"order": "a1"
+			},
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
@@ -403,16 +364,6 @@
 			"scriptName": "DefaultLoader",
 			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
 		},
-		"5f7ad000db0f43449471f6c016637aa9": {
-			"id": "5f7ad000db0f43449471f6c016637aa9",
-			"label": "Button",
-			"parent": {
-				"id": "a62fe980dfce45cf8795917667827b08",
-				"order": "a0"
-			},
-			"scriptName": "Button",
-			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
-		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 			"id": "7b6fb4d895774174b5d151eec86b704c",
 			"label": "Defaults",
@@ -422,26 +373,6 @@
 			},
 			"scriptName": "Defaults",
 			"type": "@zcomponent/three/lib/components/Group#Group"
-		},
-		"857f9901b65b42c89a3ff04470d70738": {
-			"id": "857f9901b65b42c89a3ff04470d70738",
-			"label": "DirectionalLight",
-			"parent": {
-				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "Zq"
-			},
-			"scriptName": "DirectionalLight",
-			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
-		},
-		"8c1de0747e024303a4705a6460844994": {
-			"id": "8c1de0747e024303a4705a6460844994",
-			"label": "Text",
-			"parent": {
-				"id": "a62fe980dfce45cf8795917667827b08",
-				"order": "a1"
-			},
-			"scriptName": "Text",
-			"type": "@zcomponent/three/lib/components/text/Text#Text"
 		},
 		"8cfafbf6de4a4576a4d0f90965423e85": {
 			"id": "8cfafbf6de4a4576a4d0f90965423e85",
@@ -453,35 +384,15 @@
 			"scriptName": "CameraEnvironmentMap",
 			"type": "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap#CameraEnvironmentMap"
 		},
-		"933d27398c1f447ab1c8affd700b03db": {
-			"id": "933d27398c1f447ab1c8affd700b03db",
-			"label": "Shade",
-			"parent": {
-				"id": "a62fe980dfce45cf8795917667827b08",
-				"order": "Zz"
-			},
-			"scriptName": "Shade",
-			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
-		},
-		"a62fe980dfce45cf8795917667827b08": {
-			"id": "a62fe980dfce45cf8795917667827b08",
-			"label": "ImageTracker",
+		"acd4f5c1adc8477f852d899e6ac45357": {
+			"id": "acd4f5c1adc8477f852d899e6ac45357",
+			"label": "business-card-back.png.zpt",
 			"parent": {
 				"id": "root",
-				"order": "Zz"
+				"order": "Zt"
 			},
-			"scriptName": "ImageTracker",
+			"scriptName": "business_cardback_pngzpt",
 			"type": "@zcomponent/zappar-three/lib/components/trackers/ImageTracker#ImageTracker"
-		},
-		"b7e995cef8914ec5b518257e45e67e3b": {
-			"id": "b7e995cef8914ec5b518257e45e67e3b",
-			"label": "Button Material",
-			"parent": {
-				"id": "5f7ad000db0f43449471f6c016637aa9",
-				"order": "a0"
-			},
-			"scriptName": "Button_Material",
-			"type": "@zcomponent/three/lib/components/materials/MeshBasicMaterial#MeshBasicMaterial"
 		},
 		"d056c264c3d345908a1345aeb612ed9d": {
 			"id": "d056c264c3d345908a1345aeb612ed9d",
