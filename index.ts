@@ -10,11 +10,7 @@ const contactsButton = document.getElementById('ContactsButton');
 
 if(!!contactsButton)
 {
-    if(contactsSupported)
-    {
-        contactsButton.addEventListener('click',addToContacts)
-        contactsButton.style.display = "blokck";
-    }
+    contactsButton.addEventListener('click',addToContacts)
 }
 
 function addToContacts()
