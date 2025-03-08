@@ -106,6 +106,16 @@
 		}
 	},
 	"behaviors": {
+		"235b0db10c30464487db78af802bd9d0": {
+			"id": "235b0db10c30464487db78af802bd9d0",
+			"label": "cardEasterEgg",
+			"parent": {
+				"id": "a3a7b541d09c4a67b1fd9f67d938fea6",
+				"order": "a0",
+				"scriptName": "cardEasterEgg"
+			},
+			"type": "./cardEasterEgg.ts#cardEasterEgg"
+		},
 		"3da43aa1bd9546cf8885595ecda45e8e": {
 			"id": "3da43aa1bd9546cf8885595ecda45e8e",
 			"label": "PlayLayerClip",
@@ -140,14 +150,11 @@
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
-		"Box": {
-			"389f0c20c3404a89adcb8ffd91d8e512": true
+		"ARScene": {
+			"684f10f05e5445b79effd32e2befdd76": true
 		},
 		"CameraEnvironmentMap": {
 			"8cfafbf6de4a4576a4d0f90965423e85": true
-		},
-		"DefaultCookieConsent": {
-			"0ba8e27369df45ca897731dcb1e39bcf": true
 		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
@@ -158,25 +165,22 @@
 		"Group": {
 			"root": true
 		},
-		"ShadowPlane": {
-			"4ae2de48215643ef958e7d09e17c77d8": true
-		},
 		"ZapparCamera": {
 			"d056c264c3d345908a1345aeb612ed9d": true
 		},
 		"business-card-back.png.zpt": {
 			"acd4f5c1adc8477f852d899e6ac45357": true
+		},
+		"business-card-front.jpg.zpt": {
+			"a3a7b541d09c4a67b1fd9f67d938fea6": true
 		}
 	},
 	"entitiesByScriptName": {
-		"Box": {
-			"389f0c20c3404a89adcb8ffd91d8e512": true
+		"ARScene": {
+			"684f10f05e5445b79effd32e2befdd76": true
 		},
 		"CameraEnvironmentMap": {
 			"8cfafbf6de4a4576a4d0f90965423e85": true
-		},
-		"DefaultCookieConsent": {
-			"0ba8e27369df45ca897731dcb1e39bcf": true
 		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
@@ -184,27 +188,25 @@
 		"Defaults": {
 			"7b6fb4d895774174b5d151eec86b704c": true
 		},
-		"ShadowPlane": {
-			"4ae2de48215643ef958e7d09e17c77d8": true
-		},
 		"ZapparCamera": {
 			"d056c264c3d345908a1345aeb612ed9d": true
 		},
 		"business_cardback_pngzpt": {
 			"acd4f5c1adc8477f852d899e6ac45357": true
+		},
+		"business_cardfront_jpgzpt": {
+			"a3a7b541d09c4a67b1fd9f67d938fea6": true
 		}
 	},
 	"entityConstructorProps": {
-		"0ba8e27369df45ca897731dcb1e39bcf": {
-		},
-		"389f0c20c3404a89adcb8ffd91d8e512": {
+		"235b0db10c30464487db78af802bd9d0": {
 		},
 		"3da43aa1bd9546cf8885595ecda45e8e": {
 			"event": "onAnchorNotVisible"
 		},
-		"4ae2de48215643ef958e7d09e17c77d8": {
-		},
 		"52148d8eafe3426085e700e049662c07": {
+		},
+		"684f10f05e5445b79effd32e2befdd76": {
 		},
 		"69a1b2e100b44224b7224851cc35fd1e": {
 			"event": "onAnchorVisible"
@@ -213,7 +215,11 @@
 		},
 		"8cfafbf6de4a4576a4d0f90965423e85": {
 		},
+		"a3a7b541d09c4a67b1fd9f67d938fea6": {
+			"source": "file://./../assets/targets/business-card-front.jpg.zpt"
+		},
 		"acd4f5c1adc8477f852d899e6ac45357": {
+			"maskObjectsBeneathSurface": false,
 			"source": "file://./../assets/targets/business-card-back.png.zpt"
 		},
 		"d056c264c3d345908a1345aeb612ed9d": {
@@ -269,36 +275,19 @@
 		}
 	},
 	"entityProps": {
-		"0ba8e27369df45ca897731dcb1e39bcf": {
-		},
-		"389f0c20c3404a89adcb8ffd91d8e512": {
-			"position": [
-				0,
-				0,
-				0.0125
-			],
-			"scale": [
-				0.025,
-				0.025,
-				0.025
-			]
+		"235b0db10c30464487db78af802bd9d0": {
 		},
 		"3da43aa1bd9546cf8885595ecda45e8e": {
 			"layerClip": "02007d340c464b6ba3b9a8535c106fa5"
 		},
-		"4ae2de48215643ef958e7d09e17c77d8": {
-			"rotation": [
-				0,
-				0,
-				0
-			],
-			"scale": [
-				0.02589467285503202,
-				0.02589467285503202,
-				0.02589467285503202
-			]
-		},
 		"52148d8eafe3426085e700e049662c07": {
+		},
+		"684f10f05e5445b79effd32e2befdd76": {
+			"scale": [
+				1,
+				1,
+				1
+			]
 		},
 		"69a1b2e100b44224b7224851cc35fd1e": {
 			"layerClip": "992dcf60741c4cdca3e11f29a0ce5cda"
@@ -307,7 +296,11 @@
 		},
 		"8cfafbf6de4a4576a4d0f90965423e85": {
 		},
+		"a3a7b541d09c4a67b1fd9f67d938fea6": {
+		},
 		"acd4f5c1adc8477f852d899e6ac45357": {
+			"castShadow": false,
+			"receiveShadow": false
 		},
 		"d056c264c3d345908a1345aeb612ed9d": {
 		},
@@ -324,36 +317,6 @@
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
 	"nodes": {
-		"0ba8e27369df45ca897731dcb1e39bcf": {
-			"id": "0ba8e27369df45ca897731dcb1e39bcf",
-			"label": "DefaultCookieConsent",
-			"parent": {
-				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "a4"
-			},
-			"scriptName": "DefaultCookieConsent",
-			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
-		},
-		"389f0c20c3404a89adcb8ffd91d8e512": {
-			"id": "389f0c20c3404a89adcb8ffd91d8e512",
-			"label": "Box",
-			"parent": {
-				"id": "acd4f5c1adc8477f852d899e6ac45357",
-				"order": "a0"
-			},
-			"scriptName": "Box",
-			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
-		},
-		"4ae2de48215643ef958e7d09e17c77d8": {
-			"id": "4ae2de48215643ef958e7d09e17c77d8",
-			"label": "ShadowPlane",
-			"parent": {
-				"id": "acd4f5c1adc8477f852d899e6ac45357",
-				"order": "a1"
-			},
-			"scriptName": "ShadowPlane",
-			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
-		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
 			"label": "DefaultLoader",
@@ -363,6 +326,16 @@
 			},
 			"scriptName": "DefaultLoader",
 			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
+		},
+		"684f10f05e5445b79effd32e2befdd76": {
+			"id": "684f10f05e5445b79effd32e2befdd76",
+			"label": "ARScene",
+			"parent": {
+				"id": "acd4f5c1adc8477f852d899e6ac45357",
+				"order": "a0"
+			},
+			"scriptName": "ARScene",
+			"type": "../AR Content/ARScene.zcomp#default"
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 			"id": "7b6fb4d895774174b5d151eec86b704c",
@@ -383,6 +356,16 @@
 			},
 			"scriptName": "CameraEnvironmentMap",
 			"type": "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap#CameraEnvironmentMap"
+		},
+		"a3a7b541d09c4a67b1fd9f67d938fea6": {
+			"id": "a3a7b541d09c4a67b1fd9f67d938fea6",
+			"label": "business-card-front.jpg.zpt",
+			"parent": {
+				"id": "root",
+				"order": "Zs"
+			},
+			"scriptName": "business_cardfront_jpgzpt",
+			"type": "@zcomponent/zappar-three/lib/components/trackers/ImageTracker#ImageTracker"
 		},
 		"acd4f5c1adc8477f852d899e6ac45357": {
 			"id": "acd4f5c1adc8477f852d899e6ac45357",

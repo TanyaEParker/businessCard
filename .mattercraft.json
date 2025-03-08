@@ -8,10 +8,10 @@
     ".*"
   ],
   "initialFilesOpen": [
-    "/trackedScene/main.zcomp"
+    "/trackedScene/card.zcomp"
   ],
   "defaultsByFile": {
-    "/trackedScene/main.zcomp": {
+    "/trackedScene/card.zcomp": {
       "grid": false,
       "cameraPosition": [1, 1, 5]
     }

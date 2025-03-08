@@ -1,6 +1,6 @@
 import { Component, Behavior, BehaviorConstructorProps, ContextManager, registerBehaviorRunAtDesignTime, started } from "@zcomponent/core";
 import { Group as Group } from "@zcomponent/three/lib/components/Group";
-import { default as main} from "./main.zcomp";
+import { default as main} from "./card.zcomp";
 
 interface ConstructionProps {
 	// Add any constructor props you'd like for your behavior here

@@ -1,15 +1,14 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { CameraEnvironmentMap as CameraEnvironmentMap_0 } from "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap";
-import { DefaultCookieConsent as DefaultCookieConsent_1 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
+import { default as ARScene_zcomp_0 } from "../AR Content/ARScene.zcomp";
+import { CameraEnvironmentMap as CameraEnvironmentMap_1 } from "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap";
 import { DefaultLoader as DefaultLoader_2 } from "@zcomponent/core/lib/components/DefaultLoader";
 import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
 import { ZapparCamera as ZapparCamera_4 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
 import { ImageTracker as ImageTracker_5 } from "@zcomponent/zappar-three/lib/components/trackers/ImageTracker";
 import { PlayLayerClip as PlayLayerClip_6 } from "@zcomponent/core/lib/behaviors/PlayLayerClip";
 import { OverrideOpacity as OverrideOpacity_7 } from "@zcomponent/three/lib/behaviors/OverrideOpacity";
-import { Box as Box_8 } from "@zcomponent/three/lib/components/meshes/Box";
-import { ShadowPlane as ShadowPlane_9 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { cardEasterEgg as cardEasterEgg_8 } from "./cardEasterEgg";
 
 interface ConstructorProps {
 
@@ -24,12 +23,12 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		CameraEnvironmentMap: CameraEnvironmentMap_0 & {
+		ARScene: ARScene_zcomp_0 & {
 			behaviors: {
 
 			}
 		},
-		DefaultCookieConsent: DefaultCookieConsent_1 & {
+		CameraEnvironmentMap: CameraEnvironmentMap_1 & {
 			behaviors: {
 
 			}
@@ -59,14 +58,10 @@ declare class Comp extends ZComponent {
 				OverrideOpacity: OverrideOpacity_7,
 			}
 		},
-		Box: Box_8 & {
+		business_cardfront_jpgzpt: ImageTracker_5 & {
 			behaviors: {
-
-			}
-		},
-		ShadowPlane: ShadowPlane_9 & {
-			behaviors: {
-
+				0: cardEasterEgg_8,
+				cardEasterEgg: cardEasterEgg_8,
 			}
 		},
 	};

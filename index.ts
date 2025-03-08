@@ -1,10 +1,10 @@
-/*import { initialize } from "@zcomponent/three";
-import { default as Scene } from "./Scene.zcomp";
+import { initialize } from "@zcomponent/three";
+import { default as card } from "./trackedScene/card.zcomp";
 
-initialize(Scene, {}, {
+initialize(card, {}, {
     launchButton: document.getElementById('launchButton')
 });
-*/
+
 const contactsSupported = "contacts" in navigator;
 const contactsButton = document.getElementById('ContactsButton');
 
