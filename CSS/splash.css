@@ -5,6 +5,15 @@ html {
 	font-family: sans-serif;
 }
 
+#particles-js
+{
+	z-index: -20;
+	position: absolute;
+	width: 100dvw;
+	height: 100dvh;
+}	
+
+
 .splash {
 	background-color: #402d5a;
 	position: fixed;
@@ -17,10 +26,6 @@ html {
 	justify-content: center;
 	text-align: center;
 
-	/* background-image: url(./background.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .splash-title
@@ -43,7 +48,7 @@ html {
     background: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -76,8 +81,13 @@ html {
 }
 #launchButton
 {
+	padding: 0;
     display:block;
 	margin-top: 30px;
+	background: none;
+	border: none;
+	width: 95px;
+	aspect-ratio: 1;
 }
 
 #launchButton:disabled {
@@ -86,6 +96,12 @@ html {
 	width: 48px;
 	visibility: hidden;
 	padding: 0px;
+}
+
+.startButton
+{
+	width: 100%;
+	height: 100%;
 }
 
 #launchButton:disabled:before {
@@ -124,4 +140,18 @@ html {
 #zcomponent-defaultloader-title
 {
 	font-family: "Charm";
+}
+
+.portrait-Holder
+{
+	border: 4px solid white;
+	width: 40dvw;
+	aspect-ratio: 1;
+	border-radius: 20%;
+}
+.portrait
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 20%;
 }
