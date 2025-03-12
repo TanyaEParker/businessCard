@@ -116,6 +116,16 @@
 			},
 			"type": "./cardEasterEgg.ts#cardEasterEgg"
 		},
+		"3ce1c8b461264e9cbf2cc49965699904": {
+			"id": "3ce1c8b461264e9cbf2cc49965699904",
+			"label": "PlaySound",
+			"parent": {
+				"id": "a3a7b541d09c4a67b1fd9f67d938fea6",
+				"order": "a1",
+				"scriptName": "PlaySound"
+			},
+			"type": "@zcomponent/core/lib/behaviors/PlaySound#PlaySound"
+		},
 		"3da43aa1bd9546cf8885595ecda45e8e": {
 			"id": "3da43aa1bd9546cf8885595ecda45e8e",
 			"label": "PlayLayerClip",
@@ -150,12 +160,6 @@
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
-		"ARScene": {
-			"684f10f05e5445b79effd32e2befdd76": true
-		},
-		"CameraEnvironmentMap": {
-			"8cfafbf6de4a4576a4d0f90965423e85": true
-		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
 		},
@@ -173,15 +177,12 @@
 		},
 		"business-card-front.jpg.zpt": {
 			"a3a7b541d09c4a67b1fd9f67d938fea6": true
+		},
+		"cardContent": {
+			"39133284a83c4fd7ad7131ac11d1f864": true
 		}
 	},
 	"entitiesByScriptName": {
-		"ARScene": {
-			"684f10f05e5445b79effd32e2befdd76": true
-		},
-		"CameraEnvironmentMap": {
-			"8cfafbf6de4a4576a4d0f90965423e85": true
-		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
 		},
@@ -196,24 +197,29 @@
 		},
 		"business_cardfront_jpgzpt": {
 			"a3a7b541d09c4a67b1fd9f67d938fea6": true
+		},
+		"cardContent": {
+			"39133284a83c4fd7ad7131ac11d1f864": true
 		}
 	},
 	"entityConstructorProps": {
 		"235b0db10c30464487db78af802bd9d0": {
+		},
+		"39133284a83c4fd7ad7131ac11d1f864": {
+		},
+		"3ce1c8b461264e9cbf2cc49965699904": {
+			"event": "onAnchorNew",
+			"source": "file://./../assets/audio/ELEVATOR_Startup_01_mono.wav"
 		},
 		"3da43aa1bd9546cf8885595ecda45e8e": {
 			"event": "onAnchorNotVisible"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
-		"684f10f05e5445b79effd32e2befdd76": {
-		},
 		"69a1b2e100b44224b7224851cc35fd1e": {
 			"event": "onAnchorVisible"
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
-		},
-		"8cfafbf6de4a4576a4d0f90965423e85": {
 		},
 		"a3a7b541d09c4a67b1fd9f67d938fea6": {
 			"source": "file://./../assets/targets/business-card-front.jpg.zpt"
@@ -277,24 +283,29 @@
 	"entityProps": {
 		"235b0db10c30464487db78af802bd9d0": {
 		},
+		"39133284a83c4fd7ad7131ac11d1f864": {
+			"rotation": [
+				1.5733379681560262,
+				1.567695473572411,
+				5.370577340651751e-14
+			],
+			"scale": [
+				0.0313183032931227,
+				0.0313183032931227,
+				0.0313183032931227
+			]
+		},
+		"3ce1c8b461264e9cbf2cc49965699904": {
+		},
 		"3da43aa1bd9546cf8885595ecda45e8e": {
 			"layerClip": "02007d340c464b6ba3b9a8535c106fa5"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
-		"684f10f05e5445b79effd32e2befdd76": {
-			"scale": [
-				1,
-				1,
-				1
-			]
-		},
 		"69a1b2e100b44224b7224851cc35fd1e": {
 			"layerClip": "992dcf60741c4cdca3e11f29a0ce5cda"
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
-		},
-		"8cfafbf6de4a4576a4d0f90965423e85": {
 		},
 		"a3a7b541d09c4a67b1fd9f67d938fea6": {
 		},
@@ -303,6 +314,7 @@
 			"receiveShadow": false
 		},
 		"d056c264c3d345908a1345aeb612ed9d": {
+			"far": 100
 		},
 		"d9647a78243941d4b26ccf6339bdbe98": {
 			"opacity": 1
@@ -317,6 +329,16 @@
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
 	"nodes": {
+		"39133284a83c4fd7ad7131ac11d1f864": {
+			"id": "39133284a83c4fd7ad7131ac11d1f864",
+			"label": "cardContent",
+			"parent": {
+				"id": "acd4f5c1adc8477f852d899e6ac45357",
+				"order": "a0"
+			},
+			"scriptName": "cardContent",
+			"type": "../cardContent.zcomp#default"
+		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
 			"label": "DefaultLoader",
@@ -327,16 +349,6 @@
 			"scriptName": "DefaultLoader",
 			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
 		},
-		"684f10f05e5445b79effd32e2befdd76": {
-			"id": "684f10f05e5445b79effd32e2befdd76",
-			"label": "ARScene",
-			"parent": {
-				"id": "acd4f5c1adc8477f852d899e6ac45357",
-				"order": "a0"
-			},
-			"scriptName": "ARScene",
-			"type": "../AR Content/ARScene.zcomp#default"
-		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 			"id": "7b6fb4d895774174b5d151eec86b704c",
 			"label": "Defaults",
@@ -346,16 +358,6 @@
 			},
 			"scriptName": "Defaults",
 			"type": "@zcomponent/three/lib/components/Group#Group"
-		},
-		"8cfafbf6de4a4576a4d0f90965423e85": {
-			"id": "8cfafbf6de4a4576a4d0f90965423e85",
-			"label": "CameraEnvironmentMap",
-			"parent": {
-				"id": "root",
-				"order": "Zv"
-			},
-			"scriptName": "CameraEnvironmentMap",
-			"type": "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap#CameraEnvironmentMap"
 		},
 		"a3a7b541d09c4a67b1fd9f67d938fea6": {
 			"id": "a3a7b541d09c4a67b1fd9f67d938fea6",

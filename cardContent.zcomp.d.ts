@@ -1,11 +1,10 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { Box as Box_0 } from "@zcomponent/three/lib/components/meshes/Box";
-import { ShadowPlane as ShadowPlane_1 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { DirectionalLight as DirectionalLight_2 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
-import { Plane as Plane_4 } from "@zcomponent/three/lib/components/meshes/Plane";
-import { MeshStandardMaterial as MeshStandardMaterial_5 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { ShadowPlane as ShadowPlane_0 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { GLTF as GLTF_1 } from "@zcomponent/three/lib/components/models/GLTF";
+import { MeshStandardMaterial as MeshStandardMaterial_2 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { ImageTexture as ImageTexture_3 } from "@zcomponent/three/lib/components/textures/ImageTexture";
+import { SpotLight as SpotLight_4 } from "@zcomponent/three/lib/components/lights/SpotLight";
 
 interface ConstructorProps {
 
@@ -20,57 +19,27 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		Box: Box_0 & {
+		ShadowPlane: ShadowPlane_0 & {
 			behaviors: {
 
 			}
 		},
-		ShadowPlane: ShadowPlane_1 & {
+		digitalTanya_glb: GLTF_1 & {
 			behaviors: {
 
 			}
 		},
-		DirectionalLight: DirectionalLight_2 & {
+		MeshStandardMaterial: MeshStandardMaterial_2 & {
 			behaviors: {
 
 			}
 		},
-		Main: Group_3 & {
+		ImageTexture: ImageTexture_3 & {
 			behaviors: {
 
 			}
 		},
-		easterEgg: Group_3 & {
-			behaviors: {
-
-			}
-		},
-		cover: Plane_4 & {
-			behaviors: {
-
-			}
-		},
-		Box_2: Box_0 & {
-			behaviors: {
-
-			}
-		},
-		MeshStandardMaterial: MeshStandardMaterial_5 & {
-			behaviors: {
-
-			}
-		},
-		Box0: Box_0 & {
-			behaviors: {
-
-			}
-		},
-		ShadowPlane_2: ShadowPlane_1 & {
-			behaviors: {
-
-			}
-		},
-		MeshStandardMaterial_2: MeshStandardMaterial_5 & {
+		SpotLight: SpotLight_4 & {
 			behaviors: {
 
 			}

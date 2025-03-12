@@ -1,14 +1,14 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { default as ARScene_zcomp_0 } from "../AR Content/ARScene.zcomp";
-import { CameraEnvironmentMap as CameraEnvironmentMap_1 } from "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap";
-import { DefaultLoader as DefaultLoader_2 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
-import { ZapparCamera as ZapparCamera_4 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
-import { ImageTracker as ImageTracker_5 } from "@zcomponent/zappar-three/lib/components/trackers/ImageTracker";
-import { PlayLayerClip as PlayLayerClip_6 } from "@zcomponent/core/lib/behaviors/PlayLayerClip";
-import { OverrideOpacity as OverrideOpacity_7 } from "@zcomponent/three/lib/behaviors/OverrideOpacity";
-import { cardEasterEgg as cardEasterEgg_8 } from "./cardEasterEgg";
+import { DefaultLoader as DefaultLoader_0 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { Group as Group_1 } from "@zcomponent/three/lib/components/Group";
+import { ZapparCamera as ZapparCamera_2 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
+import { ImageTracker as ImageTracker_3 } from "@zcomponent/zappar-three/lib/components/trackers/ImageTracker";
+import { PlayLayerClip as PlayLayerClip_4 } from "@zcomponent/core/lib/behaviors/PlayLayerClip";
+import { OverrideOpacity as OverrideOpacity_5 } from "@zcomponent/three/lib/behaviors/OverrideOpacity";
+import { cardEasterEgg as cardEasterEgg_6 } from "./cardEasterEgg";
+import { PlaySound as PlaySound_7 } from "@zcomponent/core/lib/behaviors/PlaySound";
+import { default as cardContent_zcomp_8 } from "../cardContent.zcomp";
 
 interface ConstructorProps {
 
@@ -23,45 +23,42 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		ARScene: ARScene_zcomp_0 & {
+		DefaultLoader: DefaultLoader_0 & {
 			behaviors: {
 
 			}
 		},
-		CameraEnvironmentMap: CameraEnvironmentMap_1 & {
+		Defaults: Group_1 & {
 			behaviors: {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_2 & {
+		ZapparCamera: ZapparCamera_2 & {
 			behaviors: {
 
 			}
 		},
-		Defaults: Group_3 & {
+		business_cardback_pngzpt: ImageTracker_3 & {
+			behaviors: {
+				0: PlayLayerClip_4,
+				PlayLayerClip: PlayLayerClip_4,
+				1: PlayLayerClip_4,
+				PlayLayerClip0: PlayLayerClip_4,
+				2: OverrideOpacity_5,
+				OverrideOpacity: OverrideOpacity_5,
+			}
+		},
+		business_cardfront_jpgzpt: ImageTracker_3 & {
+			behaviors: {
+				0: cardEasterEgg_6,
+				cardEasterEgg: cardEasterEgg_6,
+				1: PlaySound_7,
+				PlaySound: PlaySound_7,
+			}
+		},
+		cardContent: cardContent_zcomp_8 & {
 			behaviors: {
 
-			}
-		},
-		ZapparCamera: ZapparCamera_4 & {
-			behaviors: {
-
-			}
-		},
-		business_cardback_pngzpt: ImageTracker_5 & {
-			behaviors: {
-				0: PlayLayerClip_6,
-				PlayLayerClip: PlayLayerClip_6,
-				1: PlayLayerClip_6,
-				PlayLayerClip0: PlayLayerClip_6,
-				2: OverrideOpacity_7,
-				OverrideOpacity: OverrideOpacity_7,
-			}
-		},
-		business_cardfront_jpgzpt: ImageTracker_5 & {
-			behaviors: {
-				0: cardEasterEgg_8,
-				cardEasterEgg: cardEasterEgg_8,
 			}
 		},
 	};

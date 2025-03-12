@@ -1,0 +1,335 @@
+{
+	"behaviors": {
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"ImageTexture": {
+			"83adb715c0f2446c8951d6706e24dd04": true
+		},
+		"MeshStandardMaterial": {
+			"c5bc7b6ca5f34bbe99b903472c1f272c": true
+		},
+		"ShadowPlane": {
+			"ec2425baa2344522b3ea1a56710d441d": true
+		},
+		"SpotLight": {
+			"359b24b5228248818fbb08c14c0acea8": true
+		},
+		"digitalTanya.glb": {
+			"407b23b213f74ceeb8b59ebdccf53cfb": true
+		}
+	},
+	"entitiesByScriptName": {
+		"ImageTexture": {
+			"83adb715c0f2446c8951d6706e24dd04": true
+		},
+		"MeshStandardMaterial": {
+			"c5bc7b6ca5f34bbe99b903472c1f272c": true
+		},
+		"ShadowPlane": {
+			"ec2425baa2344522b3ea1a56710d441d": true
+		},
+		"SpotLight": {
+			"359b24b5228248818fbb08c14c0acea8": true
+		},
+		"digitalTanya_glb": {
+			"407b23b213f74ceeb8b59ebdccf53cfb": true
+		}
+	},
+	"entityConstructorProps": {
+		"359b24b5228248818fbb08c14c0acea8": {
+		},
+		"407b23b213f74ceeb8b59ebdccf53cfb": {
+			"frustumCulled": true,
+			"source": "file://./assets/models/digitalTanya.glb"
+		},
+		"83adb715c0f2446c8951d6706e24dd04": {
+			"source": "file://./assets/models/mats/hair-112-N.jpg"
+		},
+		"c5bc7b6ca5f34bbe99b903472c1f272c": {
+		},
+		"ec2425baa2344522b3ea1a56710d441d": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"359b24b5228248818fbb08c14c0acea8": {
+			"position": [
+				0,
+				4.3814397726159955,
+				5.601966817349835
+			],
+			"rotation": [
+				1.007295032373466,
+				0,
+				0
+			]
+		},
+		"407b23b213f74ceeb8b59ebdccf53cfb": {
+			"castShadow": true
+		},
+		"83adb715c0f2446c8951d6706e24dd04": {
+			"attachTo": "normalMap",
+			"flipY": false
+		},
+		"c5bc7b6ca5f34bbe99b903472c1f272c": {
+			"attachTo": "Wolf3D_Hair",
+			"color": [
+				0.22322795730611386,
+				0.012286488353353374,
+				0.012286488353353374
+			],
+			"metalness": 0.327179487179487,
+			"roughness": 0.747282051282051
+		},
+		"ec2425baa2344522b3ea1a56710d441d": {
+		}
+	},
+	"id": "c02cf16227384292be68436d6f6720a6",
+	"nodes": {
+		"359b24b5228248818fbb08c14c0acea8": {
+			"id": "359b24b5228248818fbb08c14c0acea8",
+			"label": "SpotLight",
+			"parent": {
+				"id": "root",
+				"order": "a2"
+			},
+			"scriptName": "SpotLight",
+			"type": "@zcomponent/three/lib/components/lights/SpotLight#SpotLight"
+		},
+		"407b23b213f74ceeb8b59ebdccf53cfb": {
+			"id": "407b23b213f74ceeb8b59ebdccf53cfb",
+			"label": "digitalTanya.glb",
+			"parent": {
+				"id": "root",
+				"order": "Zz"
+			},
+			"scriptName": "digitalTanya_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"83adb715c0f2446c8951d6706e24dd04": {
+			"id": "83adb715c0f2446c8951d6706e24dd04",
+			"label": "ImageTexture",
+			"parent": {
+				"id": "c5bc7b6ca5f34bbe99b903472c1f272c",
+				"order": "a0"
+			},
+			"scriptName": "ImageTexture",
+			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
+		},
+		"c5bc7b6ca5f34bbe99b903472c1f272c": {
+			"id": "c5bc7b6ca5f34bbe99b903472c1f272c",
+			"label": "MeshStandardMaterial",
+			"parent": {
+				"id": "407b23b213f74ceeb8b59ebdccf53cfb",
+				"order": "a0"
+			},
+			"scriptName": "MeshStandardMaterial",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"ec2425baa2344522b3ea1a56710d441d": {
+			"id": "ec2425baa2344522b3ea1a56710d441d",
+			"label": "ShadowPlane",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
