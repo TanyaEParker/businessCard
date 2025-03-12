@@ -1,112 +1,127 @@
-			body,
-			html {
-				padding: 0;
-				margin: 0;
-				font-family: sans-serif;
-			}
+body,
+html {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
 
-			.splash {
-				background-color: #402d5a;
-				position: fixed;
-				width: 100%;
-				height: 100%;
-				z-index: 2000;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				text-align: center;
+.splash {
+	background-color: #402d5a;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 
-				/* background-image: url(./background.jpg);
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover; */
-			}
+	/* background-image: url(./background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
 
-            .splash-title
-            {
-                font-family: "Charm";
-                font-size: 2rem;
-                font-weight: 700;
-                color: white;
-            }
-            .splash-strap
-            {
-                color: white;
-                padding-top: 1dvh;
-            }
-			.splash-box
-            {
-                height: 70dvh;
-                width: 304px;
-                max-width: 90%;
-                background: none;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-			}
+.splash-title
+{
+    font-family: "Charm";
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.splash-strap
+{
+    color: white;
+    padding-top: 1dvh;
+}
+.splash-box
+{
+    height: 70dvh;
+    width: 304px;
+    max-width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-			.splash-box > h1 {
-				font-size: 34px;
-				font-weight: 700;
-				padding: 0;
-				margin: 0;
-				color: white;
-			}
+.splash-box > h1 {
+	font-size: 34px;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
 
-			.splash-highlight {
-				color: #6ae5e0;
-                font-family: "Charm"
-			}
+.splash-highlight {
+	color: #6ae5e0;
+    font-family: "Charm"
+}
 
-			.zcomponent-launched .splash {
-				display: none;
-			}
-            #ContactsButton
-            {
-                margin-top: 4dvh;
-                font-weight: 700;
-                border: none;
-                width: 150px;
-                aspect-ratio:2.2;
-                border-radius: 2dvh;
-                background: rgb(210,210,210);
-                color: black;
-            }
-			#launchButton
-            {
-                display:block;
-				margin-top: 30px;
-			}
+.zcomponent-launched .splash {
+	display: none;
+}
+#ContactsButton
+{
+    margin-top: 4dvh;
+    font-weight: 700;
+    border: none;
+    width: 150px;
+    aspect-ratio:2.2;
+    border-radius: 2dvh;
+    background: rgb(210,210,210);
+    color: black;
+}
+#launchButton
+{
+    display:block;
+	margin-top: 30px;
+}
 
-			#launchButton:disabled {
-				background: none;
-				background-color: none;
-				width: 48px;
-				visibility: hidden;
-				padding: 0px;
-			}
+#launchButton:disabled {
+	background: none;
+	background-color: none;
+	width: 48px;
+	visibility: hidden;
+	padding: 0px;
+}
 
-			#launchButton:disabled:before {
-				content: ' ';
-				visibility: visible;
-				display: block;
-				width: 48px;
-				height: 48px;
-				margin: 0px;
-				border-radius: 50%;
-				box-sizing: border-box;
-				border: 5px solid #fff;
-				border-color: #fff transparent #fff transparent;
-				animation: loading-animation 1.2s linear infinite;
-			}
+#launchButton:disabled:before {
+	content: ' ';
+	visibility: visible;
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 0px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 5px solid #fff;
+	border-color: #fff transparent #fff transparent;
+	animation: loading-animation 1.2s linear infinite;
+}
 
-			@keyframes loading-animation {
-				0% {
-					transform: rotate(0deg);
-				}
-				100% {
-					transform: rotate(360deg);
-				}
-			}
+@keyframes loading-animation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+#zcomponent-defaultloader-progress
+{
+	background-color: black !important;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+}
+#zcomponent-defaultloader-progress-percentage
+{
+	background-color: white !important;
+}
+
+#zcomponent-defaultloader-title
+{
+	font-family: "Charm";
+}
