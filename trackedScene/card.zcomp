@@ -317,6 +317,8 @@
 			"layerClip": "02007d340c464b6ba3b9a8535c106fa5"
 		},
 		"52148d8eafe3426085e700e049662c07": {
+			"backgroundColor": "#402d5a",
+			"preview": true
 		},
 		"69a1b2e100b44224b7224851cc35fd1e": {
 			"layerClip": "992dcf60741c4cdca3e11f29a0ce5cda"
