@@ -1,10 +1,10 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
 import { DirectionalLight as DirectionalLight_0 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { ImageTexture as ImageTexture_1 } from "@zcomponent/three/lib/components/textures/ImageTexture";
-import { MeshStandardMaterial as MeshStandardMaterial_2 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
-import { GLTF as GLTF_3 } from "@zcomponent/three/lib/components/models/GLTF";
-import { Animation as Animation_4 } from "@zcomponent/three/lib/behaviors/Animation";
+import { GLTF as GLTF_1 } from "@zcomponent/three/lib/components/models/GLTF";
+import { Animation as Animation_2 } from "@zcomponent/three/lib/behaviors/Animation";
+import { ImageTexture as ImageTexture_3 } from "@zcomponent/three/lib/components/textures/ImageTexture";
+import { MeshStandardMaterial as MeshStandardMaterial_4 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
 
 interface ConstructorProps {
 
@@ -24,23 +24,23 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		ImageTexture: ImageTexture_1 & {
+		digitalTanya_glb: GLTF_1 & {
 			behaviors: {
-
-			}
-		},
-		MeshStandardMaterial: MeshStandardMaterial_2 & {
-			behaviors: {
-
-			}
-		},
-		digitalTanya_glb: GLTF_3 & {
-			behaviors: {
-				0: Animation_4,
-				Animation: Animation_4,
+				0: Animation_2,
+				Animation: Animation_2,
 			}
 		},
 		shadows: DirectionalLight_0 & {
+			behaviors: {
+
+			}
+		},
+		hair_normals: ImageTexture_3 & {
+			behaviors: {
+
+			}
+		},
+		hair_mod: MeshStandardMaterial_4 & {
 			behaviors: {
 
 			}
