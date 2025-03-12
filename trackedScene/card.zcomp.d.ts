@@ -9,6 +9,8 @@ import { OverrideOpacity as OverrideOpacity_5 } from "@zcomponent/three/lib/beha
 import { cardEasterEgg as cardEasterEgg_6 } from "./cardEasterEgg";
 import { PlaySound as PlaySound_7 } from "@zcomponent/core/lib/behaviors/PlaySound";
 import { default as cardContent_zcomp_8 } from "../cardContent.zcomp";
+import { ShadowPlane as ShadowPlane_9 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { DefaultEnvironment as DefaultEnvironment_10 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
 
 interface ConstructorProps {
 
@@ -57,6 +59,16 @@ declare class Comp extends ZComponent {
 			}
 		},
 		cardContent: cardContent_zcomp_8 & {
+			behaviors: {
+
+			}
+		},
+		ShadowPlane: ShadowPlane_9 & {
+			behaviors: {
+
+			}
+		},
+		DefaultEnvironment: DefaultEnvironment_10 & {
 			behaviors: {
 
 			}

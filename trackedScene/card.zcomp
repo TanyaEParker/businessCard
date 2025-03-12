@@ -160,6 +160,9 @@
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
+		"DefaultEnvironment": {
+			"bc29f2642a8442cab580e70c639b10d8": true
+		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
 		},
@@ -168,6 +171,9 @@
 		},
 		"Group": {
 			"root": true
+		},
+		"ShadowPlane": {
+			"eccda64e38ce40988d2efe18e81580c5": true
 		},
 		"ZapparCamera": {
 			"d056c264c3d345908a1345aeb612ed9d": true
@@ -183,11 +189,17 @@
 		}
 	},
 	"entitiesByScriptName": {
+		"DefaultEnvironment": {
+			"bc29f2642a8442cab580e70c639b10d8": true
+		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
 		},
 		"Defaults": {
 			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"ShadowPlane": {
+			"eccda64e38ce40988d2efe18e81580c5": true
 		},
 		"ZapparCamera": {
 			"d056c264c3d345908a1345aeb612ed9d": true
@@ -228,10 +240,14 @@
 			"maskObjectsBeneathSurface": false,
 			"source": "file://./../assets/targets/business-card-back.png.zpt"
 		},
+		"bc29f2642a8442cab580e70c639b10d8": {
+		},
 		"d056c264c3d345908a1345aeb612ed9d": {
 			"activateAtStart": true
 		},
 		"d9647a78243941d4b26ccf6339bdbe98": {
+		},
+		"eccda64e38ce40988d2efe18e81580c5": {
 		}
 	},
 	"entityPropOverrides": {
@@ -284,15 +300,15 @@
 		"235b0db10c30464487db78af802bd9d0": {
 		},
 		"39133284a83c4fd7ad7131ac11d1f864": {
-			"rotation": [
-				1.5733379681560262,
-				1.567695473572411,
-				5.370577340651751e-14
+			"position": [
+				-0.9043083295881165,
+				0.0019759920191046165,
+				-0.014894421499281607
 			],
-			"scale": [
-				0.0313183032931227,
-				0.0313183032931227,
-				0.0313183032931227
+			"rotation": [
+				0.13189637198451765,
+				1.554183031287815,
+				1.4506001611124473
 			]
 		},
 		"3ce1c8b461264e9cbf2cc49965699904": {
@@ -313,11 +329,20 @@
 			"castShadow": false,
 			"receiveShadow": false
 		},
+		"bc29f2642a8442cab580e70c639b10d8": {
+		},
 		"d056c264c3d345908a1345aeb612ed9d": {
 			"far": 100
 		},
 		"d9647a78243941d4b26ccf6339bdbe98": {
 			"opacity": 1
+		},
+		"eccda64e38ce40988d2efe18e81580c5": {
+			"rotation": [
+				0,
+				0,
+				0
+			]
 		},
 		"root": {
 			"position": [
@@ -379,6 +404,16 @@
 			"scriptName": "business_cardback_pngzpt",
 			"type": "@zcomponent/zappar-three/lib/components/trackers/ImageTracker#ImageTracker"
 		},
+		"bc29f2642a8442cab580e70c639b10d8": {
+			"id": "bc29f2642a8442cab580e70c639b10d8",
+			"label": "DefaultEnvironment",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "Zq"
+			},
+			"scriptName": "DefaultEnvironment",
+			"type": "@zcomponent/three/lib/components/environments/DefaultEnvironment#DefaultEnvironment"
+		},
 		"d056c264c3d345908a1345aeb612ed9d": {
 			"id": "d056c264c3d345908a1345aeb612ed9d",
 			"label": "ZapparCamera",
@@ -388,6 +423,16 @@
 			},
 			"scriptName": "ZapparCamera",
 			"type": "@zcomponent/zappar-three/lib/components/cameras/Camera#ZapparCamera"
+		},
+		"eccda64e38ce40988d2efe18e81580c5": {
+			"id": "eccda64e38ce40988d2efe18e81580c5",
+			"label": "ShadowPlane",
+			"parent": {
+				"id": "acd4f5c1adc8477f852d899e6ac45357",
+				"order": "a1"
+			},
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
 		},
 		"root": {
 			"id": "root",

@@ -1,10 +1,9 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { ShadowPlane as ShadowPlane_0 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { GLTF as GLTF_1 } from "@zcomponent/three/lib/components/models/GLTF";
-import { MeshStandardMaterial as MeshStandardMaterial_2 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
-import { ImageTexture as ImageTexture_3 } from "@zcomponent/three/lib/components/textures/ImageTexture";
-import { SpotLight as SpotLight_4 } from "@zcomponent/three/lib/components/lights/SpotLight";
+import { ImageTexture as ImageTexture_0 } from "@zcomponent/three/lib/components/textures/ImageTexture";
+import { MeshStandardMaterial as MeshStandardMaterial_1 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { GLTF as GLTF_2 } from "@zcomponent/three/lib/components/models/GLTF";
+import { DirectionalLight as DirectionalLight_3 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
 
 interface ConstructorProps {
 
@@ -19,27 +18,27 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		ShadowPlane: ShadowPlane_0 & {
+		ImageTexture: ImageTexture_0 & {
 			behaviors: {
 
 			}
 		},
-		digitalTanya_glb: GLTF_1 & {
+		MeshStandardMaterial: MeshStandardMaterial_1 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial: MeshStandardMaterial_2 & {
+		digitalTanya_glb: GLTF_2 & {
 			behaviors: {
 
 			}
 		},
-		ImageTexture: ImageTexture_3 & {
+		DirectionalLight_2: DirectionalLight_3 & {
 			behaviors: {
 
 			}
 		},
-		SpotLight: SpotLight_4 & {
+		shadows: DirectionalLight_3 & {
 			behaviors: {
 
 			}
@@ -49,16 +48,6 @@ declare class Comp extends ZComponent {
 	animation: Animation & { layers: {
 
 	}};
-
-	/**
-	 * Determines if this object and its children are rendered to the screen.
-	 * 
-	 * @zprop
-	 * @zdefault true
-	 * @zgroup Appearance
-	 * @zgrouppriority 11
-	 */
-	public visible: Observable<boolean>;
 
 	/**
 	 * The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position.
@@ -89,6 +78,16 @@ declare class Comp extends ZComponent {
 	 * @zgrouppriority 10
 	 */
 	public scale: Observable<[x: number, y: number, z: number]>;
+
+	/**
+	 * Determines if this object and its children are rendered to the screen.
+	 * 
+	 * @zprop
+	 * @zdefault true
+	 * @zgroup Appearance
+	 * @zgrouppriority 11
+	 */
+	public visible: Observable<boolean>;
 }
 
 export default Comp;

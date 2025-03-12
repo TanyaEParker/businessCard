@@ -6,41 +6,41 @@
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
+		"DirectionalLight 2": {
+			"390907009ded4dd7b0c0775e4354960c": true
+		},
 		"ImageTexture": {
 			"83adb715c0f2446c8951d6706e24dd04": true
 		},
 		"MeshStandardMaterial": {
 			"c5bc7b6ca5f34bbe99b903472c1f272c": true
-		},
-		"ShadowPlane": {
-			"ec2425baa2344522b3ea1a56710d441d": true
-		},
-		"SpotLight": {
-			"359b24b5228248818fbb08c14c0acea8": true
 		},
 		"digitalTanya.glb": {
 			"407b23b213f74ceeb8b59ebdccf53cfb": true
+		},
+		"shadows": {
+			"d3a3d5d35e6545f5a5725ed386b1ecad": true
 		}
 	},
 	"entitiesByScriptName": {
+		"DirectionalLight_2": {
+			"390907009ded4dd7b0c0775e4354960c": true
+		},
 		"ImageTexture": {
 			"83adb715c0f2446c8951d6706e24dd04": true
 		},
 		"MeshStandardMaterial": {
 			"c5bc7b6ca5f34bbe99b903472c1f272c": true
 		},
-		"ShadowPlane": {
-			"ec2425baa2344522b3ea1a56710d441d": true
-		},
-		"SpotLight": {
-			"359b24b5228248818fbb08c14c0acea8": true
-		},
 		"digitalTanya_glb": {
 			"407b23b213f74ceeb8b59ebdccf53cfb": true
+		},
+		"shadows": {
+			"d3a3d5d35e6545f5a5725ed386b1ecad": true
 		}
 	},
 	"entityConstructorProps": {
-		"359b24b5228248818fbb08c14c0acea8": {
+		"390907009ded4dd7b0c0775e4354960c": {
 		},
 		"407b23b213f74ceeb8b59ebdccf53cfb": {
 			"frustumCulled": true,
@@ -51,7 +51,7 @@
 		},
 		"c5bc7b6ca5f34bbe99b903472c1f272c": {
 		},
-		"ec2425baa2344522b3ea1a56710d441d": {
+		"d3a3d5d35e6545f5a5725ed386b1ecad": {
 		}
 	},
 	"entityPropOverrides": {
@@ -101,14 +101,19 @@
 		}
 	},
 	"entityProps": {
-		"359b24b5228248818fbb08c14c0acea8": {
+		"390907009ded4dd7b0c0775e4354960c": {
+			"color": [
+				1,
+				0.9046611743890203,
+				0.5906188409113381
+			],
 			"position": [
 				0,
-				4.3814397726159955,
-				5.601966817349835
+				2.9670041614826967,
+				0.798193762397701
 			],
 			"rotation": [
-				1.007295032373466,
+				0.9293667032893871,
 				0,
 				0
 			]
@@ -130,20 +135,32 @@
 			"metalness": 0.327179487179487,
 			"roughness": 0.747282051282051
 		},
-		"ec2425baa2344522b3ea1a56710d441d": {
+		"d3a3d5d35e6545f5a5725ed386b1ecad": {
+			"castShadow": true,
+			"intensity": 0,
+			"position": [
+				0,
+				2.2198612693134505,
+				-1.1611361669080669
+			],
+			"rotation": [
+				-0.8720573708488244,
+				0,
+				0
+			]
 		}
 	},
 	"id": "c02cf16227384292be68436d6f6720a6",
 	"nodes": {
-		"359b24b5228248818fbb08c14c0acea8": {
-			"id": "359b24b5228248818fbb08c14c0acea8",
-			"label": "SpotLight",
+		"390907009ded4dd7b0c0775e4354960c": {
+			"id": "390907009ded4dd7b0c0775e4354960c",
+			"label": "DirectionalLight 2",
 			"parent": {
 				"id": "root",
-				"order": "a2"
+				"order": "a4"
 			},
-			"scriptName": "SpotLight",
-			"type": "@zcomponent/three/lib/components/lights/SpotLight#SpotLight"
+			"scriptName": "DirectionalLight_2",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
 		},
 		"407b23b213f74ceeb8b59ebdccf53cfb": {
 			"id": "407b23b213f74ceeb8b59ebdccf53cfb",
@@ -175,15 +192,15 @@
 			"scriptName": "MeshStandardMaterial",
 			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
 		},
-		"ec2425baa2344522b3ea1a56710d441d": {
-			"id": "ec2425baa2344522b3ea1a56710d441d",
-			"label": "ShadowPlane",
+		"d3a3d5d35e6545f5a5725ed386b1ecad": {
+			"id": "d3a3d5d35e6545f5a5725ed386b1ecad",
+			"label": "shadows",
 			"parent": {
 				"id": "root",
-				"order": "a0"
+				"order": "a3"
 			},
-			"scriptName": "ShadowPlane",
-			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+			"scriptName": "shadows",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
 		},
 		"root": {
 			"id": "root",
