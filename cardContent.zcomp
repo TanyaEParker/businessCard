@@ -1,5 +1,15 @@
 {
 	"behaviors": {
+		"82a3d77b86bb4e298a8a60470825e6bb": {
+			"id": "82a3d77b86bb4e298a8a60470825e6bb",
+			"label": "Animation",
+			"parent": {
+				"id": "407b23b213f74ceeb8b59ebdccf53cfb",
+				"order": "a0",
+				"scriptName": "Animation"
+			},
+			"type": "@zcomponent/three/lib/behaviors/Animation#Animation"
+		}
 	},
 	"behaviorsByNode": {
 	},
@@ -44,7 +54,12 @@
 		},
 		"407b23b213f74ceeb8b59ebdccf53cfb": {
 			"frustumCulled": true,
-			"source": "file://./assets/models/digitalTanya.glb"
+			"source": "file://./assets/models/animatedtanya.glb"
+		},
+		"82a3d77b86bb4e298a8a60470825e6bb": {
+			"loop": "Repeat",
+			"name": "Armature.001|mixamo.com|Layer0",
+			"playAtStart": true
 		},
 		"83adb715c0f2446c8951d6706e24dd04": {
 			"source": "file://./assets/models/mats/hair-112-N.jpg"
@@ -121,6 +136,8 @@
 		},
 		"407b23b213f74ceeb8b59ebdccf53cfb": {
 			"castShadow": true
+		},
+		"82a3d77b86bb4e298a8a60470825e6bb": {
 		},
 		"83adb715c0f2446c8951d6706e24dd04": {
 			"attachTo": "normalMap",
