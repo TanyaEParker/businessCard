@@ -1,5 +1,15 @@
 {
 	"behaviors": {
+		"14f569dfd5d442ae84d3ad30f04372c3": {
+			"id": "14f569dfd5d442ae84d3ad30f04372c3",
+			"label": "togglePlacement",
+			"parent": {
+				"id": "1af1d557971140418179fcacb962b4bf",
+				"order": "a0",
+				"scriptName": "togglePlacement"
+			},
+			"type": "./togglePlacement.ts#togglePlacement"
+		}
 	},
 	"behaviorsByNode": {
 	},
@@ -58,6 +68,8 @@
 		}
 	},
 	"entityConstructorProps": {
+		"14f569dfd5d442ae84d3ad30f04372c3": {
+		},
 		"1af1d557971140418179fcacb962b4bf": {
 		},
 		"427f8367b439400ab1b1e5bd08b268ab": {
@@ -123,6 +135,8 @@
 		}
 	},
 	"entityProps": {
+		"14f569dfd5d442ae84d3ad30f04372c3": {
+		},
 		"1af1d557971140418179fcacb962b4bf": {
 		},
 		"427f8367b439400ab1b1e5bd08b268ab": {

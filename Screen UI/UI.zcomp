@@ -112,61 +112,6 @@
 				"order": "a4",
 				"scriptName": "popup",
 				"tracks": {
-					"0d6c96b6c8aa4e8da327ec800ffed05f": {
-						"blend": "overlay",
-						"entityID": "4f49e2101440445b9a91a03f2e84f279",
-						"id": "0d6c96b6c8aa4e8da327ec800ffed05f",
-						"keyframes": {
-							"06d299d11517429f84ab260d3949c644": {
-								"id": "06d299d11517429f84ab260d3949c644",
-								"t": 0,
-								"v": [
-									0,
-									"vmin"
-								]
-							}
-						},
-						"order": "a1",
-						"property": [
-							"top"
-						],
-						"type": "property",
-						"weight": {
-							"17caca2cb3c341239e14859e5014235c-blend": {
-								"id": "17caca2cb3c341239e14859e5014235c-blend",
-								"t": 0,
-								"v": 1
-							}
-						}
-					},
-					"179bb6bfd4f5477083c8545afa3cfccd": {
-						"blend": "overlay",
-						"entityID": "4f49e2101440445b9a91a03f2e84f279",
-						"id": "179bb6bfd4f5477083c8545afa3cfccd",
-						"keyframes": {
-							"a7b63427d9584dd8a1b47b37b56cab2a": {
-								"id": "a7b63427d9584dd8a1b47b37b56cab2a",
-								"t": 0,
-								"v": [
-									"wrapper-main",
-									"shown",
-									"wrapper"
-								]
-							}
-						},
-						"order": "a0",
-						"property": [
-							"classList"
-						],
-						"type": "property",
-						"weight": {
-							"b3575ea2ffaa4a22927cd6af3b39da0d-blend": {
-								"id": "b3575ea2ffaa4a22927cd6af3b39da0d-blend",
-								"t": 0,
-								"v": 1
-							}
-						}
-					}
 				},
 				"type": "state"
 			}
@@ -210,6 +155,26 @@
 		}
 	},
 	"behaviors": {
+		"9ab788b2cce8434c991bfed8a614cdda": {
+			"id": "9ab788b2cce8434c991bfed8a614cdda",
+			"label": "toggleInstantTracking",
+			"parent": {
+				"id": "11ba4c32c8c349b6b112c862e6df1b1d",
+				"order": "a0",
+				"scriptName": "toggleInstantTracking"
+			},
+			"type": "./toggleInstantTracking#toggleInstantTracking"
+		},
+		"cf40636282c64531aa71be0349e3f534": {
+			"id": "cf40636282c64531aa71be0349e3f534",
+			"label": "toggleInstantTracking",
+			"parent": {
+				"id": "48f2d034465e4caca84fb6eb7359ee2e",
+				"order": "a0",
+				"scriptName": "toggleInstantTracking"
+			},
+			"type": "./toggleInstantTracking.ts#toggleInstantTracking"
+		}
 	},
 	"behaviorsByNode": {
 	},
@@ -219,20 +184,11 @@
 		"CSS": {
 			"abbb429273834bab8fb3367da5d18008": true
 		},
-		"Div": {
-			"c51d644d333f45e580b0f147784fb4c3": true
-		},
-		"HTML": {
-			"5c33b40bb71d415aac59c442c82bf356": true
-		},
 		"Wrapper": {
 			"47e79dbda6da4c0e98c7c46bb1e0e511": true
 		},
 		"bottom bar": {
 			"7ac642d7156a4ec69d3a72a8e4c77954": true
-		},
-		"main Wrapper": {
-			"4f49e2101440445b9a91a03f2e84f279": true
 		},
 		"placementButton": {
 			"48f2d034465e4caca84fb6eb7359ee2e": true
@@ -257,20 +213,11 @@
 		"CSS": {
 			"abbb429273834bab8fb3367da5d18008": true
 		},
-		"Div": {
-			"c51d644d333f45e580b0f147784fb4c3": true
-		},
-		"HTML": {
-			"5c33b40bb71d415aac59c442c82bf356": true
-		},
 		"Wrapper": {
 			"47e79dbda6da4c0e98c7c46bb1e0e511": true
 		},
 		"bottom_bar": {
 			"7ac642d7156a4ec69d3a72a8e4c77954": true
-		},
-		"main_Wrapper": {
-			"4f49e2101440445b9a91a03f2e84f279": true
 		},
 		"placementButton": {
 			"48f2d034465e4caca84fb6eb7359ee2e": true
@@ -301,18 +248,16 @@
 		},
 		"48f2d034465e4caca84fb6eb7359ee2e": {
 		},
-		"4f49e2101440445b9a91a03f2e84f279": {
-		},
-		"5c33b40bb71d415aac59c442c82bf356": {
-		},
 		"7ac642d7156a4ec69d3a72a8e4c77954": {
 		},
 		"8750525cdf2d498e82b2bbfd9a3cf5d3": {
 		},
+		"9ab788b2cce8434c991bfed8a614cdda": {
+		},
 		"abbb429273834bab8fb3367da5d18008": {
 			"source": "file://./../CSS/UI.css"
 		},
-		"c51d644d333f45e580b0f147784fb4c3": {
+		"cf40636282c64531aa71be0349e3f534": {
 		},
 		"d0b38b13f55d4f72b5e201a32b16a8bb": {
 		},
@@ -391,21 +336,6 @@
 				"Tracking-UI-Button"
 			]
 		},
-		"4f49e2101440445b9a91a03f2e84f279": {
-			"classList": [
-				"wrapper-main",
-				"hidden",
-				"wrapper"
-			],
-			"top": [
-				15,
-				"vmin"
-			]
-		},
-		"5c33b40bb71d415aac59c442c82bf356": {
-			"horizontalAnchor": "left",
-			"verticalAnchor": "top"
-		},
 		"7ac642d7156a4ec69d3a72a8e4c77954": {
 			"horizontalAnchor": "center",
 			"verticalAnchor": "bottom"
@@ -419,13 +349,16 @@
 				"wrapper"
 			]
 		},
+		"9ab788b2cce8434c991bfed8a614cdda": {
+			"LayerClipID": "537c4d4dd0ff4ff7b6e61acca2ce3a1d",
+			"trackingState": true
+		},
 		"abbb429273834bab8fb3367da5d18008": {
 		},
-		"c51d644d333f45e580b0f147784fb4c3": {
-			"classList": [
-				"mainUI-backing",
-				"backdrop-blur-xs"
-			]
+		"cf40636282c64531aa71be0349e3f534": {
+			"LayerClipID": "6a1774e3757e402da2a0481dc84171f7",
+			"enabled": true,
+			"trackingState": false
 		},
 		"d0b38b13f55d4f72b5e201a32b16a8bb": {
 			"horizontalAnchor": "right",
@@ -479,26 +412,6 @@
 			"scriptName": "placementButton",
 			"type": "@zcomponent/html/lib/button#Button"
 		},
-		"4f49e2101440445b9a91a03f2e84f279": {
-			"id": "4f49e2101440445b9a91a03f2e84f279",
-			"label": "main Wrapper",
-			"parent": {
-				"id": "5c33b40bb71d415aac59c442c82bf356",
-				"order": "a0"
-			},
-			"scriptName": "main_Wrapper",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"5c33b40bb71d415aac59c442c82bf356": {
-			"id": "5c33b40bb71d415aac59c442c82bf356",
-			"label": "HTML",
-			"parent": {
-				"id": "root",
-				"order": "a3"
-			},
-			"scriptName": "HTML",
-			"type": "@zcomponent/three/lib/components/HTML#HTML"
-		},
 		"7ac642d7156a4ec69d3a72a8e4c77954": {
 			"id": "7ac642d7156a4ec69d3a72a8e4c77954",
 			"label": "bottom bar",
@@ -528,16 +441,6 @@
 			},
 			"scriptName": "CSS",
 			"type": "@zcomponent/html/lib/CSS#CSS"
-		},
-		"c51d644d333f45e580b0f147784fb4c3": {
-			"id": "c51d644d333f45e580b0f147784fb4c3",
-			"label": "Div",
-			"parent": {
-				"id": "4f49e2101440445b9a91a03f2e84f279",
-				"order": "a0"
-			},
-			"scriptName": "Div",
-			"type": "@zcomponent/html/lib/div#Div"
 		},
 		"d0b38b13f55d4f72b5e201a32b16a8bb": {
 			"id": "d0b38b13f55d4f72b5e201a32b16a8bb",

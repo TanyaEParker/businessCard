@@ -2,9 +2,11 @@ import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Ev
 
 import { CSS as CSS_0 } from "@zcomponent/html/lib/CSS";
 import { Div as Div_1 } from "@zcomponent/html/lib/div";
-import { Button as Button_2 } from "@zcomponent/html/lib/button";
-import { Img as Img_3 } from "@zcomponent/html/lib/img";
-import { HTML as HTML_4 } from "@zcomponent/three/lib/components/HTML";
+import { HTML as HTML_2 } from "@zcomponent/three/lib/components/HTML";
+import { Button as Button_3 } from "@zcomponent/html/lib/button";
+import { toggleInstantTracking as toggleInstantTracking_4 } from "./toggleInstantTracking";
+import { Img as Img_5 } from "@zcomponent/html/lib/img";
+import { toggleInstantTracking as toggleInstantTracking_6 } from "./toggleInstantTracking";
 
 interface ConstructorProps {
 
@@ -29,22 +31,29 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		placementButton: Button_2 & {
+		bottom_bar: HTML_2 & {
 			behaviors: {
 
 			}
 		},
-		placementIcon: Img_3 & {
+		placementButton: Button_3 & {
+			behaviors: {
+				0: toggleInstantTracking_4,
+				toggleInstantTracking: toggleInstantTracking_4,
+			}
+		},
+		placementIcon: Img_5 & {
 			behaviors: {
 
 			}
 		},
-		bottom_bar: HTML_4 & {
+		resetButton: Button_3 & {
 			behaviors: {
-
+				0: toggleInstantTracking_6,
+				toggleInstantTracking: toggleInstantTracking_6,
 			}
 		},
-		top_bar: HTML_4 & {
+		resetcon: Img_5 & {
 			behaviors: {
 
 			}
@@ -54,27 +63,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		resetButton: Button_2 & {
-			behaviors: {
-
-			}
-		},
-		resetcon: Img_3 & {
-			behaviors: {
-
-			}
-		},
-		HTML: HTML_4 & {
-			behaviors: {
-
-			}
-		},
-		main_Wrapper: Div_1 & {
-			behaviors: {
-
-			}
-		},
-		Div: Div_1 & {
+		top_bar: HTML_2 & {
 			behaviors: {
 
 			}

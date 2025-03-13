@@ -4,10 +4,11 @@ import { DefaultEnvironment as DefaultEnvironment_0 } from "@zcomponent/three/li
 import { DefaultLoader as DefaultLoader_1 } from "@zcomponent/core/lib/components/DefaultLoader";
 import { Group as Group_2 } from "@zcomponent/three/lib/components/Group";
 import { InstantWorldTracker as InstantWorldTracker_3 } from "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker";
-import { ShadowPlane as ShadowPlane_4 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { default as UI_zcomp_5 } from "../Screen UI/UI.zcomp";
-import { ZapparCamera as ZapparCamera_6 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
-import { default as cardContent_zcomp_7 } from "../Content/cardContent.zcomp";
+import { togglePlacement as togglePlacement_4 } from "./togglePlacement";
+import { ShadowPlane as ShadowPlane_5 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { default as UI_zcomp_6 } from "../Screen UI/UI.zcomp";
+import { ZapparCamera as ZapparCamera_7 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
+import { default as cardContent_zcomp_8 } from "../Content/cardContent.zcomp";
 
 interface ConstructorProps {
 
@@ -39,25 +40,26 @@ declare class Comp extends ZComponent {
 		},
 		InstantWorldTracker: InstantWorldTracker_3 & {
 			behaviors: {
-
+				0: togglePlacement_4,
+				togglePlacement: togglePlacement_4,
 			}
 		},
-		ShadowPlane: ShadowPlane_4 & {
+		ShadowPlane: ShadowPlane_5 & {
 			behaviors: {
 
 			}
 		},
-		UI: UI_zcomp_5 & {
+		UI: UI_zcomp_6 & {
 			behaviors: {
 
 			}
 		},
-		ZapparCamera: ZapparCamera_6 & {
+		ZapparCamera: ZapparCamera_7 & {
 			behaviors: {
 
 			}
 		},
-		cardContent: cardContent_zcomp_7 & {
+		cardContent: cardContent_zcomp_8 & {
 			behaviors: {
 
 			}
