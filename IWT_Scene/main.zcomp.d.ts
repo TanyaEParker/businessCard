@@ -1,13 +1,13 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { InstantWorldTracker as InstantWorldTracker_0 } from "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker";
-import { default as cardContent_zcomp_1 } from "../Content/cardContent.zcomp";
+import { DefaultEnvironment as DefaultEnvironment_0 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
+import { DefaultLoader as DefaultLoader_1 } from "@zcomponent/core/lib/components/DefaultLoader";
 import { Group as Group_2 } from "@zcomponent/three/lib/components/Group";
-import { ZapparCamera as ZapparCamera_3 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
-import { DefaultEnvironment as DefaultEnvironment_4 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
-import { default as UI_zcomp_5 } from "../AR UI/UI.zcomp";
-import { ShadowPlane as ShadowPlane_6 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { DefaultLoader as DefaultLoader_7 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { InstantWorldTracker as InstantWorldTracker_3 } from "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker";
+import { ShadowPlane as ShadowPlane_4 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { default as UI_zcomp_5 } from "../Screen UI/UI.zcomp";
+import { ZapparCamera as ZapparCamera_6 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
+import { default as cardContent_zcomp_7 } from "../Content/cardContent.zcomp";
 
 interface ConstructorProps {
 
@@ -22,12 +22,12 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		InstantWorldTracker: InstantWorldTracker_0 & {
+		DefaultEnvironment: DefaultEnvironment_0 & {
 			behaviors: {
 
 			}
 		},
-		cardContent: cardContent_zcomp_1 & {
+		DefaultLoader: DefaultLoader_1 & {
 			behaviors: {
 
 			}
@@ -37,12 +37,12 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		ZapparCamera: ZapparCamera_3 & {
+		InstantWorldTracker: InstantWorldTracker_3 & {
 			behaviors: {
 
 			}
 		},
-		DefaultEnvironment: DefaultEnvironment_4 & {
+		ShadowPlane: ShadowPlane_4 & {
 			behaviors: {
 
 			}
@@ -52,12 +52,12 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		ShadowPlane: ShadowPlane_6 & {
+		ZapparCamera: ZapparCamera_6 & {
 			behaviors: {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_7 & {
+		cardContent: cardContent_zcomp_7 & {
 			behaviors: {
 
 			}

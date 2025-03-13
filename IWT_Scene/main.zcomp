@@ -172,7 +172,7 @@
 				"order": "a1"
 			},
 			"scriptName": "UI",
-			"type": "../AR UI/UI.zcomp#default"
+			"type": "../Screen UI/UI.zcomp#default"
 		},
 		"636532fa538a4ff88162879d10b09954": {
 			"id": "636532fa538a4ff88162879d10b09954",

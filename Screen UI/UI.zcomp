@@ -1,0 +1,709 @@
+{
+	"animation": {
+		"clips": {
+			"434b7ec0000241e8afdd57623ce49b7e": {
+				"id": "434b7ec0000241e8afdd57623ce49b7e",
+				"length": 0,
+				"lengthType": "expand",
+				"name": "reset",
+				"order": "a3",
+				"scriptName": "reset",
+				"tracks": {
+					"1b6e59fcd0ba412f802b908c2454f6fa": {
+						"blend": "overlay",
+						"entityID": "8750525cdf2d498e82b2bbfd9a3cf5d3",
+						"id": "1b6e59fcd0ba412f802b908c2454f6fa",
+						"keyframes": {
+							"6806d42fa67f460fa32debe257432d5f": {
+								"id": "6806d42fa67f460fa32debe257432d5f",
+								"t": 0,
+								"v": [
+									0,
+									"vmin"
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"bottom"
+						],
+						"type": "property",
+						"weight": {
+							"20b8518048964def844833877e26a422-blend": {
+								"id": "20b8518048964def844833877e26a422-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
+					"dd229cff0004404da36b1172d83d950c": {
+						"blend": "overlay",
+						"entityID": "47e79dbda6da4c0e98c7c46bb1e0e511",
+						"id": "dd229cff0004404da36b1172d83d950c",
+						"keyframes": {
+							"cc964027a0f64bd288cd33689e3362fa": {
+								"id": "cc964027a0f64bd288cd33689e3362fa",
+								"t": 0,
+								"v": [
+									18,
+									"vmin"
+								]
+							}
+						},
+						"order": "Zz",
+						"property": [
+							"top"
+						],
+						"type": "property",
+						"weight": {
+							"95d58c0594a64fe996c78e61f3bff274-blend": {
+								"id": "95d58c0594a64fe996c78e61f3bff274-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					}
+				},
+				"type": "state"
+			},
+			"9396d68a39b3459f9596da74751d6a8b": {
+				"id": "9396d68a39b3459f9596da74751d6a8b",
+				"length": 0,
+				"lengthType": "expand",
+				"name": "placement",
+				"order": "a2",
+				"scriptName": "placement",
+				"tracks": {
+					"0d09731edfc4466d83c7f736e9f7e4e5": {
+						"blend": "overlay",
+						"entityID": "47e79dbda6da4c0e98c7c46bb1e0e511",
+						"id": "0d09731edfc4466d83c7f736e9f7e4e5",
+						"keyframes": {
+							"ee576541942c4a40a3282973a8b670fb": {
+								"id": "ee576541942c4a40a3282973a8b670fb",
+								"t": 0,
+								"v": [
+									0,
+									"vmin"
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"top"
+						],
+						"type": "property",
+						"weight": {
+							"0069737aa4414fd5b9ac6c2ae223504d-blend": {
+								"id": "0069737aa4414fd5b9ac6c2ae223504d-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					}
+				},
+				"type": "state"
+			},
+			"ca454057701f474584f36879a39964bb": {
+				"id": "ca454057701f474584f36879a39964bb",
+				"length": 0,
+				"lengthType": "expand",
+				"name": "popup",
+				"order": "a4",
+				"scriptName": "popup",
+				"tracks": {
+					"0d6c96b6c8aa4e8da327ec800ffed05f": {
+						"blend": "overlay",
+						"entityID": "4f49e2101440445b9a91a03f2e84f279",
+						"id": "0d6c96b6c8aa4e8da327ec800ffed05f",
+						"keyframes": {
+							"06d299d11517429f84ab260d3949c644": {
+								"id": "06d299d11517429f84ab260d3949c644",
+								"t": 0,
+								"v": [
+									0,
+									"vmin"
+								]
+							}
+						},
+						"order": "a1",
+						"property": [
+							"top"
+						],
+						"type": "property",
+						"weight": {
+							"17caca2cb3c341239e14859e5014235c-blend": {
+								"id": "17caca2cb3c341239e14859e5014235c-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
+					"179bb6bfd4f5477083c8545afa3cfccd": {
+						"blend": "overlay",
+						"entityID": "4f49e2101440445b9a91a03f2e84f279",
+						"id": "179bb6bfd4f5477083c8545afa3cfccd",
+						"keyframes": {
+							"a7b63427d9584dd8a1b47b37b56cab2a": {
+								"id": "a7b63427d9584dd8a1b47b37b56cab2a",
+								"t": 0,
+								"v": [
+									"wrapper-main",
+									"shown",
+									"wrapper"
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"b3575ea2ffaa4a22927cd6af3b39da0d-blend": {
+								"id": "b3575ea2ffaa4a22927cd6af3b39da0d-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					}
+				},
+				"type": "state"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"e92a93df1c28493e93f2052267799e68": {
+				"clips": {
+					"537c4d4dd0ff4ff7b6e61acca2ce3a1d": {
+						"clipId": "9396d68a39b3459f9596da74751d6a8b",
+						"id": "537c4d4dd0ff4ff7b6e61acca2ce3a1d",
+						"order": "a2",
+						"scriptName": "placement0"
+					},
+					"6a1774e3757e402da2a0481dc84171f7": {
+						"clipId": "434b7ec0000241e8afdd57623ce49b7e",
+						"id": "6a1774e3757e402da2a0481dc84171f7",
+						"order": "a3",
+						"scriptName": "reset0"
+					},
+					"8047b0cb11624210addd860412f1277f": {
+						"clipId": "ca454057701f474584f36879a39964bb",
+						"id": "8047b0cb11624210addd860412f1277f",
+						"order": "a4",
+						"scriptName": "popup0"
+					}
+				},
+				"defaultClip": "537c4d4dd0ff4ff7b6e61acca2ce3a1d",
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "e92a93df1c28493e93f2052267799e68",
+				"name": "TrackingUI",
+				"order": "a2",
+				"scriptName": "TrackingUI"
+			}
+		}
+	},
+	"behaviors": {
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"CSS": {
+			"abbb429273834bab8fb3367da5d18008": true
+		},
+		"Div": {
+			"c51d644d333f45e580b0f147784fb4c3": true
+		},
+		"HTML": {
+			"5c33b40bb71d415aac59c442c82bf356": true
+		},
+		"Wrapper": {
+			"47e79dbda6da4c0e98c7c46bb1e0e511": true
+		},
+		"bottom bar": {
+			"7ac642d7156a4ec69d3a72a8e4c77954": true
+		},
+		"main Wrapper": {
+			"4f49e2101440445b9a91a03f2e84f279": true
+		},
+		"placementButton": {
+			"48f2d034465e4caca84fb6eb7359ee2e": true
+		},
+		"placementIcon": {
+			"d2a3a43c5a4a4c6fb2198ea746e2b6ed": true
+		},
+		"resetButton": {
+			"11ba4c32c8c349b6b112c862e6df1b1d": true
+		},
+		"resetcon": {
+			"3f6db91acf244913a1984c74add31911": true
+		},
+		"top Wrapper": {
+			"8750525cdf2d498e82b2bbfd9a3cf5d3": true
+		},
+		"top bar": {
+			"d0b38b13f55d4f72b5e201a32b16a8bb": true
+		}
+	},
+	"entitiesByScriptName": {
+		"CSS": {
+			"abbb429273834bab8fb3367da5d18008": true
+		},
+		"Div": {
+			"c51d644d333f45e580b0f147784fb4c3": true
+		},
+		"HTML": {
+			"5c33b40bb71d415aac59c442c82bf356": true
+		},
+		"Wrapper": {
+			"47e79dbda6da4c0e98c7c46bb1e0e511": true
+		},
+		"bottom_bar": {
+			"7ac642d7156a4ec69d3a72a8e4c77954": true
+		},
+		"main_Wrapper": {
+			"4f49e2101440445b9a91a03f2e84f279": true
+		},
+		"placementButton": {
+			"48f2d034465e4caca84fb6eb7359ee2e": true
+		},
+		"placementIcon": {
+			"d2a3a43c5a4a4c6fb2198ea746e2b6ed": true
+		},
+		"resetButton": {
+			"11ba4c32c8c349b6b112c862e6df1b1d": true
+		},
+		"resetcon": {
+			"3f6db91acf244913a1984c74add31911": true
+		},
+		"top_Wrapper": {
+			"8750525cdf2d498e82b2bbfd9a3cf5d3": true
+		},
+		"top_bar": {
+			"d0b38b13f55d4f72b5e201a32b16a8bb": true
+		}
+	},
+	"entityConstructorProps": {
+		"11ba4c32c8c349b6b112c862e6df1b1d": {
+		},
+		"3f6db91acf244913a1984c74add31911": {
+			"src": "file://./../assets/images/restart.png"
+		},
+		"47e79dbda6da4c0e98c7c46bb1e0e511": {
+		},
+		"48f2d034465e4caca84fb6eb7359ee2e": {
+		},
+		"4f49e2101440445b9a91a03f2e84f279": {
+		},
+		"5c33b40bb71d415aac59c442c82bf356": {
+		},
+		"7ac642d7156a4ec69d3a72a8e4c77954": {
+		},
+		"8750525cdf2d498e82b2bbfd9a3cf5d3": {
+		},
+		"abbb429273834bab8fb3367da5d18008": {
+			"source": "file://./../CSS/UI.css"
+		},
+		"c51d644d333f45e580b0f147784fb4c3": {
+		},
+		"d0b38b13f55d4f72b5e201a32b16a8bb": {
+		},
+		"d2a3a43c5a4a4c6fb2198ea746e2b6ed": {
+			"src": "file://./../assets/images/place.png"
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"11ba4c32c8c349b6b112c862e6df1b1d": {
+			"classList": [
+				"Tracking-UI-Button"
+			]
+		},
+		"3f6db91acf244913a1984c74add31911": {
+			"classList": [
+				"tracking-UI-Button-Icon"
+			]
+		},
+		"47e79dbda6da4c0e98c7c46bb1e0e511": {
+			"classList": [
+				"wrapper"
+			],
+			"top": [
+				18,
+				"vmin"
+			]
+		},
+		"48f2d034465e4caca84fb6eb7359ee2e": {
+			"classList": [
+				"Tracking-UI-Button"
+			]
+		},
+		"4f49e2101440445b9a91a03f2e84f279": {
+			"classList": [
+				"wrapper-main",
+				"hidden",
+				"wrapper"
+			],
+			"top": [
+				15,
+				"vmin"
+			]
+		},
+		"5c33b40bb71d415aac59c442c82bf356": {
+			"horizontalAnchor": "left",
+			"verticalAnchor": "top"
+		},
+		"7ac642d7156a4ec69d3a72a8e4c77954": {
+			"horizontalAnchor": "center",
+			"verticalAnchor": "bottom"
+		},
+		"8750525cdf2d498e82b2bbfd9a3cf5d3": {
+			"bottom": [
+				18,
+				"vmin"
+			],
+			"classList": [
+				"wrapper"
+			]
+		},
+		"abbb429273834bab8fb3367da5d18008": {
+		},
+		"c51d644d333f45e580b0f147784fb4c3": {
+			"classList": [
+				"mainUI-backing",
+				"backdrop-blur-xs"
+			]
+		},
+		"d0b38b13f55d4f72b5e201a32b16a8bb": {
+			"horizontalAnchor": "right",
+			"verticalAnchor": "top"
+		},
+		"d2a3a43c5a4a4c6fb2198ea746e2b6ed": {
+			"classList": [
+				"tracking-UI-Button-Icon"
+			]
+		}
+	},
+	"id": "3ba004cbed2a4da5a06b3e3009cc58fb",
+	"nodes": {
+		"11ba4c32c8c349b6b112c862e6df1b1d": {
+			"id": "11ba4c32c8c349b6b112c862e6df1b1d",
+			"label": "resetButton",
+			"parent": {
+				"id": "8750525cdf2d498e82b2bbfd9a3cf5d3",
+				"order": "a0"
+			},
+			"scriptName": "resetButton",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"3f6db91acf244913a1984c74add31911": {
+			"id": "3f6db91acf244913a1984c74add31911",
+			"label": "resetcon",
+			"parent": {
+				"id": "11ba4c32c8c349b6b112c862e6df1b1d",
+				"order": "a0"
+			},
+			"scriptName": "resetcon",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"47e79dbda6da4c0e98c7c46bb1e0e511": {
+			"id": "47e79dbda6da4c0e98c7c46bb1e0e511",
+			"label": "Wrapper",
+			"parent": {
+				"id": "7ac642d7156a4ec69d3a72a8e4c77954",
+				"order": "a0"
+			},
+			"scriptName": "Wrapper",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"48f2d034465e4caca84fb6eb7359ee2e": {
+			"id": "48f2d034465e4caca84fb6eb7359ee2e",
+			"label": "placementButton",
+			"parent": {
+				"id": "47e79dbda6da4c0e98c7c46bb1e0e511",
+				"order": "a0"
+			},
+			"scriptName": "placementButton",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"4f49e2101440445b9a91a03f2e84f279": {
+			"id": "4f49e2101440445b9a91a03f2e84f279",
+			"label": "main Wrapper",
+			"parent": {
+				"id": "5c33b40bb71d415aac59c442c82bf356",
+				"order": "a0"
+			},
+			"scriptName": "main_Wrapper",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"5c33b40bb71d415aac59c442c82bf356": {
+			"id": "5c33b40bb71d415aac59c442c82bf356",
+			"label": "HTML",
+			"parent": {
+				"id": "root",
+				"order": "a3"
+			},
+			"scriptName": "HTML",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"7ac642d7156a4ec69d3a72a8e4c77954": {
+			"id": "7ac642d7156a4ec69d3a72a8e4c77954",
+			"label": "bottom bar",
+			"parent": {
+				"id": "root",
+				"order": "a2"
+			},
+			"scriptName": "bottom_bar",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"8750525cdf2d498e82b2bbfd9a3cf5d3": {
+			"id": "8750525cdf2d498e82b2bbfd9a3cf5d3",
+			"label": "top Wrapper",
+			"parent": {
+				"id": "d0b38b13f55d4f72b5e201a32b16a8bb",
+				"order": "a0"
+			},
+			"scriptName": "top_Wrapper",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"abbb429273834bab8fb3367da5d18008": {
+			"id": "abbb429273834bab8fb3367da5d18008",
+			"label": "CSS",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "CSS",
+			"type": "@zcomponent/html/lib/CSS#CSS"
+		},
+		"c51d644d333f45e580b0f147784fb4c3": {
+			"id": "c51d644d333f45e580b0f147784fb4c3",
+			"label": "Div",
+			"parent": {
+				"id": "4f49e2101440445b9a91a03f2e84f279",
+				"order": "a0"
+			},
+			"scriptName": "Div",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"d0b38b13f55d4f72b5e201a32b16a8bb": {
+			"id": "d0b38b13f55d4f72b5e201a32b16a8bb",
+			"label": "top bar",
+			"parent": {
+				"id": "root",
+				"order": "a2V"
+			},
+			"scriptName": "top_bar",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"d2a3a43c5a4a4c6fb2198ea746e2b6ed": {
+			"id": "d2a3a43c5a4a4c6fb2198ea746e2b6ed",
+			"label": "placementIcon",
+			"parent": {
+				"id": "48f2d034465e4caca84fb6eb7359ee2e",
+				"order": "a0"
+			},
+			"scriptName": "placementIcon",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}

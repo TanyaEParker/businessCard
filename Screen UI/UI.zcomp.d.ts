@@ -1,10 +1,10 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
 import { CSS as CSS_0 } from "@zcomponent/html/lib/CSS";
-import { HTML as HTML_1 } from "@zcomponent/three/lib/components/HTML";
-import { Div as Div_2 } from "@zcomponent/html/lib/div";
-import { Button as Button_3 } from "@zcomponent/html/lib/button";
-import { Img as Img_4 } from "@zcomponent/html/lib/img";
+import { Div as Div_1 } from "@zcomponent/html/lib/div";
+import { Button as Button_2 } from "@zcomponent/html/lib/button";
+import { Img as Img_3 } from "@zcomponent/html/lib/img";
+import { HTML as HTML_4 } from "@zcomponent/three/lib/components/HTML";
 
 interface ConstructorProps {
 
@@ -24,22 +24,57 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		HTML: HTML_1 & {
+		Wrapper: Div_1 & {
 			behaviors: {
 
 			}
 		},
-		Wrapper: Div_2 & {
+		placementButton: Button_2 & {
 			behaviors: {
 
 			}
 		},
-		placementButton: Button_3 & {
+		placementIcon: Img_3 & {
 			behaviors: {
 
 			}
 		},
-		placementIcon: Img_4 & {
+		bottom_bar: HTML_4 & {
+			behaviors: {
+
+			}
+		},
+		top_bar: HTML_4 & {
+			behaviors: {
+
+			}
+		},
+		top_Wrapper: Div_1 & {
+			behaviors: {
+
+			}
+		},
+		resetButton: Button_2 & {
+			behaviors: {
+
+			}
+		},
+		resetcon: Img_3 & {
+			behaviors: {
+
+			}
+		},
+		HTML: HTML_4 & {
+			behaviors: {
+
+			}
+		},
+		main_Wrapper: Div_1 & {
+			behaviors: {
+
+			}
+		},
+		Div: Div_1 & {
 			behaviors: {
 
 			}
@@ -47,7 +82,11 @@ declare class Comp extends ZComponent {
 	};
 
 	animation: Animation & { layers: {
-
+		TrackingUI: Layer & { clips: {
+			placement0: LayerClip;
+			reset0: LayerClip;
+			popup0: LayerClip;
+		}};
 	}};
 
 	/**
