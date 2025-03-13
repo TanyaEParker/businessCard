@@ -1,6 +1,10 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
 import { CSS as CSS_0 } from "@zcomponent/html/lib/CSS";
+import { HTML as HTML_1 } from "@zcomponent/three/lib/components/HTML";
+import { Div as Div_2 } from "@zcomponent/html/lib/div";
+import { Button as Button_3 } from "@zcomponent/html/lib/button";
+import { Img as Img_4 } from "@zcomponent/html/lib/img";
 
 interface ConstructorProps {
 
@@ -16,6 +20,26 @@ declare class Comp extends ZComponent {
 
 	nodes: {
 		CSS: CSS_0 & {
+			behaviors: {
+
+			}
+		},
+		HTML: HTML_1 & {
+			behaviors: {
+
+			}
+		},
+		Wrapper: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		placementButton: Button_3 & {
+			behaviors: {
+
+			}
+		},
+		placementIcon: Img_4 & {
 			behaviors: {
 
 			}

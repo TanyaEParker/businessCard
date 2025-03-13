@@ -1,0 +1,27 @@
+.Wrapper
+{
+	width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Tracking-UI-Button
+{
+	background-color: #402d5a;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: flex;
+	width: 15dvw;
+	aspect-ratio: 1;
+}
+
+.tracking-UI-Button-Icon
+{
+	margin-top: 30%;
+	width: 60%;
+	aspect-ratio: 1;
+}
