@@ -11,6 +11,8 @@ import { OverrideOpacity as OverrideOpacity_7 } from "@zcomponent/three/lib/beha
 import { cardEasterEgg as cardEasterEgg_8 } from "./cardEasterEgg";
 import { PlaySound as PlaySound_9 } from "@zcomponent/core/lib/behaviors/PlaySound";
 import { default as cardContent_zcomp_10 } from "../cardContent.zcomp";
+import { default as UI_zcomp_11 } from "../AR UI/UI.zcomp";
+import { rotationOverride as rotationOverride_12 } from "./rotationOverride";
 
 interface ConstructorProps {
 
@@ -71,6 +73,17 @@ declare class Comp extends ZComponent {
 		cardContent: cardContent_zcomp_10 & {
 			behaviors: {
 
+			}
+		},
+		UI: UI_zcomp_11 & {
+			behaviors: {
+
+			}
+		},
+		forceRot: Group_2 & {
+			behaviors: {
+				0: rotationOverride_12,
+				rotationOverride: rotationOverride_12,
 			}
 		},
 	};

@@ -1,6 +1,8 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-
+import { CSS as CSS_0 } from "@zcomponent/html/lib/CSS";
+import { Billboard as Billboard_1 } from "@zcomponent/three/lib/components/transforms/Billboard";
+import { Image as Image_2 } from "@zcomponent/three/lib/components/Image";
 
 interface ConstructorProps {
 
@@ -15,7 +17,26 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
+		CSS: CSS_0 & {
+			behaviors: {
 
+			}
+		},
+		Billboard: Billboard_1 & {
+			behaviors: {
+
+			}
+		},
+		Image: Image_2 & {
+			behaviors: {
+
+			}
+		},
+		Image0: Image_2 & {
+			behaviors: {
+
+			}
+		},
 	};
 
 	animation: Animation & { layers: {

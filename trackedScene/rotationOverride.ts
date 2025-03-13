@@ -1,4 +1,4 @@
-import { Component, Behavior, BehaviorConstructorProps, ContextManager, registerBehaviorRunAtDesignTime, started } from "@zcomponent/core";
+import { Component, Behavior, BehaviorConstructorProps, ContextManager, registerBehaviorRunAtDesignTime, started, isEditTime } from "@zcomponent/core";
 import { Group as Group } from "@zcomponent/three/lib/components/Group";
 import { default as main} from "./card.zcomp";
 
@@ -20,30 +20,16 @@ export class rotationOverride extends Behavior<Group> {
 
 		started(contextManager).then(()=>
 		{
-			instance.rotation.value = [-90 * Math.PI/180,0,0]
-		});
-		/*
-		// You can register handlers for events on the node that this behavior
-		// is attached to like this:
-
-		this.register(this.instance.onPointerDown, evt => {
-			// Code to handle event
+			if(isEditTime(contextManager))instance.rotation.value = [-90 * Math.PI/180,0,0]
 		});
 
-		// Or against other nodes in your zcomp file
-		this.register(this.zcomponent.nodes.MyNode.onPointerDown, evt => {
-
-		});
-		
-		*/
 	}
 
 	dispose() {
-		// Clean up any resources
-		// ...
+
 		return super.dispose();
 	}
 }
 
-// Uncomment below to run this behavior at design time
+
 registerBehaviorRunAtDesignTime(rotationOverride);

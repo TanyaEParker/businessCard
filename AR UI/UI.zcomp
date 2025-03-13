@@ -1,22 +1,52 @@
 {
-	"behaviors": {},
-	"behaviorsByNode": {},
-	"constructorProps": {},
-	"entitiesByLabel": {},
-	"entitiesByScriptName": {},
-	"entityConstructorProps": {},
-	"entityPropOverrides": {
-		"componentprop:prop:root:visible": {
-			"entityID": "root",
-			"entityPropIsConstructor": false,
-			"entityPropPath": [
-				"visible"
-			],
-			"id": "componentprop:prop:root:visible",
-			"isConstructorProp": false,
-			"propName": "visible",
-			"type": "componentprop"
+	"behaviors": {
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"Billboard": {
+			"d0b2e838f4c94affac8c6b149a703cb6": true
 		},
+		"CSS": {
+			"abbb429273834bab8fb3367da5d18008": true
+		},
+		"Image": {
+			"6da62d80bcf4446ba20cd6d55c20037b": true
+		},
+		"Image 2": {
+			"b282fa097b244c2a890e73a14c00f5b9": true
+		}
+	},
+	"entitiesByScriptName": {
+		"Billboard": {
+			"d0b2e838f4c94affac8c6b149a703cb6": true
+		},
+		"CSS": {
+			"abbb429273834bab8fb3367da5d18008": true
+		},
+		"Image": {
+			"6da62d80bcf4446ba20cd6d55c20037b": true
+		},
+		"Image0": {
+			"b282fa097b244c2a890e73a14c00f5b9": true
+		}
+	},
+	"entityConstructorProps": {
+		"6da62d80bcf4446ba20cd6d55c20037b": {
+			"source": "file://./../assets/images/me.jpg"
+		},
+		"abbb429273834bab8fb3367da5d18008": {
+			"source": "file://./../CSS/UI.css"
+		},
+		"b282fa097b244c2a890e73a14c00f5b9": {
+			"source": "file://./../assets/images/me.jpg"
+		},
+		"d0b2e838f4c94affac8c6b149a703cb6": {
+		}
+	},
+	"entityPropOverrides": {
 		"componentprop:prop:root:position": {
 			"entityID": "root",
 			"entityPropIsConstructor": false,
@@ -49,11 +79,92 @@
 			"isConstructorProp": false,
 			"propName": "scale",
 			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
 		}
 	},
-	"entityProps": {},
+	"entityProps": {
+		"6da62d80bcf4446ba20cd6d55c20037b": {
+			"position": [
+				-0.362699241417158,
+				0.359636723853187,
+				0
+			],
+			"scale": [
+				0.25,
+				0.25,
+				0.25
+			]
+		},
+		"abbb429273834bab8fb3367da5d18008": {
+		},
+		"b282fa097b244c2a890e73a14c00f5b9": {
+			"position": [
+				0.362699241417158,
+				0.359636723853187,
+				0
+			],
+			"scale": [
+				0.25,
+				0.25,
+				0.25
+			]
+		},
+		"d0b2e838f4c94affac8c6b149a703cb6": {
+			"lock": "Look-At"
+		}
+	},
 	"id": "3ba004cbed2a4da5a06b3e3009cc58fb",
 	"nodes": {
+		"6da62d80bcf4446ba20cd6d55c20037b": {
+			"id": "6da62d80bcf4446ba20cd6d55c20037b",
+			"label": "Image",
+			"parent": {
+				"id": "d0b2e838f4c94affac8c6b149a703cb6",
+				"order": "a0"
+			},
+			"scriptName": "Image",
+			"type": "@zcomponent/three/lib/components/Image#Image"
+		},
+		"abbb429273834bab8fb3367da5d18008": {
+			"id": "abbb429273834bab8fb3367da5d18008",
+			"label": "CSS",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "CSS",
+			"type": "@zcomponent/html/lib/CSS#CSS"
+		},
+		"b282fa097b244c2a890e73a14c00f5b9": {
+			"id": "b282fa097b244c2a890e73a14c00f5b9",
+			"label": "Image 2",
+			"parent": {
+				"id": "d0b2e838f4c94affac8c6b149a703cb6",
+				"order": "a0V"
+			},
+			"scriptName": "Image0",
+			"type": "@zcomponent/three/lib/components/Image#Image"
+		},
+		"d0b2e838f4c94affac8c6b149a703cb6": {
+			"id": "d0b2e838f4c94affac8c6b149a703cb6",
+			"label": "Billboard",
+			"parent": {
+				"id": "root",
+				"order": "a2"
+			},
+			"scriptName": "Billboard",
+			"type": "@zcomponent/three/lib/components/transforms/Billboard#Billboard"
+		},
 		"root": {
 			"id": "root",
 			"type": "@zcomponent/three/lib/components/Group#Group"
@@ -61,20 +172,6 @@
 	},
 	"preview": "@zcomponent/three/lib/preview#default",
 	"props": {
-		"visible": {
-			"comments": [
-				"Determines if this object and its children are rendered to the screen."
-			],
-			"default": true,
-			"group": "Appearance",
-			"groupPriority": 11,
-			"name": "visible",
-			"type": {
-				"comments": [],
-				"isObservable": true,
-				"name": "boolean"
-			}
-		},
 		"position": {
 			"comments": [
 				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
@@ -90,19 +187,23 @@
 			"type": {
 				"children": [
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					},
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					},
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					}
 				],
-				"comments": [],
+				"comments": [
+				],
 				"isObservable": true,
 				"name": "tuple",
 				"names": [
@@ -127,19 +228,23 @@
 			"type": {
 				"children": [
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					},
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					},
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					}
 				],
-				"comments": [],
+				"comments": [
+				],
 				"isObservable": true,
 				"name": "tuple",
 				"names": [
@@ -164,19 +269,23 @@
 			"type": {
 				"children": [
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					},
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					},
 					{
-						"comments": [],
+						"comments": [
+						],
 						"name": "number"
 					}
 				],
-				"comments": [],
+				"comments": [
+				],
 				"isObservable": true,
 				"name": "tuple",
 				"names": [
@@ -184,6 +293,21 @@
 					"y",
 					"z"
 				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
 			}
 		}
 	},
