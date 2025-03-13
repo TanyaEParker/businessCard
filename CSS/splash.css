@@ -5,6 +5,8 @@ html {
 	font-family: sans-serif;
 }
 
+@import "tailwindcss";
+
 #particles-js
 {
 	z-index: -20;
@@ -155,3 +157,4 @@ html {
 	height: 100%;
 	border-radius: 20%;
 }
+

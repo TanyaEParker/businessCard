@@ -1,10 +1,6 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { DirectionalLight as DirectionalLight_0 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { GLTF as GLTF_1 } from "@zcomponent/three/lib/components/models/GLTF";
-import { Animation as Animation_2 } from "@zcomponent/three/lib/behaviors/Animation";
-import { ImageTexture as ImageTexture_3 } from "@zcomponent/three/lib/components/textures/ImageTexture";
-import { MeshStandardMaterial as MeshStandardMaterial_4 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+
 
 interface ConstructorProps {
 
@@ -19,39 +15,22 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		DirectionalLight_2: DirectionalLight_0 & {
-			behaviors: {
 
-			}
-		},
-		digitalTanya_glb: GLTF_1 & {
-			behaviors: {
-				0: Animation_2,
-				Animation: Animation_2,
-			}
-		},
-		shadows: DirectionalLight_0 & {
-			behaviors: {
-
-			}
-		},
-		hair_normals: ImageTexture_3 & {
-			behaviors: {
-
-			}
-		},
-		hair_mod: MeshStandardMaterial_4 & {
-			behaviors: {
-
-			}
-		},
 	};
 
 	animation: Animation & { layers: {
-		Layer_10: Layer & { clips: {
-			idle: LayerClip;
-		}};
+
 	}};
+
+	/**
+	 * Determines if this object and its children are rendered to the screen.
+	 * 
+	 * @zprop
+	 * @zdefault true
+	 * @zgroup Appearance
+	 * @zgrouppriority 11
+	 */
+	public visible: Observable<boolean>;
 
 	/**
 	 * The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position.
@@ -82,16 +61,6 @@ declare class Comp extends ZComponent {
 	 * @zgrouppriority 10
 	 */
 	public scale: Observable<[x: number, y: number, z: number]>;
-
-	/**
-	 * Determines if this object and its children are rendered to the screen.
-	 * 
-	 * @zprop
-	 * @zdefault true
-	 * @zgroup Appearance
-	 * @zgrouppriority 11
-	 */
-	public visible: Observable<boolean>;
 }
 
 export default Comp;

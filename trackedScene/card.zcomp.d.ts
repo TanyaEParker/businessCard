@@ -1,16 +1,16 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { DefaultLoader as DefaultLoader_0 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { Group as Group_1 } from "@zcomponent/three/lib/components/Group";
-import { ZapparCamera as ZapparCamera_2 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
-import { ImageTracker as ImageTracker_3 } from "@zcomponent/zappar-three/lib/components/trackers/ImageTracker";
-import { PlayLayerClip as PlayLayerClip_4 } from "@zcomponent/core/lib/behaviors/PlayLayerClip";
-import { OverrideOpacity as OverrideOpacity_5 } from "@zcomponent/three/lib/behaviors/OverrideOpacity";
-import { cardEasterEgg as cardEasterEgg_6 } from "./cardEasterEgg";
-import { PlaySound as PlaySound_7 } from "@zcomponent/core/lib/behaviors/PlaySound";
-import { default as cardContent_zcomp_8 } from "../cardContent.zcomp";
-import { ShadowPlane as ShadowPlane_9 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { DefaultEnvironment as DefaultEnvironment_10 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
+import { DefaultEnvironment as DefaultEnvironment_0 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
+import { DefaultLoader as DefaultLoader_1 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { Group as Group_2 } from "@zcomponent/three/lib/components/Group";
+import { ShadowPlane as ShadowPlane_3 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { ZapparCamera as ZapparCamera_4 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
+import { ImageTracker as ImageTracker_5 } from "@zcomponent/zappar-three/lib/components/trackers/ImageTracker";
+import { PlayLayerClip as PlayLayerClip_6 } from "@zcomponent/core/lib/behaviors/PlayLayerClip";
+import { OverrideOpacity as OverrideOpacity_7 } from "@zcomponent/three/lib/behaviors/OverrideOpacity";
+import { cardEasterEgg as cardEasterEgg_8 } from "./cardEasterEgg";
+import { PlaySound as PlaySound_9 } from "@zcomponent/core/lib/behaviors/PlaySound";
+import { default as cardContent_zcomp_10 } from "../cardContent.zcomp";
 
 interface ConstructorProps {
 
@@ -25,50 +25,50 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		DefaultLoader: DefaultLoader_0 & {
+		DefaultEnvironment: DefaultEnvironment_0 & {
 			behaviors: {
 
 			}
 		},
-		Defaults: Group_1 & {
+		DefaultLoader: DefaultLoader_1 & {
 			behaviors: {
 
 			}
 		},
-		ZapparCamera: ZapparCamera_2 & {
+		Defaults: Group_2 & {
 			behaviors: {
 
 			}
 		},
-		business_cardback_pngzpt: ImageTracker_3 & {
-			behaviors: {
-				0: PlayLayerClip_4,
-				PlayLayerClip: PlayLayerClip_4,
-				1: PlayLayerClip_4,
-				PlayLayerClip0: PlayLayerClip_4,
-				2: OverrideOpacity_5,
-				OverrideOpacity: OverrideOpacity_5,
-			}
-		},
-		business_cardfront_jpgzpt: ImageTracker_3 & {
-			behaviors: {
-				0: cardEasterEgg_6,
-				cardEasterEgg: cardEasterEgg_6,
-				1: PlaySound_7,
-				PlaySound: PlaySound_7,
-			}
-		},
-		cardContent: cardContent_zcomp_8 & {
+		ShadowPlane: ShadowPlane_3 & {
 			behaviors: {
 
 			}
 		},
-		ShadowPlane: ShadowPlane_9 & {
+		ZapparCamera: ZapparCamera_4 & {
 			behaviors: {
 
 			}
 		},
-		DefaultEnvironment: DefaultEnvironment_10 & {
+		business_cardback_pngzpt: ImageTracker_5 & {
+			behaviors: {
+				0: PlayLayerClip_6,
+				PlayLayerClip: PlayLayerClip_6,
+				1: PlayLayerClip_6,
+				PlayLayerClip0: PlayLayerClip_6,
+				2: OverrideOpacity_7,
+				OverrideOpacity: OverrideOpacity_7,
+			}
+		},
+		business_cardfront_jpgzpt: ImageTracker_5 & {
+			behaviors: {
+				0: cardEasterEgg_8,
+				cardEasterEgg: cardEasterEgg_8,
+				1: PlaySound_9,
+				PlaySound: PlaySound_9,
+			}
+		},
+		cardContent: cardContent_zcomp_10 & {
 			behaviors: {
 
 			}
