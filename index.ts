@@ -2,10 +2,6 @@ import { initialize } from "@zcomponent/three";
 import { default as card } from "./trackedScene/card.zcomp";
 import particles from "particles.js-es";
 
-initialize(card, {}, {
-    launchButton: document.getElementById('launchButton')
-});
-
 const options =
 {
   particles: {
@@ -62,10 +58,11 @@ const options =
   },
   retina_detect: true
 }
+particles.init("particles-js",options);
 
-particles.init("particles-js",options)
-
-
+initialize(card, {}, {
+    launchButton: document.getElementById('launchButton')
+});
 
 function addToContacts()
 {
