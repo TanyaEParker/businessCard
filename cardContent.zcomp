@@ -1,5 +1,15 @@
 {
 	"behaviors": {
+		"82a3d77b86bb4e298a8a60470825e6bb": {
+			"id": "82a3d77b86bb4e298a8a60470825e6bb",
+			"label": "Animation",
+			"parent": {
+				"id": "407b23b213f74ceeb8b59ebdccf53cfb",
+				"order": "a0",
+				"scriptName": "Animation"
+			},
+			"type": "@zcomponent/three/lib/behaviors/Animation#Animation"
+		}
 	},
 	"behaviorsByNode": {
 	},
@@ -9,14 +19,14 @@
 		"DirectionalLight 2": {
 			"390907009ded4dd7b0c0775e4354960c": true
 		},
-		"ImageTexture": {
-			"83adb715c0f2446c8951d6706e24dd04": true
-		},
-		"MeshStandardMaterial": {
-			"c5bc7b6ca5f34bbe99b903472c1f272c": true
-		},
 		"digitalTanya.glb": {
 			"407b23b213f74ceeb8b59ebdccf53cfb": true
+		},
+		"hair mod": {
+			"c5bc7b6ca5f34bbe99b903472c1f272c": true
+		},
+		"hair normals": {
+			"83adb715c0f2446c8951d6706e24dd04": true
 		},
 		"shadows": {
 			"d3a3d5d35e6545f5a5725ed386b1ecad": true
@@ -26,14 +36,14 @@
 		"DirectionalLight_2": {
 			"390907009ded4dd7b0c0775e4354960c": true
 		},
-		"ImageTexture": {
-			"83adb715c0f2446c8951d6706e24dd04": true
-		},
-		"MeshStandardMaterial": {
-			"c5bc7b6ca5f34bbe99b903472c1f272c": true
-		},
 		"digitalTanya_glb": {
 			"407b23b213f74ceeb8b59ebdccf53cfb": true
+		},
+		"hair_mod": {
+			"c5bc7b6ca5f34bbe99b903472c1f272c": true
+		},
+		"hair_normals": {
+			"83adb715c0f2446c8951d6706e24dd04": true
 		},
 		"shadows": {
 			"d3a3d5d35e6545f5a5725ed386b1ecad": true
@@ -44,7 +54,12 @@
 		},
 		"407b23b213f74ceeb8b59ebdccf53cfb": {
 			"frustumCulled": true,
-			"source": "file://./assets/models/digitalTanya.glb"
+			"source": "file://./assets/models/animatedtanya.glb"
+		},
+		"82a3d77b86bb4e298a8a60470825e6bb": {
+			"loop": "Repeat",
+			"name": "Armature.001|mixamo.com|Layer0",
+			"playAtStart": true
 		},
 		"83adb715c0f2446c8951d6706e24dd04": {
 			"source": "file://./assets/models/mats/hair-112-N.jpg"
@@ -122,6 +137,8 @@
 		"407b23b213f74ceeb8b59ebdccf53cfb": {
 			"castShadow": true
 		},
+		"82a3d77b86bb4e298a8a60470825e6bb": {
+		},
 		"83adb715c0f2446c8951d6706e24dd04": {
 			"attachTo": "normalMap",
 			"flipY": false
@@ -129,9 +146,9 @@
 		"c5bc7b6ca5f34bbe99b903472c1f272c": {
 			"attachTo": "Wolf3D_Hair",
 			"color": [
-				0.22322795730611386,
-				0.012286488353353374,
-				0.012286488353353374
+				0.16513219449147767,
+				0.004776953478513362,
+				0.004776953478513362
 			],
 			"metalness": 0.327179487179487,
 			"roughness": 0.747282051282051
@@ -175,22 +192,22 @@
 		},
 		"83adb715c0f2446c8951d6706e24dd04": {
 			"id": "83adb715c0f2446c8951d6706e24dd04",
-			"label": "ImageTexture",
+			"label": "hair normals",
 			"parent": {
 				"id": "c5bc7b6ca5f34bbe99b903472c1f272c",
 				"order": "a0"
 			},
-			"scriptName": "ImageTexture",
+			"scriptName": "hair_normals",
 			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
 		},
 		"c5bc7b6ca5f34bbe99b903472c1f272c": {
 			"id": "c5bc7b6ca5f34bbe99b903472c1f272c",
-			"label": "MeshStandardMaterial",
+			"label": "hair mod",
 			"parent": {
 				"id": "407b23b213f74ceeb8b59ebdccf53cfb",
 				"order": "a0"
 			},
-			"scriptName": "MeshStandardMaterial",
+			"scriptName": "hair_mod",
 			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
 		},
 		"d3a3d5d35e6545f5a5725ed386b1ecad": {
