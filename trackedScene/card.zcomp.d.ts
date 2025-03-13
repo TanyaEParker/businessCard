@@ -11,7 +11,7 @@ import { PlayLayerClip as PlayLayerClip_7 } from "@zcomponent/core/lib/behaviors
 import { OverrideOpacity as OverrideOpacity_8 } from "@zcomponent/three/lib/behaviors/OverrideOpacity";
 import { cardEasterEgg as cardEasterEgg_9 } from "./cardEasterEgg";
 import { PlaySound as PlaySound_10 } from "@zcomponent/core/lib/behaviors/PlaySound";
-import { default as cardContent_zcomp_11 } from "../cardContent.zcomp";
+import { default as cardContent_zcomp_11 } from "../Content/cardContent.zcomp";
 
 interface ConstructorProps {
 

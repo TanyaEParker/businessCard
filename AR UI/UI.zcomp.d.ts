@@ -1,7 +1,6 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
 import { CSS as CSS_0 } from "@zcomponent/html/lib/CSS";
-import { default as billboardedIcon_zcomp_1 } from "./billboardedIcon.zcomp";
 
 interface ConstructorProps {
 
@@ -17,26 +16,6 @@ declare class Comp extends ZComponent {
 
 	nodes: {
 		CSS: CSS_0 & {
-			behaviors: {
-
-			}
-		},
-		billboardedIcon: billboardedIcon_zcomp_1 & {
-			behaviors: {
-
-			}
-		},
-		billboardedIcon0: billboardedIcon_zcomp_1 & {
-			behaviors: {
-
-			}
-		},
-		billboardedIcon1: billboardedIcon_zcomp_1 & {
-			behaviors: {
-
-			}
-		},
-		billboardedIcon2: billboardedIcon_zcomp_1 & {
 			behaviors: {
 
 			}

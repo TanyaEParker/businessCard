@@ -1,38 +1,46 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { Billboard as Billboard_0 } from "@zcomponent/three/lib/components/transforms/Billboard";
-import { Image as Image_1 } from "@zcomponent/three/lib/components/Image";
+import { DirectionalLight as DirectionalLight_0 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
+import { GLTF as GLTF_1 } from "@zcomponent/three/lib/components/models/GLTF";
+import { Animation as Animation_2 } from "@zcomponent/three/lib/behaviors/Animation";
+import { MeshStandardMaterial as MeshStandardMaterial_3 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { ImageTexture as ImageTexture_4 } from "@zcomponent/three/lib/components/textures/ImageTexture";
 
 interface ConstructorProps {
-	/**
-	 * The image to display
-	 * 
-	 * @zprop
-	 * @zvalues files *.+(jpg|jpeg|png)
-	 */
-	icon_source: string;
+
 }
 
 /**
 * @zcomponent
-* @zicon 360
+* @zicon zcomponent
 */
 declare class Comp extends ZComponent {
 
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		Billboard: Billboard_0 & {
+		DirectionalLight_2: DirectionalLight_0 & {
 			behaviors: {
 
 			}
 		},
-		Image: Image_1 & {
+		digitalTanya_glb: GLTF_1 & {
+			behaviors: {
+				0: Animation_2,
+				Animation: Animation_2,
+			}
+		},
+		hair_mod: MeshStandardMaterial_3 & {
 			behaviors: {
 
 			}
 		},
-		Image_2: Image_1 & {
+		hair_normals: ImageTexture_4 & {
+			behaviors: {
+
+			}
+		},
+		shadows: DirectionalLight_0 & {
 			behaviors: {
 
 			}
@@ -42,16 +50,6 @@ declare class Comp extends ZComponent {
 	animation: Animation & { layers: {
 
 	}};
-
-	/**
-	 * Determines if this object and its children are rendered to the screen.
-	 * 
-	 * @zprop
-	 * @zdefault true
-	 * @zgroup Appearance
-	 * @zgrouppriority 11
-	 */
-	public visible: Observable<boolean>;
 
 	/**
 	 * The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position.
@@ -82,6 +80,16 @@ declare class Comp extends ZComponent {
 	 * @zgrouppriority 10
 	 */
 	public scale: Observable<[x: number, y: number, z: number]>;
+
+	/**
+	 * Determines if this object and its children are rendered to the screen.
+	 * 
+	 * @zprop
+	 * @zdefault true
+	 * @zgroup Appearance
+	 * @zgrouppriority 11
+	 */
+	public visible: Observable<boolean>;
 }
 
 export default Comp;

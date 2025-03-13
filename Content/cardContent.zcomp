@@ -1,75 +1,75 @@
 {
 	"behaviors": {
+		"82a3d77b86bb4e298a8a60470825e6bb": {
+			"id": "82a3d77b86bb4e298a8a60470825e6bb",
+			"label": "Animation",
+			"parent": {
+				"id": "407b23b213f74ceeb8b59ebdccf53cfb",
+				"order": "a0",
+				"scriptName": "Animation"
+			},
+			"type": "@zcomponent/three/lib/behaviors/Animation#Animation"
+		}
 	},
 	"behaviorsByNode": {
 	},
 	"constructorProps": {
-		"icon_source": {
-			"comments": [
-				"The image to display"
-			],
-			"isConstructorProp": true,
-			"name": "icon_source",
-			"order": 0,
-			"readonly": false,
-			"showInUI": false,
-			"type": {
-				"comments": [
-				],
-				"isObservable": false,
-				"name": "string"
-			},
-			"values": [
-				{
-					"param": "*.+(jpg|jpeg|png)",
-					"type": "files"
-				}
-			]
-		}
 	},
 	"entitiesByLabel": {
-		"Billboard": {
-			"28770a60a17f42bbb2352aaa06e00f2a": true
+		"DirectionalLight 2": {
+			"390907009ded4dd7b0c0775e4354960c": true
 		},
-		"Image": {
-			"4cb4e2e160ad41ceaac94787a8c5b6f9": true
+		"digitalTanya.glb": {
+			"407b23b213f74ceeb8b59ebdccf53cfb": true
 		},
-		"Image 2": {
-			"085ef2eb4d1c4bc78a747608d9703dad": true
+		"hair mod": {
+			"c5bc7b6ca5f34bbe99b903472c1f272c": true
+		},
+		"hair normals": {
+			"83adb715c0f2446c8951d6706e24dd04": true
+		},
+		"shadows": {
+			"d3a3d5d35e6545f5a5725ed386b1ecad": true
 		}
 	},
 	"entitiesByScriptName": {
-		"Billboard": {
-			"28770a60a17f42bbb2352aaa06e00f2a": true
+		"DirectionalLight_2": {
+			"390907009ded4dd7b0c0775e4354960c": true
 		},
-		"Image": {
-			"4cb4e2e160ad41ceaac94787a8c5b6f9": true
+		"digitalTanya_glb": {
+			"407b23b213f74ceeb8b59ebdccf53cfb": true
 		},
-		"Image_2": {
-			"085ef2eb4d1c4bc78a747608d9703dad": true
+		"hair_mod": {
+			"c5bc7b6ca5f34bbe99b903472c1f272c": true
+		},
+		"hair_normals": {
+			"83adb715c0f2446c8951d6706e24dd04": true
+		},
+		"shadows": {
+			"d3a3d5d35e6545f5a5725ed386b1ecad": true
 		}
 	},
 	"entityConstructorProps": {
-		"085ef2eb4d1c4bc78a747608d9703dad": {
-			"source": "file://./../assets/images/me.jpg"
+		"390907009ded4dd7b0c0775e4354960c": {
 		},
-		"28770a60a17f42bbb2352aaa06e00f2a": {
+		"407b23b213f74ceeb8b59ebdccf53cfb": {
+			"frustumCulled": true,
+			"source": "file://../assets/models/animatedtanya.glb"
 		},
-		"4cb4e2e160ad41ceaac94787a8c5b6f9": {
+		"82a3d77b86bb4e298a8a60470825e6bb": {
+			"loop": "Repeat",
+			"name": "Armature.001|mixamo.com|Layer0",
+			"playAtStart": true
+		},
+		"83adb715c0f2446c8951d6706e24dd04": {
+			"source": "file://../assets/models/mats/hair-112-N.jpg"
+		},
+		"c5bc7b6ca5f34bbe99b903472c1f272c": {
+		},
+		"d3a3d5d35e6545f5a5725ed386b1ecad": {
 		}
 	},
 	"entityPropOverrides": {
-		"componentprop:constructorprop:4cb4e2e160ad41ceaac94787a8c5b6f9:source": {
-			"entityID": "4cb4e2e160ad41ceaac94787a8c5b6f9",
-			"entityPropIsConstructor": true,
-			"entityPropPath": [
-				"source"
-			],
-			"id": "componentprop:constructorprop:4cb4e2e160ad41ceaac94787a8c5b6f9:source",
-			"isConstructorProp": true,
-			"propName": "icon_source",
-			"type": "componentprop"
-		},
 		"componentprop:prop:root:position": {
 			"entityID": "root",
 			"entityPropIsConstructor": false,
@@ -116,51 +116,109 @@
 		}
 	},
 	"entityProps": {
-		"085ef2eb4d1c4bc78a747608d9703dad": {
-		},
-		"28770a60a17f42bbb2352aaa06e00f2a": {
-			"lock": "Y-Billboard",
+		"390907009ded4dd7b0c0775e4354960c": {
+			"color": [
+				1,
+				0.9046611743890203,
+				0.5906188409113381
+			],
+			"intensity": 2,
+			"position": [
+				0,
+				2.306627710699554,
+				1.2913419753794073
+			],
 			"rotation": [
+				1.4760305909242306,
 				0,
-				0,
-				1.5707963267948966
+				0
 			]
 		},
-		"4cb4e2e160ad41ceaac94787a8c5b6f9": {
+		"407b23b213f74ceeb8b59ebdccf53cfb": {
+			"castShadow": true
+		},
+		"82a3d77b86bb4e298a8a60470825e6bb": {
+		},
+		"83adb715c0f2446c8951d6706e24dd04": {
+			"attachTo": "normalMap",
+			"flipY": false
+		},
+		"c5bc7b6ca5f34bbe99b903472c1f272c": {
+			"attachTo": "Wolf3D_Hair",
+			"color": [
+				0.16513219449147767,
+				0.004776953478513362,
+				0.004776953478513362
+			],
+			"metalness": 0.327179487179487,
+			"roughness": 0.747282051282051
+		},
+		"d3a3d5d35e6545f5a5725ed386b1ecad": {
+			"castShadow": true,
+			"intensity": 0,
+			"position": [
+				0,
+				2.2198612693134505,
+				-1.1611361669080669
+			],
+			"rotation": [
+				-0.8720573708488244,
+				0,
+				0
+			]
 		}
 	},
-	"icon": "360",
-	"id": "8ef3108729f64c258d88beec09152f37",
+	"id": "c02cf16227384292be68436d6f6720a6",
 	"nodes": {
-		"085ef2eb4d1c4bc78a747608d9703dad": {
-			"id": "085ef2eb4d1c4bc78a747608d9703dad",
-			"label": "Image 2",
-			"parent": {
-				"id": "28770a60a17f42bbb2352aaa06e00f2a",
-				"order": "a1"
-			},
-			"scriptName": "Image_2",
-			"type": "@zcomponent/three/lib/components/Image#Image"
-		},
-		"28770a60a17f42bbb2352aaa06e00f2a": {
-			"id": "28770a60a17f42bbb2352aaa06e00f2a",
-			"label": "Billboard",
+		"390907009ded4dd7b0c0775e4354960c": {
+			"id": "390907009ded4dd7b0c0775e4354960c",
+			"label": "DirectionalLight 2",
 			"parent": {
 				"id": "root",
-				"order": "a0"
+				"order": "a4"
 			},
-			"scriptName": "Billboard",
-			"type": "@zcomponent/three/lib/components/transforms/Billboard#Billboard"
+			"scriptName": "DirectionalLight_2",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
 		},
-		"4cb4e2e160ad41ceaac94787a8c5b6f9": {
-			"id": "4cb4e2e160ad41ceaac94787a8c5b6f9",
-			"label": "Image",
+		"407b23b213f74ceeb8b59ebdccf53cfb": {
+			"id": "407b23b213f74ceeb8b59ebdccf53cfb",
+			"label": "digitalTanya.glb",
 			"parent": {
-				"id": "28770a60a17f42bbb2352aaa06e00f2a",
+				"id": "root",
+				"order": "Zz"
+			},
+			"scriptName": "digitalTanya_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"83adb715c0f2446c8951d6706e24dd04": {
+			"id": "83adb715c0f2446c8951d6706e24dd04",
+			"label": "hair normals",
+			"parent": {
+				"id": "c5bc7b6ca5f34bbe99b903472c1f272c",
 				"order": "a0"
 			},
-			"scriptName": "Image",
-			"type": "@zcomponent/three/lib/components/Image#Image"
+			"scriptName": "hair_normals",
+			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
+		},
+		"c5bc7b6ca5f34bbe99b903472c1f272c": {
+			"id": "c5bc7b6ca5f34bbe99b903472c1f272c",
+			"label": "hair mod",
+			"parent": {
+				"id": "407b23b213f74ceeb8b59ebdccf53cfb",
+				"order": "a0"
+			},
+			"scriptName": "hair_mod",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"d3a3d5d35e6545f5a5725ed386b1ecad": {
+			"id": "d3a3d5d35e6545f5a5725ed386b1ecad",
+			"label": "shadows",
+			"parent": {
+				"id": "root",
+				"order": "a3"
+			},
+			"scriptName": "shadows",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
 		},
 		"root": {
 			"id": "root",

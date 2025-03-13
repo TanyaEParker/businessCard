@@ -381,7 +381,7 @@
 				"order": "a0"
 			},
 			"scriptName": "cardContent",
-			"type": "../cardContent.zcomp#default"
+			"type": "../Content/cardContent.zcomp#default"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",

@@ -1,72 +1,30 @@
 {
 	"behaviors": {
-		"82a3d77b86bb4e298a8a60470825e6bb": {
-			"id": "82a3d77b86bb4e298a8a60470825e6bb",
-			"label": "Animation",
-			"parent": {
-				"id": "407b23b213f74ceeb8b59ebdccf53cfb",
-				"order": "a0",
-				"scriptName": "Animation"
-			},
-			"type": "@zcomponent/three/lib/behaviors/Animation#Animation"
-		}
 	},
 	"behaviorsByNode": {
 	},
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
-		"DirectionalLight 2": {
-			"390907009ded4dd7b0c0775e4354960c": true
+		"InstantWorldTracker": {
+			"1af1d557971140418179fcacb962b4bf": true
 		},
-		"digitalTanya.glb": {
-			"407b23b213f74ceeb8b59ebdccf53cfb": true
-		},
-		"hair mod": {
-			"c5bc7b6ca5f34bbe99b903472c1f272c": true
-		},
-		"hair normals": {
-			"83adb715c0f2446c8951d6706e24dd04": true
-		},
-		"shadows": {
-			"d3a3d5d35e6545f5a5725ed386b1ecad": true
+		"cardContent": {
+			"81510e4a9a7244719d581636afdc92e8": true
 		}
 	},
 	"entitiesByScriptName": {
-		"DirectionalLight_2": {
-			"390907009ded4dd7b0c0775e4354960c": true
+		"InstantWorldTracker": {
+			"1af1d557971140418179fcacb962b4bf": true
 		},
-		"digitalTanya_glb": {
-			"407b23b213f74ceeb8b59ebdccf53cfb": true
-		},
-		"hair_mod": {
-			"c5bc7b6ca5f34bbe99b903472c1f272c": true
-		},
-		"hair_normals": {
-			"83adb715c0f2446c8951d6706e24dd04": true
-		},
-		"shadows": {
-			"d3a3d5d35e6545f5a5725ed386b1ecad": true
+		"cardContent": {
+			"81510e4a9a7244719d581636afdc92e8": true
 		}
 	},
 	"entityConstructorProps": {
-		"390907009ded4dd7b0c0775e4354960c": {
+		"1af1d557971140418179fcacb962b4bf": {
 		},
-		"407b23b213f74ceeb8b59ebdccf53cfb": {
-			"frustumCulled": true,
-			"source": "file://./assets/models/animatedtanya.glb"
-		},
-		"82a3d77b86bb4e298a8a60470825e6bb": {
-			"loop": "Repeat",
-			"name": "Armature.001|mixamo.com|Layer0",
-			"playAtStart": true
-		},
-		"83adb715c0f2446c8951d6706e24dd04": {
-			"source": "file://./assets/models/mats/hair-112-N.jpg"
-		},
-		"c5bc7b6ca5f34bbe99b903472c1f272c": {
-		},
-		"d3a3d5d35e6545f5a5725ed386b1ecad": {
+		"81510e4a9a7244719d581636afdc92e8": {
 		}
 	},
 	"entityPropOverrides": {
@@ -116,109 +74,32 @@
 		}
 	},
 	"entityProps": {
-		"390907009ded4dd7b0c0775e4354960c": {
-			"color": [
-				1,
-				0.9046611743890203,
-				0.5906188409113381
-			],
-			"intensity": 2,
-			"position": [
-				0,
-				2.306627710699554,
-				1.2913419753794073
-			],
-			"rotation": [
-				1.4760305909242306,
-				0,
-				0
-			]
+		"1af1d557971140418179fcacb962b4bf": {
 		},
-		"407b23b213f74ceeb8b59ebdccf53cfb": {
-			"castShadow": true
-		},
-		"82a3d77b86bb4e298a8a60470825e6bb": {
-		},
-		"83adb715c0f2446c8951d6706e24dd04": {
-			"attachTo": "normalMap",
-			"flipY": false
-		},
-		"c5bc7b6ca5f34bbe99b903472c1f272c": {
-			"attachTo": "Wolf3D_Hair",
-			"color": [
-				0.16513219449147767,
-				0.004776953478513362,
-				0.004776953478513362
-			],
-			"metalness": 0.327179487179487,
-			"roughness": 0.747282051282051
-		},
-		"d3a3d5d35e6545f5a5725ed386b1ecad": {
-			"castShadow": true,
-			"intensity": 0,
-			"position": [
-				0,
-				2.2198612693134505,
-				-1.1611361669080669
-			],
-			"rotation": [
-				-0.8720573708488244,
-				0,
-				0
-			]
+		"81510e4a9a7244719d581636afdc92e8": {
 		}
 	},
-	"id": "c02cf16227384292be68436d6f6720a6",
+	"id": "8cbc233102fb4b138c2be4407bc3d0d3",
 	"nodes": {
-		"390907009ded4dd7b0c0775e4354960c": {
-			"id": "390907009ded4dd7b0c0775e4354960c",
-			"label": "DirectionalLight 2",
+		"1af1d557971140418179fcacb962b4bf": {
+			"id": "1af1d557971140418179fcacb962b4bf",
+			"label": "InstantWorldTracker",
 			"parent": {
 				"id": "root",
-				"order": "a4"
-			},
-			"scriptName": "DirectionalLight_2",
-			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
-		},
-		"407b23b213f74ceeb8b59ebdccf53cfb": {
-			"id": "407b23b213f74ceeb8b59ebdccf53cfb",
-			"label": "digitalTanya.glb",
-			"parent": {
-				"id": "root",
-				"order": "Zz"
-			},
-			"scriptName": "digitalTanya_glb",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"83adb715c0f2446c8951d6706e24dd04": {
-			"id": "83adb715c0f2446c8951d6706e24dd04",
-			"label": "hair normals",
-			"parent": {
-				"id": "c5bc7b6ca5f34bbe99b903472c1f272c",
 				"order": "a0"
 			},
-			"scriptName": "hair_normals",
-			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
+			"scriptName": "InstantWorldTracker",
+			"type": "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker#InstantWorldTracker"
 		},
-		"c5bc7b6ca5f34bbe99b903472c1f272c": {
-			"id": "c5bc7b6ca5f34bbe99b903472c1f272c",
-			"label": "hair mod",
+		"81510e4a9a7244719d581636afdc92e8": {
+			"id": "81510e4a9a7244719d581636afdc92e8",
+			"label": "cardContent",
 			"parent": {
-				"id": "407b23b213f74ceeb8b59ebdccf53cfb",
+				"id": "1af1d557971140418179fcacb962b4bf",
 				"order": "a0"
 			},
-			"scriptName": "hair_mod",
-			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
-		},
-		"d3a3d5d35e6545f5a5725ed386b1ecad": {
-			"id": "d3a3d5d35e6545f5a5725ed386b1ecad",
-			"label": "shadows",
-			"parent": {
-				"id": "root",
-				"order": "a3"
-			},
-			"scriptName": "shadows",
-			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+			"scriptName": "cardContent",
+			"type": "../Content/cardContent.zcomp#default"
 		},
 		"root": {
 			"id": "root",

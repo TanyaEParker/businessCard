@@ -8,52 +8,16 @@
 	"entitiesByLabel": {
 		"CSS": {
 			"abbb429273834bab8fb3367da5d18008": true
-		},
-		"billboardedIcon": {
-			"0aaf2046905e42a7b6b6bd0889cccf5e": true
-		},
-		"billboardedIcon 2": {
-			"3ceacc441fc2453b8ee605151b969bd6": true
-		},
-		"billboardedIcon 3": {
-			"ea9a6338688f4551bdd223ba3748a315": true
-		},
-		"billboardedIcon 4": {
-			"e857ca5b970145c8b8fc98c5a4b688f1": true
 		}
 	},
 	"entitiesByScriptName": {
 		"CSS": {
 			"abbb429273834bab8fb3367da5d18008": true
-		},
-		"billboardedIcon": {
-			"0aaf2046905e42a7b6b6bd0889cccf5e": true
-		},
-		"billboardedIcon0": {
-			"3ceacc441fc2453b8ee605151b969bd6": true
-		},
-		"billboardedIcon1": {
-			"ea9a6338688f4551bdd223ba3748a315": true
-		},
-		"billboardedIcon2": {
-			"e857ca5b970145c8b8fc98c5a4b688f1": true
 		}
 	},
 	"entityConstructorProps": {
-		"0aaf2046905e42a7b6b6bd0889cccf5e": {
-			"icon_source": "file://./../assets/images/me.jpg"
-		},
-		"3ceacc441fc2453b8ee605151b969bd6": {
-			"icon_source": "file://./../assets/images/me.jpg"
-		},
 		"abbb429273834bab8fb3367da5d18008": {
 			"source": "file://./../CSS/UI.css"
-		},
-		"e857ca5b970145c8b8fc98c5a4b688f1": {
-			"icon_source": "file://./../assets/images/me.jpg"
-		},
-		"ea9a6338688f4551bdd223ba3748a315": {
-			"icon_source": "file://./../assets/images/me.jpg"
 		}
 	},
 	"entityPropOverrides": {
@@ -103,79 +67,11 @@
 		}
 	},
 	"entityProps": {
-		"0aaf2046905e42a7b6b6bd0889cccf5e": {
-			"position": [
-				-0.353600431956626,
-				1.0681567843844946,
-				0
-			],
-			"scale": [
-				0.3878444677233719,
-				0.3878444677233719,
-				0.3878444677233719
-			]
-		},
-		"3ceacc441fc2453b8ee605151b969bd6": {
-			"position": [
-				-0.35360043195662616,
-				0.3564803416848895,
-				0
-			],
-			"scale": [
-				0.3878444677233719,
-				0.3878444677233719,
-				0.3878444677233719
-			]
-		},
 		"abbb429273834bab8fb3367da5d18008": {
-		},
-		"e857ca5b970145c8b8fc98c5a4b688f1": {
-			"position": [
-				0.353600431956626,
-				1.0681567843844946,
-				0
-			],
-			"scale": [
-				0.3878444677233719,
-				0.3878444677233719,
-				0.3878444677233719
-			]
-		},
-		"ea9a6338688f4551bdd223ba3748a315": {
-			"position": [
-				0.353600431956626,
-				0.3564803416848895,
-				0
-			],
-			"scale": [
-				0.3878444677233719,
-				0.3878444677233719,
-				0.3878444677233719
-			]
 		}
 	},
 	"id": "3ba004cbed2a4da5a06b3e3009cc58fb",
 	"nodes": {
-		"0aaf2046905e42a7b6b6bd0889cccf5e": {
-			"id": "0aaf2046905e42a7b6b6bd0889cccf5e",
-			"label": "billboardedIcon",
-			"parent": {
-				"id": "root",
-				"order": "a3"
-			},
-			"scriptName": "billboardedIcon",
-			"type": "./billboardedIcon.zcomp#default"
-		},
-		"3ceacc441fc2453b8ee605151b969bd6": {
-			"id": "3ceacc441fc2453b8ee605151b969bd6",
-			"label": "billboardedIcon 2",
-			"parent": {
-				"id": "root",
-				"order": "a3V"
-			},
-			"scriptName": "billboardedIcon0",
-			"type": "./billboardedIcon.zcomp#default"
-		},
 		"abbb429273834bab8fb3367da5d18008": {
 			"id": "abbb429273834bab8fb3367da5d18008",
 			"label": "CSS",
@@ -185,26 +81,6 @@
 			},
 			"scriptName": "CSS",
 			"type": "@zcomponent/html/lib/CSS#CSS"
-		},
-		"e857ca5b970145c8b8fc98c5a4b688f1": {
-			"id": "e857ca5b970145c8b8fc98c5a4b688f1",
-			"label": "billboardedIcon 4",
-			"parent": {
-				"id": "root",
-				"order": "a32"
-			},
-			"scriptName": "billboardedIcon2",
-			"type": "./billboardedIcon.zcomp#default"
-		},
-		"ea9a6338688f4551bdd223ba3748a315": {
-			"id": "ea9a6338688f4551bdd223ba3748a315",
-			"label": "billboardedIcon 3",
-			"parent": {
-				"id": "root",
-				"order": "a38"
-			},
-			"scriptName": "billboardedIcon1",
-			"type": "./billboardedIcon.zcomp#default"
 		},
 		"root": {
 			"id": "root",

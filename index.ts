@@ -1,5 +1,5 @@
 import { initialize } from "@zcomponent/three";
-import { default as card } from "./trackedScene/card.zcomp";
+import { default as main } from "./IWT_Scene/main.zcomp";
 import particles from "particles.js-es";
 
 const options =
@@ -57,10 +57,11 @@ const options =
     }
   },
   retina_detect: true
-}
+};
+
 particles.init("particles-js",options);
 
-initialize(card, {}, {
+initialize(main, {}, {
     launchButton: document.getElementById('launchButton')
 });
 
