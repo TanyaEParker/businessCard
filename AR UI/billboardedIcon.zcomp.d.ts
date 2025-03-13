@@ -1,42 +1,38 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { CSS as CSS_0 } from "@zcomponent/html/lib/CSS";
-import { default as billboardedIcon_zcomp_1 } from "./billboardedIcon.zcomp";
+import { Billboard as Billboard_0 } from "@zcomponent/three/lib/components/transforms/Billboard";
+import { Image as Image_1 } from "@zcomponent/three/lib/components/Image";
 
 interface ConstructorProps {
-
+	/**
+	 * The image to display
+	 * 
+	 * @zprop
+	 * @zvalues files *.+(jpg|jpeg|png)
+	 */
+	icon_source: string;
 }
 
 /**
 * @zcomponent
-* @zicon zcomponent
+* @zicon 360
 */
 declare class Comp extends ZComponent {
 
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		CSS: CSS_0 & {
+		Billboard: Billboard_0 & {
 			behaviors: {
 
 			}
 		},
-		billboardedIcon: billboardedIcon_zcomp_1 & {
+		Image: Image_1 & {
 			behaviors: {
 
 			}
 		},
-		billboardedIcon0: billboardedIcon_zcomp_1 & {
-			behaviors: {
-
-			}
-		},
-		billboardedIcon1: billboardedIcon_zcomp_1 & {
-			behaviors: {
-
-			}
-		},
-		billboardedIcon2: billboardedIcon_zcomp_1 & {
+		Image_2: Image_1 & {
 			behaviors: {
 
 			}
@@ -46,6 +42,16 @@ declare class Comp extends ZComponent {
 	animation: Animation & { layers: {
 
 	}};
+
+	/**
+	 * Determines if this object and its children are rendered to the screen.
+	 * 
+	 * @zprop
+	 * @zdefault true
+	 * @zgroup Appearance
+	 * @zgrouppriority 11
+	 */
+	public visible: Observable<boolean>;
 
 	/**
 	 * The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position.
@@ -76,16 +82,6 @@ declare class Comp extends ZComponent {
 	 * @zgrouppriority 10
 	 */
 	public scale: Observable<[x: number, y: number, z: number]>;
-
-	/**
-	 * Determines if this object and its children are rendered to the screen.
-	 * 
-	 * @zprop
-	 * @zdefault true
-	 * @zgroup Appearance
-	 * @zgrouppriority 11
-	 */
-	public visible: Observable<boolean>;
 }
 
 export default Comp;

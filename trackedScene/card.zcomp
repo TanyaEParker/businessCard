@@ -136,16 +136,6 @@
 			},
 			"type": "@zcomponent/core/lib/behaviors/PlayLayerClip#PlayLayerClip"
 		},
-		"5b200b8296d640c5b1bcb5076a9b9474": {
-			"id": "5b200b8296d640c5b1bcb5076a9b9474",
-			"label": "rotationOverride",
-			"parent": {
-				"id": "dd954cf795a44884bea85c671fad5003",
-				"order": "a0",
-				"scriptName": "rotationOverride"
-			},
-			"type": "./rotationOverride#rotationOverride"
-		},
 		"69a1b2e100b44224b7224851cc35fd1e": {
 			"id": "69a1b2e100b44224b7224851cc35fd1e",
 			"label": "PlayLayerClip",
@@ -199,9 +189,6 @@
 		},
 		"cardContent": {
 			"39133284a83c4fd7ad7131ac11d1f864": true
-		},
-		"forceRot": {
-			"dd954cf795a44884bea85c671fad5003": true
 		}
 	},
 	"entitiesByScriptName": {
@@ -231,9 +218,6 @@
 		},
 		"cardContent": {
 			"39133284a83c4fd7ad7131ac11d1f864": true
-		},
-		"forceRot": {
-			"dd954cf795a44884bea85c671fad5003": true
 		}
 	},
 	"entityConstructorProps": {
@@ -249,8 +233,6 @@
 			"event": "onAnchorNotVisible"
 		},
 		"52148d8eafe3426085e700e049662c07": {
-		},
-		"5b200b8296d640c5b1bcb5076a9b9474": {
 		},
 		"69a1b2e100b44224b7224851cc35fd1e": {
 			"event": "onAnchorVisible"
@@ -272,8 +254,6 @@
 			"activateAtStart": true
 		},
 		"d9647a78243941d4b26ccf6339bdbe98": {
-		},
-		"dd954cf795a44884bea85c671fad5003": {
 		},
 		"eccda64e38ce40988d2efe18e81580c5": {
 		}
@@ -334,9 +314,9 @@
 				-0.014894421499281607
 			],
 			"rotation": [
-				0.13189637198451765,
-				1.554183031287815,
-				1.4506001611124473
+				0,
+				1.5734312492396205,
+				0
 			]
 		},
 		"3ce1c8b461264e9cbf2cc49965699904": {
@@ -348,17 +328,17 @@
 			"backgroundColor": "#402d5a",
 			"preview": false
 		},
-		"5b200b8296d640c5b1bcb5076a9b9474": {
-		},
 		"69a1b2e100b44224b7224851cc35fd1e": {
 			"layerClip": "992dcf60741c4cdca3e11f29a0ce5cda"
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
 		"a3a7b541d09c4a67b1fd9f67d938fea6": {
+			"orientation": "Flat"
 		},
 		"acd4f5c1adc8477f852d899e6ac45357": {
 			"castShadow": false,
+			"orientation": "Flat",
 			"receiveShadow": false
 		},
 		"af844bb060fa4cfe83e8aa73dfc7f092": {
@@ -376,11 +356,9 @@
 		"d9647a78243941d4b26ccf6339bdbe98": {
 			"opacity": 1
 		},
-		"dd954cf795a44884bea85c671fad5003": {
-		},
 		"eccda64e38ce40988d2efe18e81580c5": {
 			"rotation": [
-				0,
+				-1.5707963267948966,
 				0,
 				0
 			]
@@ -439,8 +417,8 @@
 			"id": "acd4f5c1adc8477f852d899e6ac45357",
 			"label": "business-card-back.png.zpt",
 			"parent": {
-				"id": "dd954cf795a44884bea85c671fad5003",
-				"order": "Zz"
+				"id": "root",
+				"order": "Zq"
 			},
 			"scriptName": "business_cardback_pngzpt",
 			"type": "@zcomponent/zappar-three/lib/components/trackers/ImageTracker#ImageTracker"
@@ -474,16 +452,6 @@
 			},
 			"scriptName": "ZapparCamera",
 			"type": "@zcomponent/zappar-three/lib/components/cameras/Camera#ZapparCamera"
-		},
-		"dd954cf795a44884bea85c671fad5003": {
-			"id": "dd954cf795a44884bea85c671fad5003",
-			"label": "forceRot",
-			"parent": {
-				"id": "root",
-				"order": "Zr"
-			},
-			"scriptName": "forceRot",
-			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"eccda64e38ce40988d2efe18e81580c5": {
 			"id": "eccda64e38ce40988d2efe18e81580c5",

@@ -3,8 +3,8 @@ import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Ev
 import { DirectionalLight as DirectionalLight_0 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
 import { GLTF as GLTF_1 } from "@zcomponent/three/lib/components/models/GLTF";
 import { Animation as Animation_2 } from "@zcomponent/three/lib/behaviors/Animation";
-import { ImageTexture as ImageTexture_3 } from "@zcomponent/three/lib/components/textures/ImageTexture";
-import { MeshStandardMaterial as MeshStandardMaterial_4 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { MeshStandardMaterial as MeshStandardMaterial_3 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { ImageTexture as ImageTexture_4 } from "@zcomponent/three/lib/components/textures/ImageTexture";
 
 interface ConstructorProps {
 
@@ -30,17 +30,17 @@ declare class Comp extends ZComponent {
 				Animation: Animation_2,
 			}
 		},
+		hair_mod: MeshStandardMaterial_3 & {
+			behaviors: {
+
+			}
+		},
+		hair_normals: ImageTexture_4 & {
+			behaviors: {
+
+			}
+		},
 		shadows: DirectionalLight_0 & {
-			behaviors: {
-
-			}
-		},
-		hair_normals: ImageTexture_3 & {
-			behaviors: {
-
-			}
-		},
-		hair_mod: MeshStandardMaterial_4 & {
 			behaviors: {
 
 			}
