@@ -1,0 +1,1105 @@
+{
+	"animation": {
+		"clips": {
+			"4d2c6b362ff34a8c957a4c42830aaf24": {
+				"id": "4d2c6b362ff34a8c957a4c42830aaf24",
+				"length": 0,
+				"lengthType": "expand",
+				"name": "hidden",
+				"order": "a2",
+				"scriptName": "hidden",
+				"tracks": {
+					"428e54248d9d474eb341df111410da32": {
+						"blend": "overlay",
+						"entityID": "ad5fa06a1bac4205992d5006ee8850fe",
+						"id": "428e54248d9d474eb341df111410da32",
+						"keyframes": {
+							"39c9319c94824dfdb9f4a719e1a0252c": {
+								"id": "39c9319c94824dfdb9f4a719e1a0252c",
+								"t": 0,
+								"v": [
+									"AR-UI-Container",
+									"AR-UI-Hidden"
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"6eb6ca95b10a45a0a3651f2854ee43bc-blend": {
+								"id": "6eb6ca95b10a45a0a3651f2854ee43bc-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					}
+				},
+				"type": "state"
+			},
+			"b33a859397c54431a8023b9ed02ef956": {
+				"id": "b33a859397c54431a8023b9ed02ef956",
+				"length": 0,
+				"lengthType": "expand",
+				"name": "shown",
+				"order": "a3",
+				"scriptName": "shown",
+				"tracks": {
+					"9a1d41b68d45430abea02743ffe0a58a": {
+						"blend": "overlay",
+						"entityID": "ad5fa06a1bac4205992d5006ee8850fe",
+						"id": "9a1d41b68d45430abea02743ffe0a58a",
+						"keyframes": {
+							"02b13c3b9fa34ca1a924a792914de08f": {
+								"id": "02b13c3b9fa34ca1a924a792914de08f",
+								"t": 0,
+								"v": [
+									"AR-UI-Container",
+									"AR-UI-Shown"
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"03c83150a1ee4217b170e97f26f9abd9-blend": {
+								"id": "03c83150a1ee4217b170e97f26f9abd9-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					}
+				},
+				"type": "state"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"ada02969c1974835be3aecc893668c4a": {
+				"clips": {
+					"3261e80317fb46339a73c19e678ef692": {
+						"clipId": "b33a859397c54431a8023b9ed02ef956",
+						"id": "3261e80317fb46339a73c19e678ef692",
+						"order": "a4",
+						"scriptName": "shown0"
+					},
+					"788cb58d2f4745cbafe4460f03c1b0bd": {
+						"clipId": "4d2c6b362ff34a8c957a4c42830aaf24",
+						"id": "788cb58d2f4745cbafe4460f03c1b0bd",
+						"order": "a2",
+						"scriptName": "hidden0"
+					}
+				},
+				"defaultClip": null,
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "ada02969c1974835be3aecc893668c4a",
+				"name": "UIDisplay",
+				"order": "a2",
+				"scriptName": "UIDisplay"
+			}
+		}
+	},
+	"behaviors": {
+		"6524456df271410caf95647918f356cc": {
+			"id": "6524456df271410caf95647918f356cc",
+			"label": "toggleDisplay",
+			"parent": {
+				"id": "ad5fa06a1bac4205992d5006ee8850fe",
+				"order": "a0",
+				"scriptName": "toggleDisplay"
+			},
+			"type": "./toggleDisplay.ts#toggleDisplay"
+		},
+		"78437a30b4274bc88f17a3ad38b3ccb7": {
+			"id": "78437a30b4274bc88f17a3ad38b3ccb7",
+			"label": "LaunchURL",
+			"parent": {
+				"id": "e410952bc5994912ad2d446ece78e179",
+				"order": "a0",
+				"scriptName": "LaunchURL"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LaunchURL#LaunchURL"
+		},
+		"963636348d67421590b8d80b3a67c219": {
+			"id": "963636348d67421590b8d80b3a67c219",
+			"label": "LaunchURL",
+			"parent": {
+				"id": "f51e6dede1c24b6286aff23227cd9f62",
+				"order": "a0",
+				"scriptName": "LaunchURL"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LaunchURL#LaunchURL"
+		},
+		"be149bb9806f4c6183159328f82c2d49": {
+			"id": "be149bb9806f4c6183159328f82c2d49",
+			"label": "showPopUp",
+			"parent": {
+				"id": "faaa6a59fb944d9e8d12eccac833976b",
+				"order": "a0",
+				"scriptName": "showPopUp"
+			},
+			"type": "./showPopUp.ts#showPopUp"
+		},
+		"c5b13b4b402e418fbecf59d78443ada0": {
+			"id": "c5b13b4b402e418fbecf59d78443ada0",
+			"label": "LaunchURL",
+			"parent": {
+				"id": "bd3a2f07708246d8a944c779d0d86665",
+				"order": "a0",
+				"scriptName": "LaunchURL"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LaunchURL#LaunchURL"
+		},
+		"f847046c5d4643038f5e70236e8101f3": {
+			"id": "f847046c5d4643038f5e70236e8101f3",
+			"label": "LaunchURL",
+			"parent": {
+				"id": "85330130651f48dd82438d83ae143012",
+				"order": "a0",
+				"scriptName": "LaunchURL"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LaunchURL#LaunchURL"
+		},
+		"ff6d56a720e2485fb70d5739a4bc92c3": {
+			"id": "ff6d56a720e2485fb70d5739a4bc92c3",
+			"label": "startVP",
+			"parent": {
+				"id": "45b186f6849a42778f2c1a0bb0273bc2",
+				"order": "a0",
+				"scriptName": "startVP"
+			},
+			"type": "./startVP.ts#startVP"
+		}
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"Button": {
+			"faaa6a59fb944d9e8d12eccac833976b": true
+		},
+		"Button 2": {
+			"f51e6dede1c24b6286aff23227cd9f62": true
+		},
+		"Button 3": {
+			"85330130651f48dd82438d83ae143012": true
+		},
+		"Button 4": {
+			"bd3a2f07708246d8a944c779d0d86665": true
+		},
+		"Button 5": {
+			"e410952bc5994912ad2d446ece78e179": true
+		},
+		"Button 6": {
+			"45b186f6849a42778f2c1a0bb0273bc2": true
+		},
+		"CSS": {
+			"8db35b878bb243cd90812149d55c9c4f": true
+		},
+		"HTML": {
+			"d3ef90a43126499587d10de719a71e3a": true
+		},
+		"Img": {
+			"8d776048667444aa98d080c0653a42a2": true
+		},
+		"Img 2": {
+			"6a093976c71c448086b4b2f4fc55c129": true
+		},
+		"Img 3": {
+			"5425764de5784cc5bd910947aa5fd22f": true
+		},
+		"Img 4": {
+			"e4d4418f525545fb957710c208e12e46": true
+		},
+		"Img 5": {
+			"ce9166b9553844d0822bd7ee62fba65e": true
+		},
+		"Img 6": {
+			"1a86072141e742ba8c603bc59660329e": true
+		},
+		"buttonCopy": {
+			"984c0d68362440a9b13c8271102d810d": true
+		},
+		"buttonCopy 2": {
+			"e3ff1e74d0554b979ea6c43a33eeca34": true
+		},
+		"buttonCopy 3": {
+			"ef2e737aa41b47f78c596b1b3e79c1cb": true
+		},
+		"buttonCopy 4": {
+			"699a573d84ed4184ba15395d70b110b9": true
+		},
+		"buttonCopy 5": {
+			"3bc76b527a704150a3a0cd47c69370ce": true
+		},
+		"buttonCopy 6": {
+			"657ae6985d35494b81d2ae48c0e14576": true
+		},
+		"buttonWrapper": {
+			"eeded8fbeba74e398b976cd49d674b3d": true
+		},
+		"buttonWrapper 2": {
+			"4da9bd892f644412abda6d7149af8352": true
+		},
+		"buttonWrapper 3": {
+			"4fedf65a6c7f4f57afe34b45e7cc4a2a": true
+		},
+		"buttonWrapper 4": {
+			"f9cc3f027b8e47b1a15d1f8575fdf2f1": true
+		},
+		"buttonWrapper 5": {
+			"8b1ad3fd16db4fb4bd0b6524f78914cf": true
+		},
+		"buttonWrapper 6": {
+			"a8f3562cbe124e7e9b1499c60c809e9e": true
+		},
+		"container": {
+			"ad5fa06a1bac4205992d5006ee8850fe": true
+		}
+	},
+	"entitiesByScriptName": {
+		"Button": {
+			"faaa6a59fb944d9e8d12eccac833976b": true
+		},
+		"Button0": {
+			"f51e6dede1c24b6286aff23227cd9f62": true
+		},
+		"Button_2": {
+			"85330130651f48dd82438d83ae143012": true
+		},
+		"Button_3": {
+			"bd3a2f07708246d8a944c779d0d86665": true
+		},
+		"Button_4": {
+			"e410952bc5994912ad2d446ece78e179": true
+		},
+		"Button_5": {
+			"45b186f6849a42778f2c1a0bb0273bc2": true
+		},
+		"CSS": {
+			"8db35b878bb243cd90812149d55c9c4f": true
+		},
+		"HTML": {
+			"d3ef90a43126499587d10de719a71e3a": true
+		},
+		"Img": {
+			"8d776048667444aa98d080c0653a42a2": true
+		},
+		"Img0": {
+			"6a093976c71c448086b4b2f4fc55c129": true
+		},
+		"Img_2": {
+			"5425764de5784cc5bd910947aa5fd22f": true
+		},
+		"Img_3": {
+			"e4d4418f525545fb957710c208e12e46": true
+		},
+		"Img_4": {
+			"ce9166b9553844d0822bd7ee62fba65e": true
+		},
+		"Img_5": {
+			"1a86072141e742ba8c603bc59660329e": true
+		},
+		"buttonCopy": {
+			"984c0d68362440a9b13c8271102d810d": true
+		},
+		"buttonCopy0": {
+			"e3ff1e74d0554b979ea6c43a33eeca34": true
+		},
+		"buttonCopy_2": {
+			"ef2e737aa41b47f78c596b1b3e79c1cb": true
+		},
+		"buttonCopy_3": {
+			"699a573d84ed4184ba15395d70b110b9": true
+		},
+		"buttonCopy_4": {
+			"3bc76b527a704150a3a0cd47c69370ce": true
+		},
+		"buttonCopy_5": {
+			"657ae6985d35494b81d2ae48c0e14576": true
+		},
+		"buttonWrapper": {
+			"eeded8fbeba74e398b976cd49d674b3d": true
+		},
+		"buttonWrapper0": {
+			"4da9bd892f644412abda6d7149af8352": true
+		},
+		"buttonWrapper_2": {
+			"4fedf65a6c7f4f57afe34b45e7cc4a2a": true
+		},
+		"buttonWrapper_3": {
+			"f9cc3f027b8e47b1a15d1f8575fdf2f1": true
+		},
+		"buttonWrapper_4": {
+			"8b1ad3fd16db4fb4bd0b6524f78914cf": true
+		},
+		"buttonWrapper_5": {
+			"a8f3562cbe124e7e9b1499c60c809e9e": true
+		},
+		"container": {
+			"ad5fa06a1bac4205992d5006ee8850fe": true
+		}
+	},
+	"entityConstructorProps": {
+		"1a86072141e742ba8c603bc59660329e": {
+			"src": "file://./../assets/images/TanyAR.png"
+		},
+		"3bc76b527a704150a3a0cd47c69370ce": {
+		},
+		"45b186f6849a42778f2c1a0bb0273bc2": {
+		},
+		"4da9bd892f644412abda6d7149af8352": {
+		},
+		"4fedf65a6c7f4f57afe34b45e7cc4a2a": {
+		},
+		"5425764de5784cc5bd910947aa5fd22f": {
+			"src": "file://./../assets/images/LinkedIn.png"
+		},
+		"6524456df271410caf95647918f356cc": {
+		},
+		"657ae6985d35494b81d2ae48c0e14576": {
+		},
+		"699a573d84ed4184ba15395d70b110b9": {
+		},
+		"6a093976c71c448086b4b2f4fc55c129": {
+			"src": "file://./../assets/images/email.png"
+		},
+		"78437a30b4274bc88f17a3ad38b3ccb7": {
+			"event": "onClick"
+		},
+		"85330130651f48dd82438d83ae143012": {
+		},
+		"8b1ad3fd16db4fb4bd0b6524f78914cf": {
+		},
+		"8d776048667444aa98d080c0653a42a2": {
+			"src": "file://./../assets/images/CV.png"
+		},
+		"8db35b878bb243cd90812149d55c9c4f": {
+			"source": "file://./../CSS/AR UI.css"
+		},
+		"963636348d67421590b8d80b3a67c219": {
+			"event": "onClick"
+		},
+		"984c0d68362440a9b13c8271102d810d": {
+		},
+		"a8f3562cbe124e7e9b1499c60c809e9e": {
+		},
+		"ad5fa06a1bac4205992d5006ee8850fe": {
+		},
+		"bd3a2f07708246d8a944c779d0d86665": {
+		},
+		"be149bb9806f4c6183159328f82c2d49": {
+		},
+		"c5b13b4b402e418fbecf59d78443ada0": {
+			"event": "onClick"
+		},
+		"ce9166b9553844d0822bd7ee62fba65e": {
+			"src": "file://./../assets/images/github.png"
+		},
+		"d3ef90a43126499587d10de719a71e3a": {
+		},
+		"e3ff1e74d0554b979ea6c43a33eeca34": {
+		},
+		"e410952bc5994912ad2d446ece78e179": {
+		},
+		"e4d4418f525545fb957710c208e12e46": {
+			"src": "file://./../assets/images/portfolio.png"
+		},
+		"eeded8fbeba74e398b976cd49d674b3d": {
+		},
+		"ef2e737aa41b47f78c596b1b3e79c1cb": {
+		},
+		"f51e6dede1c24b6286aff23227cd9f62": {
+		},
+		"f847046c5d4643038f5e70236e8101f3": {
+			"event": "onClick"
+		},
+		"f9cc3f027b8e47b1a15d1f8575fdf2f1": {
+		},
+		"faaa6a59fb944d9e8d12eccac833976b": {
+		},
+		"ff6d56a720e2485fb70d5739a4bc92c3": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"1a86072141e742ba8c603bc59660329e": {
+			"classList": [
+				"AR-UI_Button_image"
+			]
+		},
+		"3bc76b527a704150a3a0cd47c69370ce": {
+			"classList": [
+				"AR-UI-Text"
+			],
+			"innerText": "GitHub"
+		},
+		"45b186f6849a42778f2c1a0bb0273bc2": {
+			"classList": [
+				"AR-UI-Button",
+				"disabled"
+			],
+			"top": [
+				50,
+				"cm"
+			]
+		},
+		"4da9bd892f644412abda6d7149af8352": {
+			"classList": [
+				"AR-UI-Button-MidLeft",
+				"AR-UI-Button-Wrapper"
+			],
+			"id": ""
+		},
+		"4fedf65a6c7f4f57afe34b45e7cc4a2a": {
+			"classList": [
+				"AR-UI-Button-BottomLeft",
+				"AR-UI-Button-Wrapper"
+			]
+		},
+		"5425764de5784cc5bd910947aa5fd22f": {
+			"classList": [
+				"AR-UI_Button_image"
+			]
+		},
+		"6524456df271410caf95647918f356cc": {
+		},
+		"657ae6985d35494b81d2ae48c0e14576": {
+			"classList": [
+				"AR-UI-Text",
+				"text-disabled"
+			],
+			"innerText": "TanyAR"
+		},
+		"699a573d84ed4184ba15395d70b110b9": {
+			"classList": [
+				"AR-UI-Text"
+			],
+			"innerText": "Portfolio"
+		},
+		"6a093976c71c448086b4b2f4fc55c129": {
+			"classList": [
+				"AR-UI_Button_image"
+			]
+		},
+		"78437a30b4274bc88f17a3ad38b3ccb7": {
+			"url": "https://github.com/TanyaEParker"
+		},
+		"85330130651f48dd82438d83ae143012": {
+			"classList": [
+				"AR-UI-Button"
+			],
+			"top": [
+				50,
+				"cm"
+			]
+		},
+		"8b1ad3fd16db4fb4bd0b6524f78914cf": {
+			"classList": [
+				"AR-UI-Button-MidRight",
+				"AR-UI-Button-Wrapper"
+			]
+		},
+		"8d776048667444aa98d080c0653a42a2": {
+			"classList": [
+				"AR-UI_Button_image"
+			]
+		},
+		"8db35b878bb243cd90812149d55c9c4f": {
+		},
+		"963636348d67421590b8d80b3a67c219": {
+			"url": "mailto:tanyaparkerdev@gmail.com"
+		},
+		"984c0d68362440a9b13c8271102d810d": {
+			"classList": [
+				"AR-UI-Text"
+			],
+			"innerText": "CV\n"
+		},
+		"a8f3562cbe124e7e9b1499c60c809e9e": {
+			"classList": [
+				"AR-UI-Button-BottomRight",
+				"AR-UI-Button-Wrapper"
+			]
+		},
+		"ad5fa06a1bac4205992d5006ee8850fe": {
+			"classList": [
+				"AR-UI-Container",
+				"AR-UI-Hidden"
+			],
+			"display": "grid",
+			"height": [
+				45,
+				"cm"
+			],
+			"width": [
+				30,
+				"cm"
+			]
+		},
+		"bd3a2f07708246d8a944c779d0d86665": {
+			"classList": [
+				"AR-UI-Button"
+			],
+			"top": [
+				50,
+				"cm"
+			]
+		},
+		"be149bb9806f4c6183159328f82c2d49": {
+		},
+		"c5b13b4b402e418fbecf59d78443ada0": {
+			"url": "https://www.tanyaeloiseparker.co.uk/work"
+		},
+		"ce9166b9553844d0822bd7ee62fba65e": {
+			"classList": [
+				"AR-UI_Button_image"
+			]
+		},
+		"d3ef90a43126499587d10de719a71e3a": {
+			"anchor3D": true,
+			"distanceFactor": 1.5,
+			"tags": [
+				""
+			],
+			"verticalAnchor": "bottom"
+		},
+		"e3ff1e74d0554b979ea6c43a33eeca34": {
+			"classList": [
+				"AR-UI-Text"
+			],
+			"innerText": "Email"
+		},
+		"e410952bc5994912ad2d446ece78e179": {
+			"classList": [
+				"AR-UI-Button"
+			],
+			"top": [
+				50,
+				"cm"
+			]
+		},
+		"e4d4418f525545fb957710c208e12e46": {
+			"classList": [
+				"AR-UI_Button_image"
+			]
+		},
+		"eeded8fbeba74e398b976cd49d674b3d": {
+			"classList": [
+				"AR-UI-Button-TopLeft",
+				"AR-UI-Button-Wrapper"
+			]
+		},
+		"ef2e737aa41b47f78c596b1b3e79c1cb": {
+			"classList": [
+				"AR-UI-Text"
+			],
+			"innerText": "LinkedIn"
+		},
+		"f51e6dede1c24b6286aff23227cd9f62": {
+			"classList": [
+				"AR-UI-Button"
+			],
+			"top": [
+				50,
+				"cm"
+			]
+		},
+		"f847046c5d4643038f5e70236e8101f3": {
+			"url": "https://www.linkedin.com/in/tparkerdev/"
+		},
+		"f9cc3f027b8e47b1a15d1f8575fdf2f1": {
+			"classList": [
+				"AR-UI-Button-TopRight",
+				"AR-UI-Button-Wrapper"
+			]
+		},
+		"faaa6a59fb944d9e8d12eccac833976b": {
+			"classList": [
+				"AR-UI-Button"
+			],
+			"top": [
+				50,
+				"cm"
+			]
+		},
+		"ff6d56a720e2485fb70d5739a4bc92c3": {
+		}
+	},
+	"id": "81a581e065124f248db4599fb711117a",
+	"nodes": {
+		"1a86072141e742ba8c603bc59660329e": {
+			"id": "1a86072141e742ba8c603bc59660329e",
+			"label": "Img 6",
+			"parent": {
+				"id": "45b186f6849a42778f2c1a0bb0273bc2",
+				"order": "a0"
+			},
+			"scriptName": "Img_5",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"3bc76b527a704150a3a0cd47c69370ce": {
+			"id": "3bc76b527a704150a3a0cd47c69370ce",
+			"label": "buttonCopy 5",
+			"parent": {
+				"id": "8b1ad3fd16db4fb4bd0b6524f78914cf",
+				"order": "a1"
+			},
+			"scriptName": "buttonCopy_4",
+			"type": "@zcomponent/html/lib/span#Span"
+		},
+		"45b186f6849a42778f2c1a0bb0273bc2": {
+			"id": "45b186f6849a42778f2c1a0bb0273bc2",
+			"label": "Button 6",
+			"parent": {
+				"id": "a8f3562cbe124e7e9b1499c60c809e9e",
+				"order": "a0"
+			},
+			"scriptName": "Button_5",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"4da9bd892f644412abda6d7149af8352": {
+			"id": "4da9bd892f644412abda6d7149af8352",
+			"label": "buttonWrapper 2",
+			"parent": {
+				"id": "ad5fa06a1bac4205992d5006ee8850fe",
+				"order": "a3"
+			},
+			"scriptName": "buttonWrapper0",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"4fedf65a6c7f4f57afe34b45e7cc4a2a": {
+			"id": "4fedf65a6c7f4f57afe34b45e7cc4a2a",
+			"label": "buttonWrapper 3",
+			"parent": {
+				"id": "ad5fa06a1bac4205992d5006ee8850fe",
+				"order": "a3V"
+			},
+			"scriptName": "buttonWrapper_2",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"5425764de5784cc5bd910947aa5fd22f": {
+			"id": "5425764de5784cc5bd910947aa5fd22f",
+			"label": "Img 3",
+			"parent": {
+				"id": "85330130651f48dd82438d83ae143012",
+				"order": "a0"
+			},
+			"scriptName": "Img_2",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"657ae6985d35494b81d2ae48c0e14576": {
+			"id": "657ae6985d35494b81d2ae48c0e14576",
+			"label": "buttonCopy 6",
+			"parent": {
+				"id": "a8f3562cbe124e7e9b1499c60c809e9e",
+				"order": "a1"
+			},
+			"scriptName": "buttonCopy_5",
+			"type": "@zcomponent/html/lib/span#Span"
+		},
+		"699a573d84ed4184ba15395d70b110b9": {
+			"id": "699a573d84ed4184ba15395d70b110b9",
+			"label": "buttonCopy 4",
+			"parent": {
+				"id": "f9cc3f027b8e47b1a15d1f8575fdf2f1",
+				"order": "a1"
+			},
+			"scriptName": "buttonCopy_3",
+			"type": "@zcomponent/html/lib/span#Span"
+		},
+		"6a093976c71c448086b4b2f4fc55c129": {
+			"id": "6a093976c71c448086b4b2f4fc55c129",
+			"label": "Img 2",
+			"parent": {
+				"id": "f51e6dede1c24b6286aff23227cd9f62",
+				"order": "a0"
+			},
+			"scriptName": "Img0",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"85330130651f48dd82438d83ae143012": {
+			"id": "85330130651f48dd82438d83ae143012",
+			"label": "Button 3",
+			"parent": {
+				"id": "4fedf65a6c7f4f57afe34b45e7cc4a2a",
+				"order": "a0"
+			},
+			"scriptName": "Button_2",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"8b1ad3fd16db4fb4bd0b6524f78914cf": {
+			"id": "8b1ad3fd16db4fb4bd0b6524f78914cf",
+			"label": "buttonWrapper 5",
+			"parent": {
+				"id": "ad5fa06a1bac4205992d5006ee8850fe",
+				"order": "a4"
+			},
+			"scriptName": "buttonWrapper_4",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"8d776048667444aa98d080c0653a42a2": {
+			"id": "8d776048667444aa98d080c0653a42a2",
+			"label": "Img",
+			"parent": {
+				"id": "faaa6a59fb944d9e8d12eccac833976b",
+				"order": "a0"
+			},
+			"scriptName": "Img",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"8db35b878bb243cd90812149d55c9c4f": {
+			"id": "8db35b878bb243cd90812149d55c9c4f",
+			"label": "CSS",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "CSS",
+			"type": "@zcomponent/html/lib/CSS#CSS"
+		},
+		"984c0d68362440a9b13c8271102d810d": {
+			"id": "984c0d68362440a9b13c8271102d810d",
+			"label": "buttonCopy",
+			"parent": {
+				"id": "eeded8fbeba74e398b976cd49d674b3d",
+				"order": "a1"
+			},
+			"scriptName": "buttonCopy",
+			"type": "@zcomponent/html/lib/span#Span"
+		},
+		"a8f3562cbe124e7e9b1499c60c809e9e": {
+			"id": "a8f3562cbe124e7e9b1499c60c809e9e",
+			"label": "buttonWrapper 6",
+			"parent": {
+				"id": "ad5fa06a1bac4205992d5006ee8850fe",
+				"order": "a4V"
+			},
+			"scriptName": "buttonWrapper_5",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"ad5fa06a1bac4205992d5006ee8850fe": {
+			"id": "ad5fa06a1bac4205992d5006ee8850fe",
+			"label": "container",
+			"parent": {
+				"id": "d3ef90a43126499587d10de719a71e3a",
+				"order": "Zz"
+			},
+			"scriptName": "container",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"bd3a2f07708246d8a944c779d0d86665": {
+			"id": "bd3a2f07708246d8a944c779d0d86665",
+			"label": "Button 4",
+			"parent": {
+				"id": "f9cc3f027b8e47b1a15d1f8575fdf2f1",
+				"order": "a0"
+			},
+			"scriptName": "Button_3",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"ce9166b9553844d0822bd7ee62fba65e": {
+			"id": "ce9166b9553844d0822bd7ee62fba65e",
+			"label": "Img 5",
+			"parent": {
+				"id": "e410952bc5994912ad2d446ece78e179",
+				"order": "a0"
+			},
+			"scriptName": "Img_4",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"d3ef90a43126499587d10de719a71e3a": {
+			"id": "d3ef90a43126499587d10de719a71e3a",
+			"label": "HTML",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "HTML",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"e3ff1e74d0554b979ea6c43a33eeca34": {
+			"id": "e3ff1e74d0554b979ea6c43a33eeca34",
+			"label": "buttonCopy 2",
+			"parent": {
+				"id": "4da9bd892f644412abda6d7149af8352",
+				"order": "a1"
+			},
+			"scriptName": "buttonCopy0",
+			"type": "@zcomponent/html/lib/span#Span"
+		},
+		"e410952bc5994912ad2d446ece78e179": {
+			"id": "e410952bc5994912ad2d446ece78e179",
+			"label": "Button 5",
+			"parent": {
+				"id": "8b1ad3fd16db4fb4bd0b6524f78914cf",
+				"order": "a0"
+			},
+			"scriptName": "Button_4",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"e4d4418f525545fb957710c208e12e46": {
+			"id": "e4d4418f525545fb957710c208e12e46",
+			"label": "Img 4",
+			"parent": {
+				"id": "bd3a2f07708246d8a944c779d0d86665",
+				"order": "a0"
+			},
+			"scriptName": "Img_3",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"eeded8fbeba74e398b976cd49d674b3d": {
+			"id": "eeded8fbeba74e398b976cd49d674b3d",
+			"label": "buttonWrapper",
+			"parent": {
+				"id": "ad5fa06a1bac4205992d5006ee8850fe",
+				"order": "a2"
+			},
+			"scriptName": "buttonWrapper",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"ef2e737aa41b47f78c596b1b3e79c1cb": {
+			"id": "ef2e737aa41b47f78c596b1b3e79c1cb",
+			"label": "buttonCopy 3",
+			"parent": {
+				"id": "4fedf65a6c7f4f57afe34b45e7cc4a2a",
+				"order": "a1"
+			},
+			"scriptName": "buttonCopy_2",
+			"type": "@zcomponent/html/lib/span#Span"
+		},
+		"f51e6dede1c24b6286aff23227cd9f62": {
+			"id": "f51e6dede1c24b6286aff23227cd9f62",
+			"label": "Button 2",
+			"parent": {
+				"id": "4da9bd892f644412abda6d7149af8352",
+				"order": "a0"
+			},
+			"scriptName": "Button0",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"f9cc3f027b8e47b1a15d1f8575fdf2f1": {
+			"id": "f9cc3f027b8e47b1a15d1f8575fdf2f1",
+			"label": "buttonWrapper 4",
+			"parent": {
+				"id": "ad5fa06a1bac4205992d5006ee8850fe",
+				"order": "a3l"
+			},
+			"scriptName": "buttonWrapper_3",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"faaa6a59fb944d9e8d12eccac833976b": {
+			"id": "faaa6a59fb944d9e8d12eccac833976b",
+			"label": "Button",
+			"parent": {
+				"id": "eeded8fbeba74e398b976cd49d674b3d",
+				"order": "a0"
+			},
+			"scriptName": "Button",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}

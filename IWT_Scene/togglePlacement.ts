@@ -1,6 +1,7 @@
 import { Component, Behavior, BehaviorConstructorProps, ContextManager, registerBehaviorRunAtDesignTime } from "@zcomponent/core";
 import { InstantWorldTracker as InstantWorldTracker } from "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker";
 import { InstantTrackingManager } from "../contexts/InstantTrackingManager";
+import { UIManager } from "../contexts/UIManager";
 import { default as main} from "./main.zcomp";
 
 interface ConstructionProps {
@@ -18,10 +19,12 @@ export class togglePlacement extends Behavior<InstantWorldTracker> {
 	protected zcomponent = this.getZComponentInstance(main);
 		
 	private IWTContext : InstantTrackingManager;
+	private ARUIContext : UIManager;
 	constructor(contextManager: ContextManager, instance: InstantWorldTracker, protected constructorProps: ConstructionProps) {
 		super(contextManager, instance);
 
 		this.IWTContext = contextManager.get(InstantTrackingManager);
+		this.ARUIContext = contextManager.get(UIManager);
 
 		this.register(this.IWTContext.isPlaced,this.togglePlacement);
 
@@ -44,6 +47,7 @@ export class togglePlacement extends Behavior<InstantWorldTracker> {
 	private togglePlacement=(state:boolean)=>
 	{
 		this.instance.placementMode.value = state;
+		this.ARUIContext.setARUI(state);
 	}
 
 

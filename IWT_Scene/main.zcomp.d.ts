@@ -9,6 +9,7 @@ import { ShadowPlane as ShadowPlane_5 } from "@zcomponent/three/lib/components/m
 import { default as UI_zcomp_6 } from "../Screen UI/UI.zcomp";
 import { ZapparCamera as ZapparCamera_7 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
 import { default as cardContent_zcomp_8 } from "../Content/cardContent.zcomp";
+import { default as Buttons_zcomp_9 } from "../AR UI/Buttons.zcomp";
 
 interface ConstructorProps {
 
@@ -60,6 +61,11 @@ declare class Comp extends ZComponent {
 			}
 		},
 		cardContent: cardContent_zcomp_8 & {
+			behaviors: {
+
+			}
+		},
+		Buttons: Buttons_zcomp_9 & {
 			behaviors: {
 
 			}

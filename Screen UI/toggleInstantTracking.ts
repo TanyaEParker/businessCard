@@ -43,20 +43,6 @@ export class toggleInstantTracking extends Behavior<Button> {
 
 		this.register(instance.onClick,this.updateTrackingState)
 
-		/*
-		// You can register handlers for events on the node that this behavior
-		// is attached to like this:
-
-		this.register(this.instance.onPointerDown, evt => {
-			// Code to handle event
-		});
-
-		// Or against other nodes in your zcomp file
-		this.register(this.zcomponent.nodes.MyNode.onPointerDown, evt => {
-
-		});
-		
-		*/
 	}
 
 	private updateTrackingState = ()=>
@@ -66,7 +52,6 @@ export class toggleInstantTracking extends Behavior<Button> {
 			this.IWTContext.updateTrackingState(this.trackingState.value);
 			if(this.layerclip)
 			{
-				console.log('playing layerclip')
 				this.layerclip.play();
 			}
 		}

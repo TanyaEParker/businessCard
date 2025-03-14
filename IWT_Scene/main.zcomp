@@ -16,6 +16,9 @@
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
+		"Buttons": {
+			"c575ad53d2d74d63960f47e855f0f23f": true
+		},
 		"DefaultEnvironment": {
 			"427f8367b439400ab1b1e5bd08b268ab": true
 		},
@@ -42,6 +45,9 @@
 		}
 	},
 	"entitiesByScriptName": {
+		"Buttons": {
+			"c575ad53d2d74d63960f47e855f0f23f": true
+		},
 		"DefaultEnvironment": {
 			"427f8367b439400ab1b1e5bd08b268ab": true
 		},
@@ -81,6 +87,8 @@
 		"81510e4a9a7244719d581636afdc92e8": {
 		},
 		"8c077219e35f48359c20ce10a01c061b": {
+		},
+		"c575ad53d2d74d63960f47e855f0f23f": {
 		},
 		"d6b71d30088a4ab6ae7910777d346df3": {
 		},
@@ -146,8 +154,20 @@
 		"636532fa538a4ff88162879d10b09954": {
 		},
 		"81510e4a9a7244719d581636afdc92e8": {
+			"scale": [
+				1.5,
+				1.5,
+				1.5
+			]
 		},
 		"8c077219e35f48359c20ce10a01c061b": {
+		},
+		"c575ad53d2d74d63960f47e855f0f23f": {
+			"scale": [
+				1.5,
+				1.5,
+				1.5
+			]
 		},
 		"d6b71d30088a4ab6ae7910777d346df3": {
 		},
@@ -182,8 +202,8 @@
 			"id": "4a8dd2a269804e7ab37537f5b72c8c5a",
 			"label": "UI",
 			"parent": {
-				"id": "1af1d557971140418179fcacb962b4bf",
-				"order": "a1"
+				"id": "root",
+				"order": "Zz"
 			},
 			"scriptName": "UI",
 			"type": "../Screen UI/UI.zcomp#default"
@@ -217,6 +237,16 @@
 			},
 			"scriptName": "ZapparCamera",
 			"type": "@zcomponent/zappar-three/lib/components/cameras/Camera#ZapparCamera"
+		},
+		"c575ad53d2d74d63960f47e855f0f23f": {
+			"id": "c575ad53d2d74d63960f47e855f0f23f",
+			"label": "Buttons",
+			"parent": {
+				"id": "1af1d557971140418179fcacb962b4bf",
+				"order": "a3"
+			},
+			"scriptName": "Buttons",
+			"type": "../AR UI/Buttons.zcomp#default"
 		},
 		"d6b71d30088a4ab6ae7910777d346df3": {
 			"id": "d6b71d30088a4ab6ae7910777d346df3",

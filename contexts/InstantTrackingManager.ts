@@ -8,7 +8,7 @@ interface ConstructionProps {
 export class InstantTrackingManager extends Context<ConstructionProps> {
 
 	public isPlaced = new Observable<boolean>(true);
-	public updateTrackingState = (placement)=>{this.isPlaced.value = placement; console.log(`content ${this.isPlaced.value ? 'placed' : 'floating'}`)};
+	public updateTrackingState = (placement)=>{this.isPlaced.value = placement;};
 
 	constructor(contextManager: ContextManager, constructorProps: ConstructionProps) {
 		super(contextManager, constructorProps);

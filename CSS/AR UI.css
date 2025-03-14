@@ -1,0 +1,131 @@
+.AR-UI-Container
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+}
+.AR-UI-Button-Wrapper
+{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.AR-UI-Button
+{
+	background-color: #402d5a;
+	border: 0.75rem solid black;
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+	width: 70%;
+	aspect-ratio: 1;
+	margin: 2vmin;
+}
+.AR-UI_Button_image
+{
+	height: 60%;
+	aspect-ratio: 1;
+}
+.AR-UI-Button-TopLeft
+{
+	grid-row: 1;
+	grid-column: 1;
+}
+
+.AR-UI-Button-MidLeft
+{
+	grid-row: 2;
+	grid-column: 1;
+}
+
+.AR-UI-Button-BottomLeft
+{
+	grid-row: 3;
+	grid-column: 1;
+}
+
+.AR-UI-Button-TopRight
+{
+	grid-row: 1;
+	grid-column: 3;
+}
+
+.AR-UI-Button-MidRight
+{
+	grid-row: 2;
+	grid-column: 3;
+}
+
+.AR-UI-Button-BottomRight
+{
+	grid-row: 3;
+	grid-column: 3;
+}
+
+.AR-UI-Button-Icon
+{
+	width: 80%;
+	height: 80%;
+	aspect-ratio: 1;
+}
+
+.AR-UI-Text
+{
+	font-family: "Charm";
+	color: white;
+	text-shadow: 0.1rem 0.5rem 0.2rem black;
+	font-size: 3rem;
+}
+
+.tempBorder
+{
+	border: 3px dashed white;
+}
+
+.AR-UI-Hidden
+{
+/*	display: none;*/
+	opacity: 0;
+	transition: opacity 300ms;
+	pointer-events: none;
+}
+
+.AR-UI-Shown
+{
+/*	display: grid;*/
+	opacity: 1;
+	transition: opacity 300ms;
+	pointer-events: auto;
+}
+
+.disabled
+{
+	opacity: 0.5;
+	pointer-events: none;
+	background-color: darkgrey;
+	border: 0.75rem solid rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+	width: 70%;
+	aspect-ratio: 1;
+	margin: 2vmin;
+}
+
+.text-disabled
+{
+	color: darkgrey;
+	opacity: 0.5;
+}
