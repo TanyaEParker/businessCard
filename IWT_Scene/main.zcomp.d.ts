@@ -1,15 +1,15 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { DefaultEnvironment as DefaultEnvironment_0 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
-import { DefaultLoader as DefaultLoader_1 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { Group as Group_2 } from "@zcomponent/three/lib/components/Group";
-import { InstantWorldTracker as InstantWorldTracker_3 } from "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker";
-import { togglePlacement as togglePlacement_4 } from "./togglePlacement";
-import { ShadowPlane as ShadowPlane_5 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { default as UI_zcomp_6 } from "../Screen UI/UI.zcomp";
-import { ZapparCamera as ZapparCamera_7 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
-import { default as cardContent_zcomp_8 } from "../Content/cardContent.zcomp";
-import { default as Buttons_zcomp_9 } from "../AR UI/Buttons.zcomp";
+import { default as Buttons_zcomp_0 } from "../AR UI/Buttons.zcomp";
+import { DefaultEnvironment as DefaultEnvironment_1 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
+import { DefaultLoader as DefaultLoader_2 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
+import { InstantWorldTracker as InstantWorldTracker_4 } from "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker";
+import { togglePlacement as togglePlacement_5 } from "./togglePlacement";
+import { ShadowPlane as ShadowPlane_6 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { default as UI_zcomp_7 } from "../Screen UI/UI.zcomp";
+import { ZapparCamera as ZapparCamera_8 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
+import { default as cardContent_zcomp_9 } from "../Content/cardContent.zcomp";
 
 interface ConstructorProps {
 
@@ -24,48 +24,48 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		DefaultEnvironment: DefaultEnvironment_0 & {
+		Buttons: Buttons_zcomp_0 & {
 			behaviors: {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_1 & {
+		DefaultEnvironment: DefaultEnvironment_1 & {
 			behaviors: {
 
 			}
 		},
-		Defaults: Group_2 & {
+		DefaultLoader: DefaultLoader_2 & {
 			behaviors: {
 
 			}
 		},
-		InstantWorldTracker: InstantWorldTracker_3 & {
-			behaviors: {
-				0: togglePlacement_4,
-				togglePlacement: togglePlacement_4,
-			}
-		},
-		ShadowPlane: ShadowPlane_5 & {
+		Defaults: Group_3 & {
 			behaviors: {
 
 			}
 		},
-		UI: UI_zcomp_6 & {
+		InstantWorldTracker: InstantWorldTracker_4 & {
+			behaviors: {
+				0: togglePlacement_5,
+				togglePlacement: togglePlacement_5,
+			}
+		},
+		ShadowPlane: ShadowPlane_6 & {
 			behaviors: {
 
 			}
 		},
-		ZapparCamera: ZapparCamera_7 & {
+		UI: UI_zcomp_7 & {
 			behaviors: {
 
 			}
 		},
-		cardContent: cardContent_zcomp_8 & {
+		ZapparCamera: ZapparCamera_8 & {
 			behaviors: {
 
 			}
 		},
-		Buttons: Buttons_zcomp_9 & {
+		cardContent: cardContent_zcomp_9 & {
 			behaviors: {
 
 			}

@@ -1,16 +1,18 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { Div as Div_0 } from "@zcomponent/html/lib/div";
-import { HTML as HTML_1 } from "@zcomponent/three/lib/components/HTML";
-import { Button as Button_2 } from "@zcomponent/html/lib/button";
-import { toggleInstantTracking as toggleInstantTracking_3 } from "./toggleInstantTracking";
-import { Img as Img_4 } from "@zcomponent/html/lib/img";
-import { toggleInstantTracking as toggleInstantTracking_5 } from "./toggleInstantTracking";
-import { CSS as CSS_6 } from "@zcomponent/html/lib/CSS";
-import { Span as Span_7 } from "@zcomponent/html/lib/span";
-import { H1 as H1_8 } from "@zcomponent/html/lib/headings";
-import { H2 as H2_9 } from "@zcomponent/html/lib/headings";
+import { CSS as CSS_0 } from "@zcomponent/html/lib/CSS";
+import { Span as Span_1 } from "@zcomponent/html/lib/span";
+import { Div as Div_2 } from "@zcomponent/html/lib/div";
+import { H2 as H2_3 } from "@zcomponent/html/lib/headings";
+import { H1 as H1_4 } from "@zcomponent/html/lib/headings";
+import { Img as Img_5 } from "@zcomponent/html/lib/img";
+import { HTML as HTML_6 } from "@zcomponent/three/lib/components/HTML";
+import { TextToLink as TextToLink_7 } from "./TextToLink";
+import { TextToLink as TextToLink_8 } from "./TextToLink";
+import { Button as Button_9 } from "@zcomponent/html/lib/button";
 import { hidePopUp as hidePopUp_10 } from "./hidePopUp";
+import { toggleInstantTracking as toggleInstantTracking_11 } from "./toggleInstantTracking";
+import { toggleInstantTracking as toggleInstantTracking_12 } from "./toggleInstantTracking";
 
 interface ConstructorProps {
 
@@ -25,460 +27,466 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		Wrapper: Div_0 & {
+		CSS: CSS_0 & {
 			behaviors: {
 
 			}
 		},
-		bottom_bar: HTML_1 & {
+		ContactNumber: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		placementButton: Button_2 & {
+		Copy: Span_1 & {
 			behaviors: {
-				0: toggleInstantTracking_3,
-				toggleInstantTracking: toggleInstantTracking_3,
-			}
-		},
-		placementIcon: Img_4 & {
-			behaviors: {
-
-			}
-		},
-		resetButton: Button_2 & {
-			behaviors: {
-				0: toggleInstantTracking_5,
-				toggleInstantTracking: toggleInstantTracking_5,
-			}
-		},
-		resetcon: Img_4 & {
-			behaviors: {
-
-			}
-		},
-		top_Wrapper: Div_0 & {
-			behaviors: {
-
-			}
-		},
-		top_bar: HTML_1 & {
-			behaviors: {
-
-			}
-		},
-		CSS: CSS_6 & {
-			behaviors: {
-
-			}
-		},
-		Popup: HTML_1 & {
-			behaviors: {
-
-			}
-		},
-		Top_Copy: Div_0 & {
-			behaviors: {
 
 			}
 		},
-		PortfolioLink: Span_7 & {
+		Copy0: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		line1: Span_7 & {
+		Div: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		line2: Span_7 & {
+		Div_10: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		email: Span_7 & {
+		Div_11: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		emailLink: Span_7 & {
+		Div_110: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		ContactNumber: Span_7 & {
+		Div_12: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span: Span_7 & {
+		Div_120: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		backing: Div_0 & {
+		Div_121: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Heading: H1_8 & {
+		Div_13: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Profile: Div_0 & {
+		Div_14: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		H2: H2_9 & {
+		Div_15: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Copy: Span_7 & {
+		Div_16: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Work_History: Div_0 & {
+		Div_2: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		H3: H2_9 & {
+		Div_3: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		WorkHistoryTitle: Div_0 & {
+		Div_4: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		left0: Div_0 & {
+		Div_40: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		right0: Div_0 & {
+		Div_41: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Zappar: Span_7 & {
+		Div_5: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Section_1: Div_0 & {
+		Div_6: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_2: Span_7 & {
+		Div_7: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Job_Title: Span_7 & {
+		H2: H2_3 & {
 			behaviors: {
 
 			}
 		},
-		Location_Duration: Span_7 & {
+		H3: H2_3 & {
 			behaviors: {
 
 			}
 		},
-		Copy0: Span_7 & {
+		H4: H2_3 & {
 			behaviors: {
 
 			}
 		},
-		Technical_Skills: Div_0 & {
+		H5: H2_3 & {
 			behaviors: {
 
 			}
 		},
-		Div: Div_0 & {
+		H6: H2_3 & {
 			behaviors: {
 
 			}
 		},
-		H4: H2_9 & {
+		H7: H2_3 & {
 			behaviors: {
 
 			}
 		},
-		Div_2: Div_0 & {
+		Heading: H1_4 & {
 			behaviors: {
 
 			}
 		},
-		Div_3: Div_0 & {
+		Hobbies: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Hobbies: Div_0 & {
+		Img: Img_5 & {
 			behaviors: {
 
 			}
 		},
-		H5: H2_9 & {
+		Job_Title: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_3: Span_7 & {
+		Location_Duration: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Qualifications: Div_0 & {
+		Other_Experience: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Section_10: Div_0 & {
+		Popup: HTML_6 & {
 			behaviors: {
 
 			}
 		},
-		Div_4: Div_0 & {
+		PortfolioLink: Span_1 & {
 			behaviors: {
-
-			}
-		},
-		H6: H2_9 & {
-			behaviors: {
-
+				0: TextToLink_7,
+				TextToLink: TextToLink_7,
 			}
 		},
-		Div_40: Div_0 & {
+		Profile: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_40: Span_7 & {
+		Qualifications: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_50: Span_7 & {
+		Section_1: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Section_11: Div_0 & {
+		Section_10: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Div_5: Div_0 & {
+		Section_11: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_6: Span_7 & {
+		Section_12: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_7: Span_7 & {
+		Section_2: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Div_41: Div_0 & {
+		Section_20: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Section_2: Div_0 & {
+		Section_3: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Div_6: Div_0 & {
+		Span: Span_1 & {
 			behaviors: {
-
+				0: TextToLink_8,
+				TextToLink: TextToLink_8,
 			}
 		},
-		Span_8: Span_7 & {
+		Span_12: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_9: Span_7 & {
+		Span_120: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_7: Div_0 & {
+		Span_13: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_4: Span_7 & {
+		Span_130: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_5: Span_7 & {
+		Span_14: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Other_Experience: Div_0 & {
+		Span_140: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Section_12: Div_0 & {
+		Span_15: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_11: Div_0 & {
+		Span_16: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_12: Div_0 & {
+		Span_17: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_120: Div_0 & {
+		Span_2: Span_1 & {
 			behaviors: {
-
+				0: TextToLink_8,
+				TextToLink: TextToLink_8,
 			}
 		},
-		H7: H2_9 & {
+		Span_21: Span_1 & {
 			behaviors: {
-
+				0: TextToLink_8,
+				TextToLink: TextToLink_8,
 			}
 		},
-		Span_12: Span_7 & {
+		Span_210: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_13: Span_7 & {
+		Span_23: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_14: Span_7 & {
+		Span_24: Span_1 & {
 			behaviors: {
-
+				0: TextToLink_8,
+				TextToLink: TextToLink_8,
 			}
 		},
-		Div_110: Div_0 & {
+		Span_3: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_121: Div_0 & {
+		Span_4: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_13: Div_0 & {
+		Span_40: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_120: Span_7 & {
+		Span_5: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_130: Span_7 & {
+		Span_50: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_140: Span_7 & {
+		Span_6: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Section_20: Div_0 & {
+		Span_7: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_14: Div_0 & {
+		Span_8: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_15: Div_0 & {
+		Span_9: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_16: Div_0 & {
+		Technical_Skills: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_15: Span_7 & {
+		Top_Copy: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_16: Span_7 & {
+		WorkHistoryTitle: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_17: Span_7 & {
+		Work_History: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Section_3: Div_0 & {
+		Wrapper: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_21: Span_7 & {
+		Zappar: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Span_210: Span_7 & {
+		backing: Div_2 & {
 			behaviors: {
 
 			}
 		},
-		Span_23: Span_7 & {
+		bottom_bar: HTML_6 & {
 			behaviors: {
 
 			}
 		},
-		Span_24: Span_7 & {
+		email: Span_1 & {
 			behaviors: {
 
 			}
 		},
-		Div_10: Div_0 & {
+		emailLink: Span_1 & {
 			behaviors: {
-
+				0: TextToLink_8,
+				TextToLink: TextToLink_8,
 			}
 		},
-		exit: Button_2 & {
+		exit: Button_9 & {
 			behaviors: {
 				0: hidePopUp_10,
 				hidePopUp: hidePopUp_10,
 			}
 		},
-		Img: Img_4 & {
+		left0: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		line1: Span_1 & {
+			behaviors: {
+
+			}
+		},
+		line2: Span_1 & {
+			behaviors: {
+
+			}
+		},
+		placementButton: Button_9 & {
+			behaviors: {
+				0: toggleInstantTracking_11,
+				toggleInstantTracking: toggleInstantTracking_11,
+			}
+		},
+		placementIcon: Img_5 & {
+			behaviors: {
+
+			}
+		},
+		resetButton: Button_9 & {
+			behaviors: {
+				0: toggleInstantTracking_12,
+				toggleInstantTracking: toggleInstantTracking_12,
+			}
+		},
+		resetcon: Img_5 & {
+			behaviors: {
+
+			}
+		},
+		right0: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		top_Wrapper: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		top_bar: HTML_6 & {
 			behaviors: {
 
 			}
