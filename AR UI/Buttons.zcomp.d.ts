@@ -1,15 +1,15 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { HTML as HTML_0 } from "@zcomponent/three/lib/components/HTML";
-import { Button as Button_1 } from "@zcomponent/html/lib/button";
-import { showPopUp as showPopUp_2 } from "./showPopUp";
-import { CSS as CSS_3 } from "@zcomponent/html/lib/CSS";
-import { Div as Div_4 } from "@zcomponent/html/lib/div";
-import { toggleDisplay as toggleDisplay_5 } from "./toggleDisplay";
-import { Span as Span_6 } from "@zcomponent/html/lib/span";
-import { LaunchURL as LaunchURL_7 } from "@zcomponent/core/lib/behaviors/LaunchURL";
-import { startVP as startVP_8 } from "./startVP";
-import { Img as Img_9 } from "@zcomponent/html/lib/img";
+import { Button as Button_0 } from "@zcomponent/html/lib/button";
+import { showPopUp as showPopUp_1 } from "./showPopUp";
+import { LaunchURL as LaunchURL_2 } from "@zcomponent/core/lib/behaviors/LaunchURL";
+import { startVP as startVP_3 } from "./startVP";
+import { CSS as CSS_4 } from "@zcomponent/html/lib/CSS";
+import { HTML as HTML_5 } from "@zcomponent/three/lib/components/HTML";
+import { Img as Img_6 } from "@zcomponent/html/lib/img";
+import { Span as Span_7 } from "@zcomponent/html/lib/span";
+import { Div as Div_8 } from "@zcomponent/html/lib/div";
+import { toggleDisplay as toggleDisplay_9 } from "./toggleDisplay";
 
 interface ConstructorProps {
 
@@ -24,166 +24,156 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		HTML: HTML_0 & {
+		Button: Button_0 & {
+			behaviors: {
+				0: showPopUp_1,
+				showPopUp: showPopUp_1,
+			}
+		},
+		Button0: Button_0 & {
+			behaviors: {
+				0: LaunchURL_2,
+				LaunchURL: LaunchURL_2,
+			}
+		},
+		Button_2: Button_0 & {
+			behaviors: {
+				0: LaunchURL_2,
+				LaunchURL: LaunchURL_2,
+			}
+		},
+		Button_3: Button_0 & {
+			behaviors: {
+				0: LaunchURL_2,
+				LaunchURL: LaunchURL_2,
+			}
+		},
+		Button_4: Button_0 & {
+			behaviors: {
+				0: LaunchURL_2,
+				LaunchURL: LaunchURL_2,
+			}
+		},
+		Button_5: Button_0 & {
+			behaviors: {
+				0: startVP_3,
+				startVP: startVP_3,
+			}
+		},
+		CSS: CSS_4 & {
 			behaviors: {
 
 			}
 		},
-		Button: Button_1 & {
-			behaviors: {
-				0: showPopUp_2,
-				showPopUp: showPopUp_2,
-			}
-		},
-		CSS: CSS_3 & {
+		HTML: HTML_5 & {
 			behaviors: {
 
 			}
 		},
-		container: Div_4 & {
-			behaviors: {
-				0: toggleDisplay_5,
-				toggleDisplay: toggleDisplay_5,
-			}
-		},
-		buttonWrapper: Div_4 & {
+		Img: Img_6 & {
 			behaviors: {
 
 			}
 		},
-		buttonCopy: Span_6 & {
+		Img0: Img_6 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper0: Div_4 & {
+		Img_2: Img_6 & {
 			behaviors: {
 
 			}
 		},
-		Button0: Button_1 & {
-			behaviors: {
-				0: LaunchURL_7,
-				LaunchURL: LaunchURL_7,
-			}
-		},
-		buttonCopy0: Span_6 & {
+		Img_3: Img_6 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper_2: Div_4 & {
+		Img_4: Img_6 & {
 			behaviors: {
 
 			}
 		},
-		Button_2: Button_1 & {
-			behaviors: {
-				0: LaunchURL_7,
-				LaunchURL: LaunchURL_7,
-			}
-		},
-		buttonCopy_2: Span_6 & {
+		Img_5: Img_6 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper_3: Div_4 & {
+		buttonCopy: Span_7 & {
 			behaviors: {
 
 			}
 		},
-		Button_3: Button_1 & {
-			behaviors: {
-				0: LaunchURL_7,
-				LaunchURL: LaunchURL_7,
-			}
-		},
-		buttonCopy_3: Span_6 & {
+		buttonCopy0: Span_7 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper_4: Div_4 & {
+		buttonCopy_2: Span_7 & {
 			behaviors: {
 
 			}
 		},
-		Button_4: Button_1 & {
-			behaviors: {
-				0: LaunchURL_7,
-				LaunchURL: LaunchURL_7,
-			}
-		},
-		buttonCopy_4: Span_6 & {
+		buttonCopy_3: Span_7 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper_5: Div_4 & {
+		buttonCopy_4: Span_7 & {
 			behaviors: {
 
 			}
 		},
-		Button_5: Button_1 & {
-			behaviors: {
-				0: startVP_8,
-				startVP: startVP_8,
-			}
-		},
-		buttonCopy_5: Span_6 & {
+		buttonCopy_5: Span_7 & {
 			behaviors: {
 
 			}
 		},
-		Img: Img_9 & {
+		buttonWrapper: Div_8 & {
 			behaviors: {
 
 			}
 		},
-		Img0: Img_9 & {
+		buttonWrapper0: Div_8 & {
 			behaviors: {
 
 			}
 		},
-		Img_2: Img_9 & {
+		buttonWrapper_2: Div_8 & {
 			behaviors: {
 
 			}
 		},
-		Img_3: Img_9 & {
+		buttonWrapper_3: Div_8 & {
 			behaviors: {
 
 			}
 		},
-		Img_4: Img_9 & {
+		buttonWrapper_4: Div_8 & {
 			behaviors: {
 
 			}
 		},
-		Img_5: Img_9 & {
+		buttonWrapper_5: Div_8 & {
 			behaviors: {
 
+			}
+		},
+		container: Div_8 & {
+			behaviors: {
+				0: toggleDisplay_9,
+				toggleDisplay: toggleDisplay_9,
 			}
 		},
 	};
 
 	animation: Animation & { layers: {
 		UIDisplay: Layer & { clips: {
-			hidden0: LayerClip;
 			shown0: LayerClip;
+			hidden0: LayerClip;
 		}};
 	}};
-
-	/**
-	 * Determines if this object and its children are rendered to the screen.
-	 * 
-	 * @zprop
-	 * @zdefault true
-	 * @zgroup Appearance
-	 * @zgrouppriority 11
-	 */
-	public visible: Observable<boolean>;
 
 	/**
 	 * The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position.
@@ -214,6 +204,16 @@ declare class Comp extends ZComponent {
 	 * @zgrouppriority 10
 	 */
 	public scale: Observable<[x: number, y: number, z: number]>;
+
+	/**
+	 * Determines if this object and its children are rendered to the screen.
+	 * 
+	 * @zprop
+	 * @zdefault true
+	 * @zgroup Appearance
+	 * @zgrouppriority 11
+	 */
+	public visible: Observable<boolean>;
 }
 
 export default Comp;

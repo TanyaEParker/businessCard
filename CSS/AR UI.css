@@ -18,7 +18,7 @@
 }
 .AR-UI-Button
 {
-	background-color: #402d5a;
+	background-image: linear-gradient(#6b078c,#402d5a);
 	border: 0.75rem solid black;
 	border-radius: 50%;
 

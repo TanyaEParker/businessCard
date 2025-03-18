@@ -1,3 +1,4 @@
+
 .Wrapper
 {
 	position: relative;
@@ -29,7 +30,7 @@
 
 .Tracking-UI-Button
 {
-	background-color: #402d5a;
+	background-image: linear-gradient(#6b078c,#402d5a);
 	border: 4px solid black;
 	border-radius: 50%;
 
@@ -51,7 +52,7 @@
 
 .mainUI-backing
 {
-	background-color: rgba(128, 128, 128,0.5);
+	background-color: rgba(128, 128, 128,0.75);
 	border: 4px solid white;
 	border-radius: 4vmin;
 	width: 90dvw;
@@ -67,6 +68,7 @@
 	font-family: "Charm";
 	font-size: 1.75rem;
 	padding-bottom: 1vmin;
+	font-style: italic;
 }
 
 .mainHeading
