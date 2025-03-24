@@ -35,11 +35,42 @@
 								"v": 1
 							}
 						}
+					},
+					"db9a48da3ad54e689d15c5f8041af2e4": {
+						"blend": "overlay",
+						"entityID": "e60a60e92aab42e9a316994f179af034",
+						"fadeParameters": {
+							"pin": 1,
+							"time": 0
+						},
+						"id": "db9a48da3ad54e689d15c5f8041af2e4",
+						"keyframes": {
+							"60b3cec46151409da8e2c895681ebd1d": {
+								"id": "60b3cec46151409da8e2c895681ebd1d",
+								"t": 0,
+								"v": "none"
+							}
+						},
+						"order": "Zz",
+						"property": [
+							"display"
+						],
+						"type": "property",
+						"weight": {
+							"e4d9b50d3be043738f934685fe473ecd-blend": {
+								"id": "e4d9b50d3be043738f934685fe473ecd-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
 					}
 				},
 				"type": "state"
 			},
 			"b33a859397c54431a8023b9ed02ef956": {
+				"defaultFadeParameters": {
+					"time": 10
+				},
 				"id": "b33a859397c54431a8023b9ed02ef956",
 				"length": 0,
 				"lengthType": "expand",
@@ -47,9 +78,41 @@
 				"order": "a3",
 				"scriptName": "shown",
 				"tracks": {
+					"1ca1ca14fe1d48d0a7d655da0b31ce65": {
+						"blend": "overlay",
+						"entityID": "e60a60e92aab42e9a316994f179af034",
+						"fadeParameters": {
+							"pin": 0,
+							"time": 0
+						},
+						"id": "1ca1ca14fe1d48d0a7d655da0b31ce65",
+						"keyframes": {
+							"79c2df33d5c1446bb96a0abb26570d5e": {
+								"id": "79c2df33d5c1446bb96a0abb26570d5e",
+								"t": 0,
+								"v": "block"
+							}
+						},
+						"order": "Zz",
+						"property": [
+							"display"
+						],
+						"type": "property",
+						"weight": {
+							"ead97bb906be467d8924513bcbb874a6-blend": {
+								"id": "ead97bb906be467d8924513bcbb874a6-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
 					"9a1d41b68d45430abea02743ffe0a58a": {
 						"blend": "overlay",
 						"entityID": "ad5fa06a1bac4205992d5006ee8850fe",
+						"fadeParameters": {
+							"pin": 0.5,
+							"time": 0
+						},
 						"id": "9a1d41b68d45430abea02743ffe0a58a",
 						"keyframes": {
 							"02b13c3b9fa34ca1a924a792914de08f": {
@@ -267,6 +330,9 @@
 		},
 		"container": {
 			"ad5fa06a1bac4205992d5006ee8850fe": true
+		},
+		"wrapper": {
+			"e60a60e92aab42e9a316994f179af034": true
 		}
 	},
 	"entitiesByScriptName": {
@@ -350,6 +416,9 @@
 		},
 		"container": {
 			"ad5fa06a1bac4205992d5006ee8850fe": true
+		},
+		"wrapper": {
+			"e60a60e92aab42e9a316994f179af034": true
 		}
 	},
 	"entityConstructorProps": {
@@ -416,6 +485,8 @@
 		},
 		"e4d4418f525545fb957710c208e12e46": {
 			"src": "file://./../assets/images/portfolio.png"
+		},
+		"e60a60e92aab42e9a316994f179af034": {
 		},
 		"eeded8fbeba74e398b976cd49d674b3d": {
 		},
@@ -641,6 +712,9 @@
 				"AR-UI_Button_image"
 			]
 		},
+		"e60a60e92aab42e9a316994f179af034": {
+			"display": "block"
+		},
 		"eeded8fbeba74e398b976cd49d674b3d": {
 			"classList": [
 				"AR-UI-Button-TopLeft",
@@ -839,8 +913,8 @@
 			"id": "ad5fa06a1bac4205992d5006ee8850fe",
 			"label": "container",
 			"parent": {
-				"id": "d3ef90a43126499587d10de719a71e3a",
-				"order": "Zz"
+				"id": "e60a60e92aab42e9a316994f179af034",
+				"order": "a0"
 			},
 			"scriptName": "container",
 			"type": "@zcomponent/html/lib/div#Div"
@@ -904,6 +978,16 @@
 			},
 			"scriptName": "Img_3",
 			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"e60a60e92aab42e9a316994f179af034": {
+			"id": "e60a60e92aab42e9a316994f179af034",
+			"label": "wrapper",
+			"parent": {
+				"id": "d3ef90a43126499587d10de719a71e3a",
+				"order": "Zy"
+			},
+			"scriptName": "wrapper",
+			"type": "@zcomponent/html/lib/div#Div"
 		},
 		"eeded8fbeba74e398b976cd49d674b3d": {
 			"id": "eeded8fbeba74e398b976cd49d674b3d",

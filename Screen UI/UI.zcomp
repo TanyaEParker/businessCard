@@ -150,7 +150,8 @@
 								"v": [
 									"mainUI-Backing",
 									"shown",
-									"backdrop-blur-xs"
+									"backdrop-blur-xs",
+									"example"
 								]
 							}
 						},
@@ -1236,7 +1237,8 @@
 			"classList": [
 				"mainUI-Backing",
 				"backdrop-blur-xs",
-				"hidden"
+				"hidden",
+				"example"
 			]
 		},
 		"3aaeac290bd94c4bba62a29777d19a45": {

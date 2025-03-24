@@ -166,6 +166,11 @@ declare class Comp extends ZComponent {
 				toggleDisplay: toggleDisplay_9,
 			}
 		},
+		wrapper: Div_8 & {
+			behaviors: {
+
+			}
+		},
 	};
 
 	animation: Animation & { layers: {

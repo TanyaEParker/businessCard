@@ -97,6 +97,7 @@
 	opacity: 0;
 	transition: opacity 300ms;
 	pointer-events: none;
+	touch-action: none;
 }
 
 .AR-UI-Shown
@@ -105,6 +106,7 @@
 	opacity: 1;
 	transition: opacity 300ms;
 	pointer-events: auto;
+	touch-action: none;
 }
 
 .disabled

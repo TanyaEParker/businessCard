@@ -121,6 +121,7 @@ html {
 	animation: loading-animation 1.2s linear infinite;
 }
 
+
 @keyframes loading-animation {
 	0% {
 		transform: rotate(0deg);
@@ -153,6 +154,7 @@ html {
 {
 	border: 4px solid white;
 	width: 40dvw;
+	max-width: 320px;
 	aspect-ratio: 1;
 	border-radius: 20%;
 }
