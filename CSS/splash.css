@@ -37,11 +37,13 @@ html {
     font-size: 2rem;
     font-weight: 700;
     color: white;
+    text-shadow: 0rem 0.35rem 0.2rem rgba(0, 0, 0, 0.5);
 }
 .splash-strap
 {
     color: white;
     padding-top: 1dvh;
+    text-shadow: 0rem 0.35rem 0.2rem rgba(0, 0, 0, 0.5);
 }
 .splash-box
 {
