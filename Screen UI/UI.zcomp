@@ -36,6 +36,34 @@
 							}
 						}
 					},
+					"8ae6fed7645d49dbb263fe7948066a24": {
+						"blend": "overlay",
+						"entityID": "38ee93fc14bc44d692f72e3a445bedc5",
+						"fadeParameters": {
+							"pin": 1,
+							"time": 0
+						},
+						"id": "8ae6fed7645d49dbb263fe7948066a24",
+						"keyframes": {
+							"faddb14d20cd472599821eb8cc13ceb0": {
+								"id": "faddb14d20cd472599821eb8cc13ceb0",
+								"t": 0,
+								"v": "none"
+							}
+						},
+						"order": "Zy",
+						"property": [
+							"display"
+						],
+						"type": "property",
+						"weight": {
+							"65518e425b694bfdaff0f5d662d92dbd-blend": {
+								"id": "65518e425b694bfdaff0f5d662d92dbd-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
 					"dd229cff0004404da36b1172d83d950c": {
 						"blend": "overlay",
 						"entityID": "47e79dbda6da4c0e98c7c46bb1e0e511",
@@ -100,11 +128,38 @@
 								"v": 1
 							}
 						}
+					},
+					"3cec726bf45e489282d6f659ae73d540": {
+						"blend": "overlay",
+						"entityID": "38ee93fc14bc44d692f72e3a445bedc5",
+						"id": "3cec726bf45e489282d6f659ae73d540",
+						"keyframes": {
+							"3d349b9b68e34e5ea4c2175d596c1163": {
+								"id": "3d349b9b68e34e5ea4c2175d596c1163",
+								"t": 0,
+								"v": "none"
+							}
+						},
+						"order": "Zz",
+						"property": [
+							"display"
+						],
+						"type": "property",
+						"weight": {
+							"748866580dd14040b7fc428410360fa0-blend": {
+								"id": "748866580dd14040b7fc428410360fa0-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
 					}
 				},
 				"type": "state"
 			},
 			"ca454057701f474584f36879a39964bb": {
+				"defaultFadeParameters": {
+					"time": 10
+				},
 				"id": "ca454057701f474584f36879a39964bb",
 				"length": 0,
 				"lengthType": "expand",
@@ -142,6 +197,10 @@
 					"937f9efb523844a8893dd97195663dd1": {
 						"blend": "overlay",
 						"entityID": "38ee93fc14bc44d692f72e3a445bedc5",
+						"fadeParameters": {
+							"pin": 0.5,
+							"time": 0
+						},
 						"id": "937f9efb523844a8893dd97195663dd1",
 						"keyframes": {
 							"a9e6a24e8c1f4feebe23261ebb096e41": {
@@ -162,6 +221,34 @@
 						"weight": {
 							"1f43e8f5c4e2496e889e30f3a71b0350-blend": {
 								"id": "1f43e8f5c4e2496e889e30f3a71b0350-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
+					"cec1985e3f2f46269e1102999627bd6e": {
+						"blend": "overlay",
+						"entityID": "38ee93fc14bc44d692f72e3a445bedc5",
+						"fadeParameters": {
+							"pin": 0,
+							"time": 0
+						},
+						"id": "cec1985e3f2f46269e1102999627bd6e",
+						"keyframes": {
+							"7ff144743c774edbb2c52f18133627c7": {
+								"id": "7ff144743c774edbb2c52f18133627c7",
+								"t": 0,
+								"v": "block"
+							}
+						},
+						"order": "a2",
+						"property": [
+							"display"
+						],
+						"type": "property",
+						"weight": {
+							"8a25729f0ae64739ae43557265773850-blend": {
+								"id": "8a25729f0ae64739ae43557265773850-blend",
 								"t": 0,
 								"v": 1
 							}
@@ -1266,7 +1353,8 @@
 				"mainUI-Backing",
 				"hidden",
 				"example"
-			]
+			],
+			"display": "none"
 		},
 		"3aaeac290bd94c4bba62a29777d19a45": {
 			"classList": [

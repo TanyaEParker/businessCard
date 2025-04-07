@@ -34,9 +34,9 @@
 	display: flex;
 
 	justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .Tracking-UI-Button
@@ -47,7 +47,7 @@
 
 	display: flex;
 	justify-content: center;
-    align-items: center;
+   align-items: center;
 
 	width: 15vmin;
 	max-width: 90px;
@@ -71,7 +71,7 @@
 	width: 90dvw;
 	max-width: 600px;
 	height: 90dvh;
-	padding: 5%;
+	padding: 2vmin;
 	overflow: auto;
 	overflow-x: hidden;
 	color: white;
@@ -179,7 +179,7 @@
 
 	display: flex;
 	align-items: center;
-    justify-content: center;
+  justify-content: center;
 }
 
 .Exit-Icon
