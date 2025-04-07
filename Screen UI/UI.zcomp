@@ -247,6 +247,16 @@
 			},
 			"type": "./TextToLink#TextToLink"
 		},
+		"2d0baf304a9e4de49e30f98e2d7cea64": {
+			"id": "2d0baf304a9e4de49e30f98e2d7cea64",
+			"label": "ConsoleLog",
+			"parent": {
+				"id": "48f2d034465e4caca84fb6eb7359ee2e",
+				"order": "a1",
+				"scriptName": "ConsoleLog"
+			},
+			"type": "@zcomponent/core/lib/behaviors/ConsoleLog#ConsoleLog"
+		},
 		"4c47396c00b143bcadcf862d4730c938": {
 			"id": "4c47396c00b143bcadcf862d4730c938",
 			"label": "TextToLink",
@@ -296,6 +306,16 @@
 				"scriptName": "toggleInstantTracking"
 			},
 			"type": "./toggleInstantTracking#toggleInstantTracking"
+		},
+		"9de4def5cc834490a0afe4323fb5367a": {
+			"id": "9de4def5cc834490a0afe4323fb5367a",
+			"label": "ConsoleLog",
+			"parent": {
+				"id": "11ba4c32c8c349b6b112c862e6df1b1d",
+				"order": "a1",
+				"scriptName": "ConsoleLog"
+			},
+			"type": "@zcomponent/core/lib/behaviors/ConsoleLog#ConsoleLog"
 		},
 		"ab95cb324bdc404faf432687bcbdf60e": {
 			"id": "ab95cb324bdc404faf432687bcbdf60e",
@@ -907,6 +927,9 @@
 		},
 		"2acb99378d7645f3bc122d580d6cf6cd": {
 		},
+		"2d0baf304a9e4de49e30f98e2d7cea64": {
+			"event": "onClick"
+		},
 		"2e4b341ca4ef4d55a0fdeaeba4e9f4ea": {
 		},
 		"2e8b934062a8462c93d05d40cafd60d1": {
@@ -1016,6 +1039,9 @@
 		"9d4f9bd28afa4ffeba5da8f9c1e9c4c9": {
 		},
 		"9d59267863474f47a8679a2a57d2d579": {
+		},
+		"9de4def5cc834490a0afe4323fb5367a": {
+			"event": "onClick"
 		},
 		"a3c2216a5741460cb533b4c5f26fbea3": {
 		},
@@ -1194,6 +1220,9 @@
 			],
 			"id": "",
 			"innerText": "Work Experience"
+		},
+		"2d0baf304a9e4de49e30f98e2d7cea64": {
+			"text": "tapped place"
 		},
 		"2e4b341ca4ef4d55a0fdeaeba4e9f4ea": {
 			"classList": [
@@ -1441,6 +1470,9 @@
 			"classList": [
 				"CV-Section"
 			]
+		},
+		"9de4def5cc834490a0afe4323fb5367a": {
+			"text": "tapped reset"
 		},
 		"a3c2216a5741460cb533b4c5f26fbea3": {
 			"classList": [

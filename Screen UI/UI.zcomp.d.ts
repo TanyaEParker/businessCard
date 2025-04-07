@@ -12,7 +12,8 @@ import { TextToLink as TextToLink_8 } from "./TextToLink";
 import { Button as Button_9 } from "@zcomponent/html/lib/button";
 import { hidePopUp as hidePopUp_10 } from "./hidePopUp";
 import { toggleInstantTracking as toggleInstantTracking_11 } from "./toggleInstantTracking";
-import { toggleInstantTracking as toggleInstantTracking_12 } from "./toggleInstantTracking";
+import { ConsoleLog as ConsoleLog_12 } from "@zcomponent/core/lib/behaviors/ConsoleLog";
+import { toggleInstantTracking as toggleInstantTracking_13 } from "./toggleInstantTracking";
 
 interface ConstructorProps {
 
@@ -458,6 +459,8 @@ declare class Comp extends ZComponent {
 			behaviors: {
 				0: toggleInstantTracking_11,
 				toggleInstantTracking: toggleInstantTracking_11,
+				1: ConsoleLog_12,
+				ConsoleLog: ConsoleLog_12,
 			}
 		},
 		placementIcon: Img_5 & {
@@ -467,8 +470,10 @@ declare class Comp extends ZComponent {
 		},
 		resetButton: Button_9 & {
 			behaviors: {
-				0: toggleInstantTracking_12,
-				toggleInstantTracking: toggleInstantTracking_12,
+				0: toggleInstantTracking_13,
+				toggleInstantTracking: toggleInstantTracking_13,
+				1: ConsoleLog_12,
+				ConsoleLog: ConsoleLog_12,
 			}
 		},
 		resetcon: Img_5 & {
