@@ -14,6 +14,7 @@ import { hidePopUp as hidePopUp_10 } from "./hidePopUp";
 import { toggleInstantTracking as toggleInstantTracking_11 } from "./toggleInstantTracking";
 import { ConsoleLog as ConsoleLog_12 } from "@zcomponent/core/lib/behaviors/ConsoleLog";
 import { toggleInstantTracking as toggleInstantTracking_13 } from "./toggleInstantTracking";
+import { LaunchURL as LaunchURL_14 } from "@zcomponent/core/lib/behaviors/LaunchURL";
 
 interface ConstructorProps {
 
@@ -492,6 +493,22 @@ declare class Comp extends ZComponent {
 			}
 		},
 		top_bar: HTML_6 & {
+			behaviors: {
+
+			}
+		},
+		get_yourown: Div_2 & {
+			behaviors: {
+				0: LaunchURL_14,
+				LaunchURL: LaunchURL_14,
+			}
+		},
+		Span_25: Span_1 & {
+			behaviors: {
+
+			}
+		},
+		Img_2: Img_5 & {
 			behaviors: {
 
 			}

@@ -64,6 +64,33 @@
 							}
 						}
 					},
+					"cf442f230e4746c4b8be7e0f19a2a8b6": {
+						"blend": "overlay",
+						"entityID": "3630ded598f2482282dd9e5590e2cf98",
+						"id": "cf442f230e4746c4b8be7e0f19a2a8b6",
+						"keyframes": {
+							"4bc04d9328514ebda3ae05b118ad5549": {
+								"id": "4bc04d9328514ebda3ae05b118ad5549",
+								"t": 0,
+								"v": [
+									0,
+									"vmin"
+								]
+							}
+						},
+						"order": "Zx",
+						"property": [
+							"top"
+						],
+						"type": "property",
+						"weight": {
+							"c7902bfad0344c6c815b2781882f59a5-blend": {
+								"id": "c7902bfad0344c6c815b2781882f59a5-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
 					"dd229cff0004404da36b1172d83d950c": {
 						"blend": "overlay",
 						"entityID": "47e79dbda6da4c0e98c7c46bb1e0e511",
@@ -73,7 +100,7 @@
 								"id": "cc964027a0f64bd288cd33689e3362fa",
 								"t": 0,
 								"v": [
-									18,
+									28,
 									"vmin"
 								]
 							}
@@ -111,7 +138,7 @@
 								"id": "ee576541942c4a40a3282973a8b670fb",
 								"t": 0,
 								"v": [
-									0,
+									7,
 									"vmin"
 								]
 							}
@@ -384,6 +411,16 @@
 			},
 			"type": "./TextToLink.ts#TextToLink"
 		},
+		"71529d6932a84d138b6fec387647e99e": {
+			"id": "71529d6932a84d138b6fec387647e99e",
+			"label": "LaunchURL",
+			"parent": {
+				"id": "3630ded598f2482282dd9e5590e2cf98",
+				"order": "a0",
+				"scriptName": "LaunchURL"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LaunchURL#LaunchURL"
+		},
 		"9ab788b2cce8434c991bfed8a614cdda": {
 			"id": "9ab788b2cce8434c991bfed8a614cdda",
 			"label": "toggleInstantTracking",
@@ -544,6 +581,9 @@
 		"Img": {
 			"360a07d10c664540939c934db30bc80d": true
 		},
+		"Img 2": {
+			"3f6bd3e5afc841aeaba3569b63f442fe": true
+		},
 		"Job Title": {
 			"86b4029cbb154d57b87d2b07b0738029": true
 		},
@@ -631,6 +671,9 @@
 		"Span 24": {
 			"7d588f5d7e5d440b8977767a9b9c142e": true
 		},
+		"Span 25": {
+			"49d902748b3e49b3a82ca56e624eba64": true
+		},
 		"Span 3": {
 			"3bdf3fd4cfd1475ebf3165aafa2a23f6": true
 		},
@@ -684,6 +727,9 @@
 		},
 		"exit": {
 			"c9273d6a6d314de4bb2b581bfda568b9": true
+		},
+		"get your own": {
+			"3630ded598f2482282dd9e5590e2cf98": true
 		},
 		"left": {
 			"1b7c37f0aa2641849167a356e79be621": true
@@ -813,6 +859,9 @@
 		"Img": {
 			"360a07d10c664540939c934db30bc80d": true
 		},
+		"Img_2": {
+			"3f6bd3e5afc841aeaba3569b63f442fe": true
+		},
 		"Job_Title": {
 			"86b4029cbb154d57b87d2b07b0738029": true
 		},
@@ -900,6 +949,9 @@
 		"Span_24": {
 			"7d588f5d7e5d440b8977767a9b9c142e": true
 		},
+		"Span_25": {
+			"49d902748b3e49b3a82ca56e624eba64": true
+		},
 		"Span_3": {
 			"3bdf3fd4cfd1475ebf3165aafa2a23f6": true
 		},
@@ -959,6 +1011,9 @@
 		},
 		"exit": {
 			"c9273d6a6d314de4bb2b581bfda568b9": true
+		},
+		"get_yourown": {
+			"3630ded598f2482282dd9e5590e2cf98": true
 		},
 		"left0": {
 			"1b7c37f0aa2641849167a356e79be621": true
@@ -1034,6 +1089,8 @@
 		},
 		"361d2ad674574505889ff84b11e3fa38": {
 		},
+		"3630ded598f2482282dd9e5590e2cf98": {
+		},
 		"3707fdc72b454c32a966dcfccccb991c": {
 		},
 		"38ee93fc14bc44d692f72e3a445bedc5": {
@@ -1041,6 +1098,9 @@
 		"3aaeac290bd94c4bba62a29777d19a45": {
 		},
 		"3bdf3fd4cfd1475ebf3165aafa2a23f6": {
+		},
+		"3f6bd3e5afc841aeaba3569b63f442fe": {
+			"src": "file://./../assets/images/Note.png"
 		},
 		"3f6db91acf244913a1984c74add31911": {
 			"src": "file://./../assets/images/restart.png"
@@ -1052,6 +1112,8 @@
 		"48c92ae923eb48c0b10e9c4f35f39f7b": {
 		},
 		"48f2d034465e4caca84fb6eb7359ee2e": {
+		},
+		"49d902748b3e49b3a82ca56e624eba64": {
 		},
 		"4c47396c00b143bcadcf862d4730c938": {
 		},
@@ -1088,6 +1150,9 @@
 		"6952c9f7d2f84a73890cc867fb91de47": {
 		},
 		"70feef9b0e0143e2bab489f0253092ad": {
+		},
+		"71529d6932a84d138b6fec387647e99e": {
+			"event": "onClick"
 		},
 		"71e8e30cd1f74490be2fe20a2a7e6480": {
 		},
@@ -1345,6 +1410,17 @@
 		},
 		"361d2ad674574505889ff84b11e3fa38": {
 		},
+		"3630ded598f2482282dd9e5590e2cf98": {
+			"classList": [
+				"ui-bottom-prompt"
+			],
+			"id": "",
+			"position": "relative",
+			"top": [
+				10,
+				"vmin"
+			]
+		},
 		"3707fdc72b454c32a966dcfccccb991c": {
 			"innerText": "Designed and developed a Resource Management game within Unity 5 as my Final Year Project. Described by others as “SimCity where you can only build Gotham.”\nBleak drew influence from games such as SimCity and Anno 2070 and films such as Blade Runner and Robocop, Bleak was an attempt to explore subverting the genre by placing it within a dark and dystopian setting."
 		},
@@ -1364,6 +1440,8 @@
 		"3bdf3fd4cfd1475ebf3165aafa2a23f6": {
 			"innerText": "Avid Reader\nFrequent Cross Stitcher\nPassionate Home Cook\nPerpetual Dungeons and Dragons DM\n"
 		},
+		"3f6bd3e5afc841aeaba3569b63f442fe": {
+		},
 		"3f6db91acf244913a1984c74add31911": {
 			"classList": [
 				"tracking-UI-Button-Icon"
@@ -1380,7 +1458,7 @@
 				"wrapper"
 			],
 			"top": [
-				18,
+				28,
 				"vmin"
 			]
 		},
@@ -1391,6 +1469,9 @@
 			"classList": [
 				"Tracking-UI-Button"
 			]
+		},
+		"49d902748b3e49b3a82ca56e624eba64": {
+			"innerText": "Want something like this for yourself? Get in touch!"
 		},
 		"4c47396c00b143bcadcf862d4730c938": {
 		},
@@ -1460,6 +1541,9 @@
 		},
 		"70feef9b0e0143e2bab489f0253092ad": {
 			"LinkOption": 0
+		},
+		"71529d6932a84d138b6fec387647e99e": {
+			"url": "https://forms.gle/cdj1h5dPcdU7Njup8"
 		},
 		"71e8e30cd1f74490be2fe20a2a7e6480": {
 			"innerText": "07802474557"
@@ -1943,6 +2027,16 @@
 			"scriptName": "Popup",
 			"type": "@zcomponent/three/lib/components/HTML#HTML"
 		},
+		"3630ded598f2482282dd9e5590e2cf98": {
+			"id": "3630ded598f2482282dd9e5590e2cf98",
+			"label": "get your own",
+			"parent": {
+				"id": "7ac642d7156a4ec69d3a72a8e4c77954",
+				"order": "a3"
+			},
+			"scriptName": "get_yourown",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
 		"3707fdc72b454c32a966dcfccccb991c": {
 			"id": "3707fdc72b454c32a966dcfccccb991c",
 			"label": "Span 14",
@@ -1982,6 +2076,16 @@
 			},
 			"scriptName": "Span_3",
 			"type": "@zcomponent/html/lib/span#Span"
+		},
+		"3f6bd3e5afc841aeaba3569b63f442fe": {
+			"id": "3f6bd3e5afc841aeaba3569b63f442fe",
+			"label": "Img 2",
+			"parent": {
+				"id": "3630ded598f2482282dd9e5590e2cf98",
+				"order": "a1"
+			},
+			"scriptName": "Img_2",
+			"type": "@zcomponent/html/lib/img#Img"
 		},
 		"3f6db91acf244913a1984c74add31911": {
 			"id": "3f6db91acf244913a1984c74add31911",
@@ -2032,6 +2136,16 @@
 			},
 			"scriptName": "placementButton",
 			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"49d902748b3e49b3a82ca56e624eba64": {
+			"id": "49d902748b3e49b3a82ca56e624eba64",
+			"label": "Span 25",
+			"parent": {
+				"id": "3630ded598f2482282dd9e5590e2cf98",
+				"order": "a0"
+			},
+			"scriptName": "Span_25",
+			"type": "@zcomponent/html/lib/span#Span"
 		},
 		"4cd3a9487f9d4701a8aecb72ff9649aa": {
 			"id": "4cd3a9487f9d4701a8aecb72ff9649aa",
