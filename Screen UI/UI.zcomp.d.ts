@@ -11,10 +11,10 @@ import { TextToLink as TextToLink_7 } from "./TextToLink";
 import { TextToLink as TextToLink_8 } from "./TextToLink";
 import { Button as Button_9 } from "@zcomponent/html/lib/button";
 import { hidePopUp as hidePopUp_10 } from "./hidePopUp";
-import { toggleInstantTracking as toggleInstantTracking_11 } from "./toggleInstantTracking";
-import { ConsoleLog as ConsoleLog_12 } from "@zcomponent/core/lib/behaviors/ConsoleLog";
-import { toggleInstantTracking as toggleInstantTracking_13 } from "./toggleInstantTracking";
-import { LaunchURL as LaunchURL_14 } from "@zcomponent/core/lib/behaviors/LaunchURL";
+import { LaunchURL as LaunchURL_11 } from "@zcomponent/core/lib/behaviors/LaunchURL";
+import { toggleInstantTracking as toggleInstantTracking_12 } from "./toggleInstantTracking";
+import { ConsoleLog as ConsoleLog_13 } from "@zcomponent/core/lib/behaviors/ConsoleLog";
+import { toggleInstantTracking as toggleInstantTracking_14 } from "./toggleInstantTracking";
 
 interface ConstructorProps {
 
@@ -189,6 +189,11 @@ declare class Comp extends ZComponent {
 
 			}
 		},
+		Img_2: Img_5 & {
+			behaviors: {
+
+			}
+		},
 		Job_Title: Span_1 & {
 			behaviors: {
 
@@ -339,6 +344,11 @@ declare class Comp extends ZComponent {
 				TextToLink: TextToLink_8,
 			}
 		},
+		Span_25: Span_1 & {
+			behaviors: {
+
+			}
+		},
 		Span_3: Span_1 & {
 			behaviors: {
 
@@ -441,6 +451,12 @@ declare class Comp extends ZComponent {
 				hidePopUp: hidePopUp_10,
 			}
 		},
+		get_yourown: Div_2 & {
+			behaviors: {
+				0: LaunchURL_11,
+				LaunchURL: LaunchURL_11,
+			}
+		},
 		left0: Div_2 & {
 			behaviors: {
 
@@ -458,10 +474,10 @@ declare class Comp extends ZComponent {
 		},
 		placementButton: Button_9 & {
 			behaviors: {
-				0: toggleInstantTracking_11,
-				toggleInstantTracking: toggleInstantTracking_11,
-				1: ConsoleLog_12,
-				ConsoleLog: ConsoleLog_12,
+				0: toggleInstantTracking_12,
+				toggleInstantTracking: toggleInstantTracking_12,
+				1: ConsoleLog_13,
+				ConsoleLog: ConsoleLog_13,
 			}
 		},
 		placementIcon: Img_5 & {
@@ -471,10 +487,10 @@ declare class Comp extends ZComponent {
 		},
 		resetButton: Button_9 & {
 			behaviors: {
-				0: toggleInstantTracking_13,
-				toggleInstantTracking: toggleInstantTracking_13,
-				1: ConsoleLog_12,
-				ConsoleLog: ConsoleLog_12,
+				0: toggleInstantTracking_14,
+				toggleInstantTracking: toggleInstantTracking_14,
+				1: ConsoleLog_13,
+				ConsoleLog: ConsoleLog_13,
 			}
 		},
 		resetcon: Img_5 & {
@@ -493,22 +509,6 @@ declare class Comp extends ZComponent {
 			}
 		},
 		top_bar: HTML_6 & {
-			behaviors: {
-
-			}
-		},
-		get_yourown: Div_2 & {
-			behaviors: {
-				0: LaunchURL_14,
-				LaunchURL: LaunchURL_14,
-			}
-		},
-		Span_25: Span_1 & {
-			behaviors: {
-
-			}
-		},
-		Img_2: Img_5 & {
 			behaviors: {
 
 			}
