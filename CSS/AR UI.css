@@ -94,8 +94,6 @@
 .AR-UI-Hidden
 {
 /*	display: none;*/
-	opacity: 0;
-	transition: opacity 300ms;
 	pointer-events: none;
 	touch-action: none;
 }
@@ -103,8 +101,6 @@
 .AR-UI-Shown
 {
 /*	display: grid;*/
-	opacity: 1;
-	transition: opacity 300ms;
 	pointer-events: auto;
 	touch-action: none;
 }
@@ -130,4 +126,52 @@
 {
 	color: darkgrey;
 	opacity: 0.5;
+}
+
+.buttonRow-1-hidden
+{
+	opacity: 0;
+	position: relative;
+	top: 35px;
+}
+.buttonRow-2-hidden
+{
+	opacity: 0;
+	position: relative;
+	top: 35px;
+}
+.buttonRow-3-hidden
+{
+	opacity: 0;
+	position: relative;
+	top: 35px;
+}
+.buttonRow-1-shown
+{
+	position: relative;
+	animation: panUp 300ms ease-in-out 0ms 1 normal backwards;
+}
+.buttonRow-2-shown
+{
+	position: relative;
+	animation: panUp 300ms ease-in-out 150ms 1 normal backwards;
+}
+.buttonRow-3-shown
+{
+	position: relative;
+	animation: panUp 300ms ease-in-out 300ms 1 normal backwards;
+}
+
+@keyframes panUp
+{
+	0%
+	{
+		opacity: 0;
+		top: 35px;
+	}	
+	100%
+	{
+		opacity: 1;
+		top: 0px;
+	}
 }

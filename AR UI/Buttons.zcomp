@@ -106,6 +106,118 @@
 							}
 						}
 					},
+					"3ec83e2bfa37447cb3ab91c137cc31bb": {
+						"blend": "overlay",
+						"entityID": "4fedf65a6c7f4f57afe34b45e7cc4a2a",
+						"id": "3ec83e2bfa37447cb3ab91c137cc31bb",
+						"keyframes": {
+							"8461b7eb77ef48219174d5749207b1f7": {
+								"id": "8461b7eb77ef48219174d5749207b1f7",
+								"t": 0,
+								"v": [
+									"AR-UI-Button-BottomLeft",
+									"AR-UI-Button-Wrapper",
+									"buttonRow-3-shown"
+								]
+							}
+						},
+						"order": "Zw",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"81245bf780604deb960826b2901fc9c5-blend": {
+								"id": "81245bf780604deb960826b2901fc9c5-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
+					"606f0373ea394ffb8f6ad08d4f91a8d4": {
+						"blend": "overlay",
+						"entityID": "8b1ad3fd16db4fb4bd0b6524f78914cf",
+						"id": "606f0373ea394ffb8f6ad08d4f91a8d4",
+						"keyframes": {
+							"1b39335f38004d9ca6b0105a382d6c2f": {
+								"id": "1b39335f38004d9ca6b0105a382d6c2f",
+								"t": 0,
+								"v": [
+									"AR-UI-Button-MidRight",
+									"AR-UI-Button-Wrapper",
+									"buttonRow-2-shown"
+								]
+							}
+						},
+						"order": "Zu",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"fbf72cb2d30342b3b298c90cb34c7eb5-blend": {
+								"id": "fbf72cb2d30342b3b298c90cb34c7eb5-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
+					"7730583f013a4f5aae83f62023f26e3a": {
+						"blend": "overlay",
+						"entityID": "f9cc3f027b8e47b1a15d1f8575fdf2f1",
+						"id": "7730583f013a4f5aae83f62023f26e3a",
+						"keyframes": {
+							"d97e329c94e74657aa468dd3e50bb233": {
+								"id": "d97e329c94e74657aa468dd3e50bb233",
+								"t": 0,
+								"v": [
+									"AR-UI-Button-TopRight",
+									"AR-UI-Button-Wrapper",
+									"buttonRow-1-shown"
+								]
+							}
+						},
+						"order": "Zv",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"280efac7a9644d9caf237361f9dc1bae-blend": {
+								"id": "280efac7a9644d9caf237361f9dc1bae-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
+					"7d144b5498394dc897b27a2f5b150993": {
+						"blend": "overlay",
+						"entityID": "a8f3562cbe124e7e9b1499c60c809e9e",
+						"id": "7d144b5498394dc897b27a2f5b150993",
+						"keyframes": {
+							"27404e4a74c949dd8c650028316b7410": {
+								"id": "27404e4a74c949dd8c650028316b7410",
+								"t": 0,
+								"v": [
+									"AR-UI-Button-BottomRight",
+									"AR-UI-Button-Wrapper",
+									"buttonRow-3-shown"
+								]
+							}
+						},
+						"order": "Zt",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"3c7194fc1c3340d18d03df2d3691c24c-blend": {
+								"id": "3c7194fc1c3340d18d03df2d3691c24c-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
 					"9a1d41b68d45430abea02743ffe0a58a": {
 						"blend": "overlay",
 						"entityID": "ad5fa06a1bac4205992d5006ee8850fe",
@@ -132,6 +244,62 @@
 						"weight": {
 							"03c83150a1ee4217b170e97f26f9abd9-blend": {
 								"id": "03c83150a1ee4217b170e97f26f9abd9-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
+					"bdea63a05c97474093a5841b252e359f": {
+						"blend": "overlay",
+						"entityID": "eeded8fbeba74e398b976cd49d674b3d",
+						"id": "bdea63a05c97474093a5841b252e359f",
+						"keyframes": {
+							"4d5206b651724646ac37a53e209d6dcb": {
+								"id": "4d5206b651724646ac37a53e209d6dcb",
+								"t": 0,
+								"v": [
+									"AR-UI-Button-TopLeft",
+									"AR-UI-Button-Wrapper",
+									"buttonRow-1-shown"
+								]
+							}
+						},
+						"order": "Zy",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"f1acaddd2b4d404184d42255d2ae54e2-blend": {
+								"id": "f1acaddd2b4d404184d42255d2ae54e2-blend",
+								"t": 0,
+								"v": 1
+							}
+						}
+					},
+					"fddd0ba710504facb1ebd34c88a7bf0b": {
+						"blend": "overlay",
+						"entityID": "4da9bd892f644412abda6d7149af8352",
+						"id": "fddd0ba710504facb1ebd34c88a7bf0b",
+						"keyframes": {
+							"fbfa245277dc485ba57ff276354e9bb5": {
+								"id": "fbfa245277dc485ba57ff276354e9bb5",
+								"t": 0,
+								"v": [
+									"AR-UI-Button-MidLeft",
+									"AR-UI-Button-Wrapper",
+									"buttonRow-2-shown"
+								]
+							}
+						},
+						"order": "Zx",
+						"property": [
+							"classList"
+						],
+						"type": "property",
+						"weight": {
+							"3ee724f1560f4c42b6b729466c265cd6-blend": {
+								"id": "3ee724f1560f4c42b6b729466c265cd6-blend",
 								"t": 0,
 								"v": 1
 							}
@@ -575,14 +743,16 @@
 		"4da9bd892f644412abda6d7149af8352": {
 			"classList": [
 				"AR-UI-Button-MidLeft",
-				"AR-UI-Button-Wrapper"
+				"AR-UI-Button-Wrapper",
+				"buttonRow-2-hidden"
 			],
 			"id": ""
 		},
 		"4fedf65a6c7f4f57afe34b45e7cc4a2a": {
 			"classList": [
 				"AR-UI-Button-BottomLeft",
-				"AR-UI-Button-Wrapper"
+				"AR-UI-Button-Wrapper",
+				"buttonRow-3-hidden"
 			]
 		},
 		"5425764de5784cc5bd910947aa5fd22f": {
@@ -625,7 +795,8 @@
 		"8b1ad3fd16db4fb4bd0b6524f78914cf": {
 			"classList": [
 				"AR-UI-Button-MidRight",
-				"AR-UI-Button-Wrapper"
+				"AR-UI-Button-Wrapper",
+				"buttonRow-2-hidden"
 			]
 		},
 		"8d776048667444aa98d080c0653a42a2": {
@@ -647,7 +818,8 @@
 		"a8f3562cbe124e7e9b1499c60c809e9e": {
 			"classList": [
 				"AR-UI-Button-BottomRight",
-				"AR-UI-Button-Wrapper"
+				"AR-UI-Button-Wrapper",
+				"buttonRow-3-hidden"
 			]
 		},
 		"ad5fa06a1bac4205992d5006ee8850fe": {
@@ -718,7 +890,8 @@
 		"eeded8fbeba74e398b976cd49d674b3d": {
 			"classList": [
 				"AR-UI-Button-TopLeft",
-				"AR-UI-Button-Wrapper"
+				"AR-UI-Button-Wrapper",
+				"buttonRow-1-hidden"
 			]
 		},
 		"ef2e737aa41b47f78c596b1b3e79c1cb": {
@@ -742,7 +915,8 @@
 		"f9cc3f027b8e47b1a15d1f8575fdf2f1": {
 			"classList": [
 				"AR-UI-Button-TopRight",
-				"AR-UI-Button-Wrapper"
+				"AR-UI-Button-Wrapper",
+				"buttonRow-1-hidden"
 			]
 		},
 		"faaa6a59fb944d9e8d12eccac833976b": {
