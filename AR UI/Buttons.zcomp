@@ -342,6 +342,46 @@
 		}
 	},
 	"behaviors": {
+		"0be9e1a0bdc540ffbaed31c957fa8c10": {
+			"id": "0be9e1a0bdc540ffbaed31c957fa8c10",
+			"label": "LogAnalyticsEvent",
+			"parent": {
+				"id": "45b186f6849a42778f2c1a0bb0273bc2",
+				"order": "a1",
+				"scriptName": "LogAnalyticsEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LogAnalyticsEvent#LogAnalyticsEvent"
+		},
+		"1b019924691d4efa8a9c52e2ee2f7b3e": {
+			"id": "1b019924691d4efa8a9c52e2ee2f7b3e",
+			"label": "LogAnalyticsEvent",
+			"parent": {
+				"id": "f51e6dede1c24b6286aff23227cd9f62",
+				"order": "a1",
+				"scriptName": "LogAnalyticsEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LogAnalyticsEvent#LogAnalyticsEvent"
+		},
+		"3ce3443920fe4410a0dcfa9daa13b5b3": {
+			"id": "3ce3443920fe4410a0dcfa9daa13b5b3",
+			"label": "LogAnalyticsEvent",
+			"parent": {
+				"id": "bd3a2f07708246d8a944c779d0d86665",
+				"order": "a1",
+				"scriptName": "LogAnalyticsEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LogAnalyticsEvent#LogAnalyticsEvent"
+		},
+		"55a6abd6822d41fbaddb08a4a49e9c3d": {
+			"id": "55a6abd6822d41fbaddb08a4a49e9c3d",
+			"label": "LogAnalyticsEvent",
+			"parent": {
+				"id": "e410952bc5994912ad2d446ece78e179",
+				"order": "a1",
+				"scriptName": "LogAnalyticsEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LogAnalyticsEvent#LogAnalyticsEvent"
+		},
 		"6524456df271410caf95647918f356cc": {
 			"id": "6524456df271410caf95647918f356cc",
 			"label": "toggleDisplay",
@@ -391,6 +431,26 @@
 				"scriptName": "LaunchURL"
 			},
 			"type": "@zcomponent/core/lib/behaviors/LaunchURL#LaunchURL"
+		},
+		"df0445acdd6e452bbc9cf81219840a89": {
+			"id": "df0445acdd6e452bbc9cf81219840a89",
+			"label": "LogAnalyticsEvent",
+			"parent": {
+				"id": "85330130651f48dd82438d83ae143012",
+				"order": "a1",
+				"scriptName": "LogAnalyticsEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LogAnalyticsEvent#LogAnalyticsEvent"
+		},
+		"e45b7f234cc54bc7ac5dadc15d23089e": {
+			"id": "e45b7f234cc54bc7ac5dadc15d23089e",
+			"label": "LogAnalyticsEvent",
+			"parent": {
+				"id": "faaa6a59fb944d9e8d12eccac833976b",
+				"order": "a1",
+				"scriptName": "LogAnalyticsEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LogAnalyticsEvent#LogAnalyticsEvent"
 		},
 		"f847046c5d4643038f5e70236e8101f3": {
 			"id": "f847046c5d4643038f5e70236e8101f3",
@@ -590,10 +650,19 @@
 		}
 	},
 	"entityConstructorProps": {
+		"0be9e1a0bdc540ffbaed31c957fa8c10": {
+			"event": "onClick"
+		},
 		"1a86072141e742ba8c603bc59660329e": {
 			"src": "file://./../assets/images/TanyAR.png"
 		},
+		"1b019924691d4efa8a9c52e2ee2f7b3e": {
+			"event": "onClick"
+		},
 		"3bc76b527a704150a3a0cd47c69370ce": {
+		},
+		"3ce3443920fe4410a0dcfa9daa13b5b3": {
+			"event": "onClick"
 		},
 		"45b186f6849a42778f2c1a0bb0273bc2": {
 		},
@@ -603,6 +672,9 @@
 		},
 		"5425764de5784cc5bd910947aa5fd22f": {
 			"src": "file://./../assets/images/LinkedIn.png"
+		},
+		"55a6abd6822d41fbaddb08a4a49e9c3d": {
+			"event": "onClick"
 		},
 		"6524456df271410caf95647918f356cc": {
 		},
@@ -647,9 +719,15 @@
 		},
 		"d3ef90a43126499587d10de719a71e3a": {
 		},
+		"df0445acdd6e452bbc9cf81219840a89": {
+			"event": "onClick"
+		},
 		"e3ff1e74d0554b979ea6c43a33eeca34": {
 		},
 		"e410952bc5994912ad2d446ece78e179": {
+		},
+		"e45b7f234cc54bc7ac5dadc15d23089e": {
+			"event": "onClick"
 		},
 		"e4d4418f525545fb957710c208e12e46": {
 			"src": "file://./../assets/images/portfolio.png"
@@ -719,16 +797,25 @@
 		}
 	},
 	"entityProps": {
+		"0be9e1a0bdc540ffbaed31c957fa8c10": {
+			"name": "Clicked TanyaAR Button"
+		},
 		"1a86072141e742ba8c603bc59660329e": {
 			"classList": [
 				"AR-UI_Button_image"
 			]
+		},
+		"1b019924691d4efa8a9c52e2ee2f7b3e": {
+			"name": "Clicked Email Button"
 		},
 		"3bc76b527a704150a3a0cd47c69370ce": {
 			"classList": [
 				"AR-UI-Text"
 			],
 			"innerText": "GitHub"
+		},
+		"3ce3443920fe4410a0dcfa9daa13b5b3": {
+			"name": "Clicked Portfolio Button"
 		},
 		"45b186f6849a42778f2c1a0bb0273bc2": {
 			"classList": [
@@ -759,6 +846,9 @@
 			"classList": [
 				"AR-UI_Button_image"
 			]
+		},
+		"55a6abd6822d41fbaddb08a4a49e9c3d": {
+			"name": "Clicked Github Button"
 		},
 		"6524456df271410caf95647918f356cc": {
 		},
@@ -864,6 +954,9 @@
 			],
 			"verticalAnchor": "bottom"
 		},
+		"df0445acdd6e452bbc9cf81219840a89": {
+			"name": "Clicked LinkedIn Button"
+		},
 		"e3ff1e74d0554b979ea6c43a33eeca34": {
 			"classList": [
 				"AR-UI-Text"
@@ -878,6 +971,9 @@
 				50,
 				"cm"
 			]
+		},
+		"e45b7f234cc54bc7ac5dadc15d23089e": {
+			"name": "Clicked CV Button"
 		},
 		"e4d4418f525545fb957710c208e12e46": {
 			"classList": [

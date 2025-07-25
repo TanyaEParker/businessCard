@@ -2,14 +2,15 @@ import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Ev
 
 import { Button as Button_0 } from "@zcomponent/html/lib/button";
 import { showPopUp as showPopUp_1 } from "./showPopUp";
-import { LaunchURL as LaunchURL_2 } from "@zcomponent/core/lib/behaviors/LaunchURL";
-import { startVP as startVP_3 } from "./startVP";
-import { CSS as CSS_4 } from "@zcomponent/html/lib/CSS";
-import { HTML as HTML_5 } from "@zcomponent/three/lib/components/HTML";
-import { Img as Img_6 } from "@zcomponent/html/lib/img";
-import { Span as Span_7 } from "@zcomponent/html/lib/span";
-import { Div as Div_8 } from "@zcomponent/html/lib/div";
-import { toggleDisplay as toggleDisplay_9 } from "./toggleDisplay";
+import { LogAnalyticsEvent as LogAnalyticsEvent_2 } from "@zcomponent/core/lib/behaviors/LogAnalyticsEvent";
+import { LaunchURL as LaunchURL_3 } from "@zcomponent/core/lib/behaviors/LaunchURL";
+import { startVP as startVP_4 } from "./startVP";
+import { CSS as CSS_5 } from "@zcomponent/html/lib/CSS";
+import { HTML as HTML_6 } from "@zcomponent/three/lib/components/HTML";
+import { Img as Img_7 } from "@zcomponent/html/lib/img";
+import { Span as Span_8 } from "@zcomponent/html/lib/span";
+import { Div as Div_9 } from "@zcomponent/html/lib/div";
+import { toggleDisplay as toggleDisplay_10 } from "./toggleDisplay";
 
 interface ConstructorProps {
 
@@ -28,145 +29,157 @@ declare class Comp extends ZComponent {
 			behaviors: {
 				0: showPopUp_1,
 				showPopUp: showPopUp_1,
+				1: LogAnalyticsEvent_2,
+				LogAnalyticsEvent: LogAnalyticsEvent_2,
 			}
 		},
 		Button0: Button_0 & {
 			behaviors: {
-				0: LaunchURL_2,
-				LaunchURL: LaunchURL_2,
+				0: LaunchURL_3,
+				LaunchURL: LaunchURL_3,
+				1: LogAnalyticsEvent_2,
+				LogAnalyticsEvent: LogAnalyticsEvent_2,
 			}
 		},
 		Button_2: Button_0 & {
 			behaviors: {
-				0: LaunchURL_2,
-				LaunchURL: LaunchURL_2,
+				0: LaunchURL_3,
+				LaunchURL: LaunchURL_3,
+				1: LogAnalyticsEvent_2,
+				LogAnalyticsEvent: LogAnalyticsEvent_2,
 			}
 		},
 		Button_3: Button_0 & {
 			behaviors: {
-				0: LaunchURL_2,
-				LaunchURL: LaunchURL_2,
+				0: LaunchURL_3,
+				LaunchURL: LaunchURL_3,
+				1: LogAnalyticsEvent_2,
+				LogAnalyticsEvent: LogAnalyticsEvent_2,
 			}
 		},
 		Button_4: Button_0 & {
 			behaviors: {
-				0: LaunchURL_2,
-				LaunchURL: LaunchURL_2,
+				0: LaunchURL_3,
+				LaunchURL: LaunchURL_3,
+				1: LogAnalyticsEvent_2,
+				LogAnalyticsEvent: LogAnalyticsEvent_2,
 			}
 		},
 		Button_5: Button_0 & {
 			behaviors: {
-				0: startVP_3,
-				startVP: startVP_3,
+				0: startVP_4,
+				startVP: startVP_4,
+				1: LogAnalyticsEvent_2,
+				LogAnalyticsEvent: LogAnalyticsEvent_2,
 			}
 		},
-		CSS: CSS_4 & {
+		CSS: CSS_5 & {
 			behaviors: {
 
 			}
 		},
-		HTML: HTML_5 & {
+		HTML: HTML_6 & {
 			behaviors: {
 
 			}
 		},
-		Img: Img_6 & {
+		Img: Img_7 & {
 			behaviors: {
 
 			}
 		},
-		Img0: Img_6 & {
+		Img0: Img_7 & {
 			behaviors: {
 
 			}
 		},
-		Img_2: Img_6 & {
+		Img_2: Img_7 & {
 			behaviors: {
 
 			}
 		},
-		Img_3: Img_6 & {
+		Img_3: Img_7 & {
 			behaviors: {
 
 			}
 		},
-		Img_4: Img_6 & {
+		Img_4: Img_7 & {
 			behaviors: {
 
 			}
 		},
-		Img_5: Img_6 & {
+		Img_5: Img_7 & {
 			behaviors: {
 
 			}
 		},
-		buttonCopy: Span_7 & {
+		buttonCopy: Span_8 & {
 			behaviors: {
 
 			}
 		},
-		buttonCopy0: Span_7 & {
+		buttonCopy0: Span_8 & {
 			behaviors: {
 
 			}
 		},
-		buttonCopy_2: Span_7 & {
+		buttonCopy_2: Span_8 & {
 			behaviors: {
 
 			}
 		},
-		buttonCopy_3: Span_7 & {
+		buttonCopy_3: Span_8 & {
 			behaviors: {
 
 			}
 		},
-		buttonCopy_4: Span_7 & {
+		buttonCopy_4: Span_8 & {
 			behaviors: {
 
 			}
 		},
-		buttonCopy_5: Span_7 & {
+		buttonCopy_5: Span_8 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper: Div_8 & {
+		buttonWrapper: Div_9 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper0: Div_8 & {
+		buttonWrapper0: Div_9 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper_2: Div_8 & {
+		buttonWrapper_2: Div_9 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper_3: Div_8 & {
+		buttonWrapper_3: Div_9 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper_4: Div_8 & {
+		buttonWrapper_4: Div_9 & {
 			behaviors: {
 
 			}
 		},
-		buttonWrapper_5: Div_8 & {
+		buttonWrapper_5: Div_9 & {
 			behaviors: {
 
 			}
 		},
-		container: Div_8 & {
+		container: Div_9 & {
 			behaviors: {
-				0: toggleDisplay_9,
-				toggleDisplay: toggleDisplay_9,
+				0: toggleDisplay_10,
+				toggleDisplay: toggleDisplay_10,
 			}
 		},
-		wrapper: Div_8 & {
+		wrapper: Div_9 & {
 			behaviors: {
 
 			}
