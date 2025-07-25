@@ -19,6 +19,9 @@
 		"Buttons": {
 			"c575ad53d2d74d63960f47e855f0f23f": true
 		},
+		"DefaultCookieConsent": {
+			"ee9d1dbdb68e4c0bb0835cd5487c6919": true
+		},
 		"DefaultEnvironment": {
 			"427f8367b439400ab1b1e5bd08b268ab": true
 		},
@@ -53,6 +56,9 @@
 	"entitiesByScriptName": {
 		"Buttons": {
 			"c575ad53d2d74d63960f47e855f0f23f": true
+		},
+		"DefaultCookieConsent": {
+			"ee9d1dbdb68e4c0bb0835cd5487c6919": true
 		},
 		"DefaultEnvironment": {
 			"427f8367b439400ab1b1e5bd08b268ab": true
@@ -112,6 +118,9 @@
 		"c575ad53d2d74d63960f47e855f0f23f": {
 		},
 		"d6b71d30088a4ab6ae7910777d346df3": {
+		},
+		"ee9d1dbdb68e4c0bb0835cd5487c6919": {
+			"preview": false
 		},
 		"f686fbc007b34e9c999c52a22a716f12": {
 			"backgroundImage": ""
@@ -196,6 +205,8 @@
 			]
 		},
 		"d6b71d30088a4ab6ae7910777d346df3": {
+		},
+		"ee9d1dbdb68e4c0bb0835cd5487c6919": {
 		},
 		"f686fbc007b34e9c999c52a22a716f12": {
 			"backgroundColor": "#402d5a",
@@ -304,6 +315,16 @@
 			},
 			"scriptName": "ShadowPlane",
 			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+		},
+		"ee9d1dbdb68e4c0bb0835cd5487c6919": {
+			"id": "ee9d1dbdb68e4c0bb0835cd5487c6919",
+			"label": "DefaultCookieConsent",
+			"parent": {
+				"id": "636532fa538a4ff88162879d10b09954",
+				"order": "Zx"
+			},
+			"scriptName": "DefaultCookieConsent",
+			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
 		},
 		"f686fbc007b34e9c999c52a22a716f12": {
 			"id": "f686fbc007b34e9c999c52a22a716f12",
