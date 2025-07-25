@@ -381,6 +381,16 @@
 			},
 			"type": "./hidePopUp.ts#hidePopUp"
 		},
+		"62db4e4900eb423297bf7f2ffc1f5524": {
+			"id": "62db4e4900eb423297bf7f2ffc1f5524",
+			"label": "LogAnalyticsEvent",
+			"parent": {
+				"id": "48f2d034465e4caca84fb6eb7359ee2e",
+				"order": "a2",
+				"scriptName": "LogAnalyticsEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LogAnalyticsEvent#LogAnalyticsEvent"
+		},
 		"6a86ffb86e824ac594d1fc6c136e52e2": {
 			"id": "6a86ffb86e824ac594d1fc6c136e52e2",
 			"label": "LogAnalyticsEvent",
@@ -577,6 +587,9 @@
 		},
 		"60111d9df42b4ac0b5e008deaf795e34": {
 		},
+		"62db4e4900eb423297bf7f2ffc1f5524": {
+			"event": "onClick"
+		},
 		"6a86ffb86e824ac594d1fc6c136e52e2": {
 			"event": "onClick"
 		},
@@ -715,6 +728,9 @@
 			"innerText": "Want something like this for yourself? Get in touch!"
 		},
 		"60111d9df42b4ac0b5e008deaf795e34": {
+		},
+		"62db4e4900eb423297bf7f2ffc1f5524": {
+			"name": "Clicked Placement Button"
 		},
 		"6a86ffb86e824ac594d1fc6c136e52e2": {
 			"name": "Clicked Get In Touch Button"

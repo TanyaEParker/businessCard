@@ -88,6 +88,8 @@ declare class Comp extends ZComponent {
 				toggleInstantTracking: toggleInstantTracking_10,
 				1: ConsoleLog_11,
 				ConsoleLog: ConsoleLog_11,
+				2: LogAnalyticsEvent_9,
+				LogAnalyticsEvent: LogAnalyticsEvent_9,
 			}
 		},
 		placementIcon: Img_1 & {
