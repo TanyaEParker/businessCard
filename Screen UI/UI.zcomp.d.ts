@@ -9,9 +9,10 @@ import { fillCVContent as fillCVContent_5 } from "./fillCVContent";
 import { Button as Button_6 } from "@zcomponent/html/lib/button";
 import { hidePopUp as hidePopUp_7 } from "./hidePopUp";
 import { LaunchURL as LaunchURL_8 } from "@zcomponent/core/lib/behaviors/LaunchURL";
-import { toggleInstantTracking as toggleInstantTracking_9 } from "./toggleInstantTracking";
-import { ConsoleLog as ConsoleLog_10 } from "@zcomponent/core/lib/behaviors/ConsoleLog";
-import { toggleInstantTracking as toggleInstantTracking_11 } from "./toggleInstantTracking";
+import { LogAnalyticsEvent as LogAnalyticsEvent_9 } from "@zcomponent/core/lib/behaviors/LogAnalyticsEvent";
+import { toggleInstantTracking as toggleInstantTracking_10 } from "./toggleInstantTracking";
+import { ConsoleLog as ConsoleLog_11 } from "@zcomponent/core/lib/behaviors/ConsoleLog";
+import { toggleInstantTracking as toggleInstantTracking_12 } from "./toggleInstantTracking";
 
 interface ConstructorProps {
 
@@ -77,14 +78,16 @@ declare class Comp extends ZComponent {
 			behaviors: {
 				0: LaunchURL_8,
 				LaunchURL: LaunchURL_8,
+				1: LogAnalyticsEvent_9,
+				LogAnalyticsEvent: LogAnalyticsEvent_9,
 			}
 		},
 		placementButton: Button_6 & {
 			behaviors: {
-				0: toggleInstantTracking_9,
-				toggleInstantTracking: toggleInstantTracking_9,
-				1: ConsoleLog_10,
-				ConsoleLog: ConsoleLog_10,
+				0: toggleInstantTracking_10,
+				toggleInstantTracking: toggleInstantTracking_10,
+				1: ConsoleLog_11,
+				ConsoleLog: ConsoleLog_11,
 			}
 		},
 		placementIcon: Img_1 & {
@@ -94,10 +97,10 @@ declare class Comp extends ZComponent {
 		},
 		resetButton: Button_6 & {
 			behaviors: {
-				0: toggleInstantTracking_11,
-				toggleInstantTracking: toggleInstantTracking_11,
-				1: ConsoleLog_10,
-				ConsoleLog: ConsoleLog_10,
+				0: toggleInstantTracking_12,
+				toggleInstantTracking: toggleInstantTracking_12,
+				1: ConsoleLog_11,
+				ConsoleLog: ConsoleLog_11,
 			}
 		},
 		resetcon: Img_1 & {

@@ -381,6 +381,16 @@
 			},
 			"type": "./hidePopUp.ts#hidePopUp"
 		},
+		"6a86ffb86e824ac594d1fc6c136e52e2": {
+			"id": "6a86ffb86e824ac594d1fc6c136e52e2",
+			"label": "LogAnalyticsEvent",
+			"parent": {
+				"id": "3630ded598f2482282dd9e5590e2cf98",
+				"order": "a1",
+				"scriptName": "LogAnalyticsEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/LogAnalyticsEvent#LogAnalyticsEvent"
+		},
 		"71529d6932a84d138b6fec387647e99e": {
 			"id": "71529d6932a84d138b6fec387647e99e",
 			"label": "LaunchURL",
@@ -567,6 +577,9 @@
 		},
 		"60111d9df42b4ac0b5e008deaf795e34": {
 		},
+		"6a86ffb86e824ac594d1fc6c136e52e2": {
+			"event": "onClick"
+		},
 		"71529d6932a84d138b6fec387647e99e": {
 			"event": "onClick"
 		},
@@ -702,6 +715,9 @@
 			"innerText": "Want something like this for yourself? Get in touch!"
 		},
 		"60111d9df42b4ac0b5e008deaf795e34": {
+		},
+		"6a86ffb86e824ac594d1fc6c136e52e2": {
+			"name": "Clicked Get In Touch Button"
 		},
 		"71529d6932a84d138b6fec387647e99e": {
 			"url": "https://forms.gle/cdj1h5dPcdU7Njup8"
