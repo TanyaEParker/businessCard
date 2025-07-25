@@ -28,8 +28,14 @@
 		"Defaults": {
 			"636532fa538a4ff88162879d10b09954": true
 		},
+		"GoogleAnalytics": {
+			"92162ac900f143e78b4ac1594fe7a3d6": true
+		},
 		"InstantWorldTracker": {
 			"1af1d557971140418179fcacb962b4bf": true
+		},
+		"RenderSettings": {
+			"1a4e1f9acc1f4ad4b8887d3d76a8adb6": true
 		},
 		"ShadowPlane": {
 			"d6b71d30088a4ab6ae7910777d346df3": true
@@ -57,8 +63,14 @@
 		"Defaults": {
 			"636532fa538a4ff88162879d10b09954": true
 		},
+		"GoogleAnalytics": {
+			"92162ac900f143e78b4ac1594fe7a3d6": true
+		},
 		"InstantWorldTracker": {
 			"1af1d557971140418179fcacb962b4bf": true
+		},
+		"RenderSettings": {
+			"1a4e1f9acc1f4ad4b8887d3d76a8adb6": true
 		},
 		"ShadowPlane": {
 			"d6b71d30088a4ab6ae7910777d346df3": true
@@ -76,6 +88,12 @@
 	"entityConstructorProps": {
 		"14f569dfd5d442ae84d3ad30f04372c3": {
 		},
+		"1a4e1f9acc1f4ad4b8887d3d76a8adb6": {
+			"shadowFocus": 0.1,
+			"shadowSamples": 5,
+			"shadowSize": 10,
+			"softShadows": true
+		},
 		"1af1d557971140418179fcacb962b4bf": {
 		},
 		"427f8367b439400ab1b1e5bd08b268ab": {
@@ -87,6 +105,9 @@
 		"81510e4a9a7244719d581636afdc92e8": {
 		},
 		"8c077219e35f48359c20ce10a01c061b": {
+		},
+		"92162ac900f143e78b4ac1594fe7a3d6": {
+			"measurementId": "G-G4MNXPHMGZ"
 		},
 		"c575ad53d2d74d63960f47e855f0f23f": {
 		},
@@ -145,6 +166,9 @@
 	"entityProps": {
 		"14f569dfd5d442ae84d3ad30f04372c3": {
 		},
+		"1a4e1f9acc1f4ad4b8887d3d76a8adb6": {
+			"toneMapping": "reinhard"
+		},
 		"1af1d557971140418179fcacb962b4bf": {
 		},
 		"427f8367b439400ab1b1e5bd08b268ab": {
@@ -161,6 +185,8 @@
 			]
 		},
 		"8c077219e35f48359c20ce10a01c061b": {
+		},
+		"92162ac900f143e78b4ac1594fe7a3d6": {
 		},
 		"c575ad53d2d74d63960f47e855f0f23f": {
 			"scale": [
@@ -179,6 +205,16 @@
 	},
 	"id": "8cbc233102fb4b138c2be4407bc3d0d3",
 	"nodes": {
+		"1a4e1f9acc1f4ad4b8887d3d76a8adb6": {
+			"id": "1a4e1f9acc1f4ad4b8887d3d76a8adb6",
+			"label": "RenderSettings",
+			"parent": {
+				"id": "636532fa538a4ff88162879d10b09954",
+				"order": "Zz"
+			},
+			"scriptName": "RenderSettings",
+			"type": "@zcomponent/three/lib/components/RenderSettings#RenderSettings"
+		},
 		"1af1d557971140418179fcacb962b4bf": {
 			"id": "1af1d557971140418179fcacb962b4bf",
 			"label": "InstantWorldTracker",
@@ -238,6 +274,16 @@
 			},
 			"scriptName": "ZapparCamera",
 			"type": "@zcomponent/zappar-three/lib/components/cameras/Camera#ZapparCamera"
+		},
+		"92162ac900f143e78b4ac1594fe7a3d6": {
+			"id": "92162ac900f143e78b4ac1594fe7a3d6",
+			"label": "GoogleAnalytics",
+			"parent": {
+				"id": "636532fa538a4ff88162879d10b09954",
+				"order": "Zy"
+			},
+			"scriptName": "GoogleAnalytics",
+			"type": "@zcomponent/google-analytics/lib/components/GoogleAnalytics#GoogleAnalytics"
 		},
 		"c575ad53d2d74d63960f47e855f0f23f": {
 			"id": "c575ad53d2d74d63960f47e855f0f23f",

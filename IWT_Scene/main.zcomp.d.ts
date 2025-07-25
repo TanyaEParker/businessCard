@@ -10,6 +10,8 @@ import { ShadowPlane as ShadowPlane_6 } from "@zcomponent/three/lib/components/m
 import { default as UI_zcomp_7 } from "../Screen UI/UI.zcomp";
 import { ZapparCamera as ZapparCamera_8 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
 import { default as cardContent_zcomp_9 } from "../Content/cardContent.zcomp";
+import { RenderSettings as RenderSettings_10 } from "@zcomponent/three/lib/components/RenderSettings";
+import { GoogleAnalytics as GoogleAnalytics_11 } from "@zcomponent/google-analytics/lib/components/GoogleAnalytics";
 
 interface ConstructorProps {
 
@@ -66,6 +68,16 @@ declare class Comp extends ZComponent {
 			}
 		},
 		cardContent: cardContent_zcomp_9 & {
+			behaviors: {
+
+			}
+		},
+		RenderSettings: RenderSettings_10 & {
+			behaviors: {
+
+			}
+		},
+		GoogleAnalytics: GoogleAnalytics_11 & {
 			behaviors: {
 
 			}
