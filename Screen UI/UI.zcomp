@@ -351,15 +351,15 @@
 		}
 	},
 	"behaviors": {
-		"1d6c6c72d2df4e7089f5983750ba91a9": {
-			"id": "1d6c6c72d2df4e7089f5983750ba91a9",
-			"label": "TextToLink",
+		"046dc9d2e1274043bc00110d9c196df8": {
+			"id": "046dc9d2e1274043bc00110d9c196df8",
+			"label": "fillCVContent",
 			"parent": {
-				"id": "7d588f5d7e5d440b8977767a9b9c142e",
+				"id": "38ee93fc14bc44d692f72e3a445bedc5",
 				"order": "a0",
-				"scriptName": "TextToLink"
+				"scriptName": "fillCVContent"
 			},
-			"type": "./TextToLink#TextToLink"
+			"type": "./fillCVContent.ts#fillCVContent"
 		},
 		"2d0baf304a9e4de49e30f98e2d7cea64": {
 			"id": "2d0baf304a9e4de49e30f98e2d7cea64",
@@ -371,16 +371,6 @@
 			},
 			"type": "@zcomponent/core/lib/behaviors/ConsoleLog#ConsoleLog"
 		},
-		"4c47396c00b143bcadcf862d4730c938": {
-			"id": "4c47396c00b143bcadcf862d4730c938",
-			"label": "TextToLink",
-			"parent": {
-				"id": "7eff6350ac72484d83c9ae8c19caab2f",
-				"order": "a0",
-				"scriptName": "TextToLink"
-			},
-			"type": "./TextToLink#TextToLink"
-		},
 		"60111d9df42b4ac0b5e008deaf795e34": {
 			"id": "60111d9df42b4ac0b5e008deaf795e34",
 			"label": "hidePopUp",
@@ -390,26 +380,6 @@
 				"scriptName": "hidePopUp"
 			},
 			"type": "./hidePopUp.ts#hidePopUp"
-		},
-		"62fadccd6d7b486198ad445828c22b83": {
-			"id": "62fadccd6d7b486198ad445828c22b83",
-			"label": "TextToLink",
-			"parent": {
-				"id": "71e8e30cd1f74490be2fe20a2a7e6480",
-				"order": "a0",
-				"scriptName": "TextToLink"
-			},
-			"type": "./TextToLink#TextToLink"
-		},
-		"70feef9b0e0143e2bab489f0253092ad": {
-			"id": "70feef9b0e0143e2bab489f0253092ad",
-			"label": "TextToLink",
-			"parent": {
-				"id": "cdd04a7a48114810b440917c659fa056",
-				"order": "a0",
-				"scriptName": "TextToLink"
-			},
-			"type": "./TextToLink.ts#TextToLink"
 		},
 		"71529d6932a84d138b6fec387647e99e": {
 			"id": "71529d6932a84d138b6fec387647e99e",
@@ -460,26 +430,6 @@
 				"scriptName": "toggleInstantTracking"
 			},
 			"type": "./toggleInstantTracking.ts#toggleInstantTracking"
-		},
-		"de2ad9d5af26460d91c6e3e29c3b036f": {
-			"id": "de2ad9d5af26460d91c6e3e29c3b036f",
-			"label": "TextToLink",
-			"parent": {
-				"id": "0a499c1ff3074771bb301eebe5c4e44d",
-				"order": "a0",
-				"scriptName": "TextToLink"
-			},
-			"type": "./TextToLink#TextToLink"
-		},
-		"f600bf16281542f58fee154901338cff": {
-			"id": "f600bf16281542f58fee154901338cff",
-			"label": "TextToLink",
-			"parent": {
-				"id": "e05dffc4e8e64d2f9490b16370ea5274",
-				"order": "a0",
-				"scriptName": "TextToLink"
-			},
-			"type": "./TextToLink#TextToLink"
 		}
 	},
 	"behaviorsByNode": {
@@ -490,228 +440,20 @@
 		"CSS": {
 			"b3c639e834084e5daa8053c9dc85877c": true
 		},
-		"ContactNumber": {
-			"1c6ff0e2877f444480bbb6c4da8784bf": true
-		},
-		"Copy": {
-			"32af652c8fec4d5bb7e71968b4df941f": true,
-			"544b25cce7964fd89236d3910f00cb74": true
-		},
-		"Div": {
-			"75bfbdffeca34232b561c393cd678a58": true
-		},
-		"Div 10": {
-			"b92343ec91164ed785cd4b438e29e1ca": true
-		},
-		"Div 11": {
-			"2829e6404349484a8c6ceca5a7ff1b60": true
-		},
-		"Div 12": {
-			"26dc99e732df46068d74303ac39e67bd": true
-		},
-		"Div 13": {
-			"da8e51bc203242adac54fb9f222a2535": true
-		},
-		"Div 14": {
-			"f038764a031541f7a73fa5af61b4fbf7": true
-		},
-		"Div 15": {
-			"f7c4caa5c01c41378dbd92ce8e8c1caf": true
-		},
-		"Div 16": {
-			"81d2e83644c14ecc8990a48a6f0bd3f3": true
-		},
-		"Div 17": {
-			"83c4ce83e93b43fca3c96d1749eb6dc6": true
-		},
-		"Div 18": {
-			"e02d8f2b21234ea6ab27340ec7062543": true
-		},
-		"Div 19": {
-			"33e74517d1d243ebb81b2bcebb05a21d": true
-		},
-		"Div 2": {
-			"8990b47b7efc446f91a958afa9588a78": true
-		},
-		"Div 3": {
-			"ab54dbbb8dc940668f9b6d7786c6cacd": true
-		},
-		"Div 4": {
-			"6144eb35351d49cca866ec36e7d34781": true
-		},
-		"Div 5": {
-			"f4ec072c243a4d549c8689590e0b94ef": true
-		},
-		"Div 6": {
-			"df8efc583eb54904ba79b1a9ab43fac6": true
-		},
-		"Div 7": {
-			"66c9c4324af14df7a53562941e6f18e4": true
-		},
-		"Div 8": {
-			"c017d74cd08c441f9e34fbe1a41ccf46": true
-		},
-		"Div 9": {
-			"352dfb275a574de28a2dee7a5a852c46": true
-		},
-		"H2": {
-			"249dd979408a449fa0bb21d02400fe43": true
-		},
-		"H3": {
-			"9d4f9bd28afa4ffeba5da8f9c1e9c4c9": true
-		},
-		"H4": {
-			"f2e7a0cd8357410382ae084bf41e9835": true
-		},
-		"H5": {
-			"db3461c9cc1e4675922bdf790a5bc72c": true
-		},
-		"H6": {
-			"2e4b341ca4ef4d55a0fdeaeba4e9f4ea": true
-		},
-		"H7": {
-			"64eccff14ed94357af2e97873fbc8047": true
-		},
-		"Heading": {
-			"aa2d0be0fdc94c689fd27b791340b5bc": true
-		},
-		"Hobbies": {
-			"158c1c954ce84699b04c596cf31a3c6a": true
-		},
 		"Img": {
 			"360a07d10c664540939c934db30bc80d": true
 		},
 		"Img 2": {
 			"3f6bd3e5afc841aeaba3569b63f442fe": true
 		},
-		"Job Title": {
-			"86b4029cbb154d57b87d2b07b0738029": true
-		},
-		"Location Duration": {
-			"603c342389ac4c4286088989364f56a2": true
-		},
-		"Other Experience": {
-			"2285032947c64b3ab51f26617f17c13f": true
-		},
 		"Popup": {
 			"361d2ad674574505889ff84b11e3fa38": true
-		},
-		"PortfolioLink": {
-			"cdd04a7a48114810b440917c659fa056": true
-		},
-		"Profile": {
-			"960feec3af874616a9cedc80732fb893": true
-		},
-		"Qualifications": {
-			"7b42ffef23e5428594e5b47121bcc75b": true
-		},
-		"Section 1": {
-			"3aaeac290bd94c4bba62a29777d19a45": true
-		},
-		"Section_1": {
-			"318f18f328484fc7931613d701b66b62": true,
-			"bcfac7c2aa454bc39ce06a27d7237398": true
-		},
-		"Section_2": {
-			"a68d2d34eec343dd98636ed979cfe462": true,
-			"b861df6a3d484184b32e2234d268da38": true
-		},
-		"Section_3": {
-			"686f548561bd485d884df5e95b232217": true,
-			"c539e6939a48476ea8ce458918fae21f": true
-		},
-		"Span": {
-			"71e8e30cd1f74490be2fe20a2a7e6480": true
-		},
-		"Span 10": {
-			"d2c73bef9f064453894f2f716eeac5ff": true
-		},
-		"Span 11": {
-			"85d48695658849b78c07a45cfe7a13f4": true
-		},
-		"Span 12": {
-			"c4978671cc64420195afb491d58b9a24": true
-		},
-		"Span 13": {
-			"4f910bfaaf5348abb7102e68ed7e47c8": true
-		},
-		"Span 14": {
-			"3707fdc72b454c32a966dcfccccb991c": true
-		},
-		"Span 15": {
-			"983856eb8ffb420f8681d07eccc873f6": true
-		},
-		"Span 16": {
-			"48c92ae923eb48c0b10e9c4f35f39f7b": true
-		},
-		"Span 17": {
-			"61a21dbeca6b4b0bacac372ef1e4c3ce": true
-		},
-		"Span 18": {
-			"2acb99378d7645f3bc122d580d6cf6cd": true
-		},
-		"Span 19": {
-			"2e8b934062a8462c93d05d40cafd60d1": true
-		},
-		"Span 2": {
-			"e05dffc4e8e64d2f9490b16370ea5274": true
-		},
-		"Span 20": {
-			"51fc90b6d4c04c838705faa31d550d92": true
-		},
-		"Span 21": {
-			"7eff6350ac72484d83c9ae8c19caab2f": true
-		},
-		"Span 22": {
-			"d1a3c96aeca04cb38b98a72d1cd8610b": true
-		},
-		"Span 23": {
-			"dbaf102a78de4be5ab9010ba20076684": true
-		},
-		"Span 24": {
-			"7d588f5d7e5d440b8977767a9b9c142e": true
 		},
 		"Span 25": {
 			"49d902748b3e49b3a82ca56e624eba64": true
 		},
-		"Span 3": {
-			"3bdf3fd4cfd1475ebf3165aafa2a23f6": true
-		},
-		"Span 4": {
-			"c800567f62094cf1824c9f496191cc72": true
-		},
-		"Span 5": {
-			"6952c9f7d2f84a73890cc867fb91de47": true
-		},
-		"Span 6": {
-			"b2d473381b934517831fcb8c329c5a52": true
-		},
-		"Span 7": {
-			"9ad8b2c9bd3e477f8a09fde0fec7310b": true
-		},
-		"Span 8": {
-			"47e6fac1f1fe43a4aba14f45fa1a66f3": true
-		},
-		"Span 9": {
-			"4cd3a9487f9d4701a8aecb72ff9649aa": true
-		},
-		"Technical Skills": {
-			"9d59267863474f47a8679a2a57d2d579": true
-		},
-		"Top Copy": {
-			"5359ed4471ca40b4b023caa8a144af35": true
-		},
-		"Work History": {
-			"516665ad3a1040828033633d879ca2d5": true
-		},
-		"WorkHistoryTitle": {
-			"5bad6b2c1a924cf2ab2c2a5d01393f56": true
-		},
 		"Wrapper": {
 			"47e79dbda6da4c0e98c7c46bb1e0e511": true
-		},
-		"Zappar": {
-			"bf10877691714cfa958e672c72d41f51": true
 		},
 		"backing": {
 			"38ee93fc14bc44d692f72e3a445bedc5": true
@@ -719,26 +461,11 @@
 		"bottom bar": {
 			"7ac642d7156a4ec69d3a72a8e4c77954": true
 		},
-		"email": {
-			"fb2a2371ab3f4067bafb4af2bdf401ed": true
-		},
-		"emailLink": {
-			"0a499c1ff3074771bb301eebe5c4e44d": true
-		},
 		"exit": {
 			"c9273d6a6d314de4bb2b581bfda568b9": true
 		},
 		"get your own": {
 			"3630ded598f2482282dd9e5590e2cf98": true
-		},
-		"left": {
-			"1b7c37f0aa2641849167a356e79be621": true
-		},
-		"line1": {
-			"76690ccf5a994ca7a4eb5158c1e5e9d9": true
-		},
-		"line2": {
-			"a3c2216a5741460cb533b4c5f26fbea3": true
 		},
 		"placementButton": {
 			"48f2d034465e4caca84fb6eb7359ee2e": true
@@ -751,9 +478,6 @@
 		},
 		"resetcon": {
 			"3f6db91acf244913a1984c74add31911": true
-		},
-		"right": {
-			"cf19745ca387464d9b5d04f3b144ca74": true
 		},
 		"top Wrapper": {
 			"8750525cdf2d498e82b2bbfd9a3cf5d3": true
@@ -766,236 +490,20 @@
 		"CSS": {
 			"b3c639e834084e5daa8053c9dc85877c": true
 		},
-		"ContactNumber": {
-			"1c6ff0e2877f444480bbb6c4da8784bf": true
-		},
-		"Copy": {
-			"32af652c8fec4d5bb7e71968b4df941f": true
-		},
-		"Copy0": {
-			"544b25cce7964fd89236d3910f00cb74": true
-		},
-		"Div": {
-			"75bfbdffeca34232b561c393cd678a58": true
-		},
-		"Div_10": {
-			"b92343ec91164ed785cd4b438e29e1ca": true
-		},
-		"Div_11": {
-			"2829e6404349484a8c6ceca5a7ff1b60": true
-		},
-		"Div_110": {
-			"f038764a031541f7a73fa5af61b4fbf7": true
-		},
-		"Div_12": {
-			"26dc99e732df46068d74303ac39e67bd": true
-		},
-		"Div_120": {
-			"da8e51bc203242adac54fb9f222a2535": true
-		},
-		"Div_121": {
-			"f7c4caa5c01c41378dbd92ce8e8c1caf": true
-		},
-		"Div_13": {
-			"81d2e83644c14ecc8990a48a6f0bd3f3": true
-		},
-		"Div_14": {
-			"83c4ce83e93b43fca3c96d1749eb6dc6": true
-		},
-		"Div_15": {
-			"e02d8f2b21234ea6ab27340ec7062543": true
-		},
-		"Div_16": {
-			"33e74517d1d243ebb81b2bcebb05a21d": true
-		},
-		"Div_2": {
-			"8990b47b7efc446f91a958afa9588a78": true
-		},
-		"Div_3": {
-			"ab54dbbb8dc940668f9b6d7786c6cacd": true
-		},
-		"Div_4": {
-			"6144eb35351d49cca866ec36e7d34781": true
-		},
-		"Div_40": {
-			"f4ec072c243a4d549c8689590e0b94ef": true
-		},
-		"Div_41": {
-			"66c9c4324af14df7a53562941e6f18e4": true
-		},
-		"Div_5": {
-			"df8efc583eb54904ba79b1a9ab43fac6": true
-		},
-		"Div_6": {
-			"c017d74cd08c441f9e34fbe1a41ccf46": true
-		},
-		"Div_7": {
-			"352dfb275a574de28a2dee7a5a852c46": true
-		},
-		"H2": {
-			"249dd979408a449fa0bb21d02400fe43": true
-		},
-		"H3": {
-			"9d4f9bd28afa4ffeba5da8f9c1e9c4c9": true
-		},
-		"H4": {
-			"f2e7a0cd8357410382ae084bf41e9835": true
-		},
-		"H5": {
-			"db3461c9cc1e4675922bdf790a5bc72c": true
-		},
-		"H6": {
-			"2e4b341ca4ef4d55a0fdeaeba4e9f4ea": true
-		},
-		"H7": {
-			"64eccff14ed94357af2e97873fbc8047": true
-		},
-		"Heading": {
-			"aa2d0be0fdc94c689fd27b791340b5bc": true
-		},
-		"Hobbies": {
-			"158c1c954ce84699b04c596cf31a3c6a": true
-		},
 		"Img": {
 			"360a07d10c664540939c934db30bc80d": true
 		},
 		"Img_2": {
 			"3f6bd3e5afc841aeaba3569b63f442fe": true
 		},
-		"Job_Title": {
-			"86b4029cbb154d57b87d2b07b0738029": true
-		},
-		"Location_Duration": {
-			"603c342389ac4c4286088989364f56a2": true
-		},
-		"Other_Experience": {
-			"2285032947c64b3ab51f26617f17c13f": true
-		},
 		"Popup": {
 			"361d2ad674574505889ff84b11e3fa38": true
-		},
-		"PortfolioLink": {
-			"cdd04a7a48114810b440917c659fa056": true
-		},
-		"Profile": {
-			"960feec3af874616a9cedc80732fb893": true
-		},
-		"Qualifications": {
-			"7b42ffef23e5428594e5b47121bcc75b": true
-		},
-		"Section_1": {
-			"3aaeac290bd94c4bba62a29777d19a45": true
-		},
-		"Section_10": {
-			"bcfac7c2aa454bc39ce06a27d7237398": true
-		},
-		"Section_11": {
-			"b861df6a3d484184b32e2234d268da38": true
-		},
-		"Section_12": {
-			"318f18f328484fc7931613d701b66b62": true
-		},
-		"Section_2": {
-			"c539e6939a48476ea8ce458918fae21f": true
-		},
-		"Section_20": {
-			"a68d2d34eec343dd98636ed979cfe462": true
-		},
-		"Section_3": {
-			"686f548561bd485d884df5e95b232217": true
-		},
-		"Span": {
-			"71e8e30cd1f74490be2fe20a2a7e6480": true
-		},
-		"Span_12": {
-			"c4978671cc64420195afb491d58b9a24": true
-		},
-		"Span_120": {
-			"983856eb8ffb420f8681d07eccc873f6": true
-		},
-		"Span_13": {
-			"4f910bfaaf5348abb7102e68ed7e47c8": true
-		},
-		"Span_130": {
-			"48c92ae923eb48c0b10e9c4f35f39f7b": true
-		},
-		"Span_14": {
-			"3707fdc72b454c32a966dcfccccb991c": true
-		},
-		"Span_140": {
-			"61a21dbeca6b4b0bacac372ef1e4c3ce": true
-		},
-		"Span_15": {
-			"2acb99378d7645f3bc122d580d6cf6cd": true
-		},
-		"Span_16": {
-			"2e8b934062a8462c93d05d40cafd60d1": true
-		},
-		"Span_17": {
-			"51fc90b6d4c04c838705faa31d550d92": true
-		},
-		"Span_2": {
-			"e05dffc4e8e64d2f9490b16370ea5274": true
-		},
-		"Span_21": {
-			"7eff6350ac72484d83c9ae8c19caab2f": true
-		},
-		"Span_210": {
-			"d1a3c96aeca04cb38b98a72d1cd8610b": true
-		},
-		"Span_23": {
-			"dbaf102a78de4be5ab9010ba20076684": true
-		},
-		"Span_24": {
-			"7d588f5d7e5d440b8977767a9b9c142e": true
 		},
 		"Span_25": {
 			"49d902748b3e49b3a82ca56e624eba64": true
 		},
-		"Span_3": {
-			"3bdf3fd4cfd1475ebf3165aafa2a23f6": true
-		},
-		"Span_4": {
-			"c800567f62094cf1824c9f496191cc72": true
-		},
-		"Span_40": {
-			"b2d473381b934517831fcb8c329c5a52": true
-		},
-		"Span_5": {
-			"6952c9f7d2f84a73890cc867fb91de47": true
-		},
-		"Span_50": {
-			"9ad8b2c9bd3e477f8a09fde0fec7310b": true
-		},
-		"Span_6": {
-			"47e6fac1f1fe43a4aba14f45fa1a66f3": true
-		},
-		"Span_7": {
-			"4cd3a9487f9d4701a8aecb72ff9649aa": true
-		},
-		"Span_8": {
-			"d2c73bef9f064453894f2f716eeac5ff": true
-		},
-		"Span_9": {
-			"85d48695658849b78c07a45cfe7a13f4": true
-		},
-		"Technical_Skills": {
-			"9d59267863474f47a8679a2a57d2d579": true
-		},
-		"Top_Copy": {
-			"5359ed4471ca40b4b023caa8a144af35": true
-		},
-		"WorkHistoryTitle": {
-			"5bad6b2c1a924cf2ab2c2a5d01393f56": true
-		},
-		"Work_History": {
-			"516665ad3a1040828033633d879ca2d5": true
-		},
 		"Wrapper": {
 			"47e79dbda6da4c0e98c7c46bb1e0e511": true
-		},
-		"Zappar": {
-			"bf10877691714cfa958e672c72d41f51": true
 		},
 		"backing": {
 			"38ee93fc14bc44d692f72e3a445bedc5": true
@@ -1003,26 +511,11 @@
 		"bottom_bar": {
 			"7ac642d7156a4ec69d3a72a8e4c77954": true
 		},
-		"email": {
-			"fb2a2371ab3f4067bafb4af2bdf401ed": true
-		},
-		"emailLink": {
-			"0a499c1ff3074771bb301eebe5c4e44d": true
-		},
 		"exit": {
 			"c9273d6a6d314de4bb2b581bfda568b9": true
 		},
 		"get_yourown": {
 			"3630ded598f2482282dd9e5590e2cf98": true
-		},
-		"left0": {
-			"1b7c37f0aa2641849167a356e79be621": true
-		},
-		"line1": {
-			"76690ccf5a994ca7a4eb5158c1e5e9d9": true
-		},
-		"line2": {
-			"a3c2216a5741460cb533b4c5f26fbea3": true
 		},
 		"placementButton": {
 			"48f2d034465e4caca84fb6eb7359ee2e": true
@@ -1036,9 +529,6 @@
 		"resetcon": {
 			"3f6db91acf244913a1984c74add31911": true
 		},
-		"right0": {
-			"cf19745ca387464d9b5d04f3b144ca74": true
-		},
 		"top_Wrapper": {
 			"8750525cdf2d498e82b2bbfd9a3cf5d3": true
 		},
@@ -1047,42 +537,12 @@
 		}
 	},
 	"entityConstructorProps": {
-		"0a499c1ff3074771bb301eebe5c4e44d": {
+		"046dc9d2e1274043bc00110d9c196df8": {
 		},
 		"11ba4c32c8c349b6b112c862e6df1b1d": {
 		},
-		"158c1c954ce84699b04c596cf31a3c6a": {
-		},
-		"1b7c37f0aa2641849167a356e79be621": {
-		},
-		"1c6ff0e2877f444480bbb6c4da8784bf": {
-		},
-		"1d6c6c72d2df4e7089f5983750ba91a9": {
-		},
-		"2285032947c64b3ab51f26617f17c13f": {
-		},
-		"249dd979408a449fa0bb21d02400fe43": {
-		},
-		"26dc99e732df46068d74303ac39e67bd": {
-		},
-		"2829e6404349484a8c6ceca5a7ff1b60": {
-		},
-		"2acb99378d7645f3bc122d580d6cf6cd": {
-		},
 		"2d0baf304a9e4de49e30f98e2d7cea64": {
 			"event": "onClick"
-		},
-		"2e4b341ca4ef4d55a0fdeaeba4e9f4ea": {
-		},
-		"2e8b934062a8462c93d05d40cafd60d1": {
-		},
-		"318f18f328484fc7931613d701b66b62": {
-		},
-		"32af652c8fec4d5bb7e71968b4df941f": {
-		},
-		"33e74517d1d243ebb81b2bcebb05a21d": {
-		},
-		"352dfb275a574de28a2dee7a5a852c46": {
 		},
 		"360a07d10c664540939c934db30bc80d": {
 			"src": "file://./../assets/images/exit.png"
@@ -1091,13 +551,7 @@
 		},
 		"3630ded598f2482282dd9e5590e2cf98": {
 		},
-		"3707fdc72b454c32a966dcfccccb991c": {
-		},
 		"38ee93fc14bc44d692f72e3a445bedc5": {
-		},
-		"3aaeac290bd94c4bba62a29777d19a45": {
-		},
-		"3bdf3fd4cfd1475ebf3165aafa2a23f6": {
 		},
 		"3f6bd3e5afc841aeaba3569b63f442fe": {
 			"src": "file://./../assets/images/Note.png"
@@ -1105,169 +559,39 @@
 		"3f6db91acf244913a1984c74add31911": {
 			"src": "file://./../assets/images/restart.png"
 		},
-		"47e6fac1f1fe43a4aba14f45fa1a66f3": {
-		},
 		"47e79dbda6da4c0e98c7c46bb1e0e511": {
-		},
-		"48c92ae923eb48c0b10e9c4f35f39f7b": {
 		},
 		"48f2d034465e4caca84fb6eb7359ee2e": {
 		},
 		"49d902748b3e49b3a82ca56e624eba64": {
 		},
-		"4c47396c00b143bcadcf862d4730c938": {
-		},
-		"4cd3a9487f9d4701a8aecb72ff9649aa": {
-		},
-		"4f910bfaaf5348abb7102e68ed7e47c8": {
-		},
-		"516665ad3a1040828033633d879ca2d5": {
-		},
-		"51fc90b6d4c04c838705faa31d550d92": {
-		},
-		"5359ed4471ca40b4b023caa8a144af35": {
-		},
-		"544b25cce7964fd89236d3910f00cb74": {
-		},
-		"5bad6b2c1a924cf2ab2c2a5d01393f56": {
-		},
 		"60111d9df42b4ac0b5e008deaf795e34": {
-		},
-		"603c342389ac4c4286088989364f56a2": {
-		},
-		"6144eb35351d49cca866ec36e7d34781": {
-		},
-		"61a21dbeca6b4b0bacac372ef1e4c3ce": {
-		},
-		"62fadccd6d7b486198ad445828c22b83": {
-		},
-		"64eccff14ed94357af2e97873fbc8047": {
-		},
-		"66c9c4324af14df7a53562941e6f18e4": {
-		},
-		"686f548561bd485d884df5e95b232217": {
-		},
-		"6952c9f7d2f84a73890cc867fb91de47": {
-		},
-		"70feef9b0e0143e2bab489f0253092ad": {
 		},
 		"71529d6932a84d138b6fec387647e99e": {
 			"event": "onClick"
 		},
-		"71e8e30cd1f74490be2fe20a2a7e6480": {
-		},
-		"75bfbdffeca34232b561c393cd678a58": {
-		},
-		"76690ccf5a994ca7a4eb5158c1e5e9d9": {
-		},
 		"7ac642d7156a4ec69d3a72a8e4c77954": {
-		},
-		"7b42ffef23e5428594e5b47121bcc75b": {
-		},
-		"7d588f5d7e5d440b8977767a9b9c142e": {
-		},
-		"7eff6350ac72484d83c9ae8c19caab2f": {
-		},
-		"81d2e83644c14ecc8990a48a6f0bd3f3": {
-		},
-		"83c4ce83e93b43fca3c96d1749eb6dc6": {
-		},
-		"85d48695658849b78c07a45cfe7a13f4": {
-		},
-		"86b4029cbb154d57b87d2b07b0738029": {
 		},
 		"8750525cdf2d498e82b2bbfd9a3cf5d3": {
 		},
-		"8990b47b7efc446f91a958afa9588a78": {
-		},
-		"960feec3af874616a9cedc80732fb893": {
-		},
-		"983856eb8ffb420f8681d07eccc873f6": {
-		},
 		"9ab788b2cce8434c991bfed8a614cdda": {
-		},
-		"9ad8b2c9bd3e477f8a09fde0fec7310b": {
-		},
-		"9d4f9bd28afa4ffeba5da8f9c1e9c4c9": {
-		},
-		"9d59267863474f47a8679a2a57d2d579": {
 		},
 		"9de4def5cc834490a0afe4323fb5367a": {
 			"event": "onClick"
 		},
-		"a3c2216a5741460cb533b4c5f26fbea3": {
-		},
-		"a68d2d34eec343dd98636ed979cfe462": {
-		},
-		"aa2d0be0fdc94c689fd27b791340b5bc": {
-		},
-		"ab54dbbb8dc940668f9b6d7786c6cacd": {
-		},
 		"ab95cb324bdc404faf432687bcbdf60e": {
-		},
-		"b2d473381b934517831fcb8c329c5a52": {
 		},
 		"b3c639e834084e5daa8053c9dc85877c": {
 			"source": "file://./../CSS/UI.css"
 		},
-		"b861df6a3d484184b32e2234d268da38": {
-		},
-		"b92343ec91164ed785cd4b438e29e1ca": {
-		},
-		"bcfac7c2aa454bc39ce06a27d7237398": {
-		},
-		"bf10877691714cfa958e672c72d41f51": {
-		},
-		"c017d74cd08c441f9e34fbe1a41ccf46": {
-		},
-		"c4978671cc64420195afb491d58b9a24": {
-		},
-		"c539e6939a48476ea8ce458918fae21f": {
-		},
-		"c800567f62094cf1824c9f496191cc72": {
-		},
 		"c9273d6a6d314de4bb2b581bfda568b9": {
-		},
-		"cdd04a7a48114810b440917c659fa056": {
-		},
-		"cf19745ca387464d9b5d04f3b144ca74": {
 		},
 		"cf40636282c64531aa71be0349e3f534": {
 		},
 		"d0b38b13f55d4f72b5e201a32b16a8bb": {
 		},
-		"d1a3c96aeca04cb38b98a72d1cd8610b": {
-		},
 		"d2a3a43c5a4a4c6fb2198ea746e2b6ed": {
 			"src": "file://./../assets/images/place.png"
-		},
-		"d2c73bef9f064453894f2f716eeac5ff": {
-		},
-		"da8e51bc203242adac54fb9f222a2535": {
-		},
-		"db3461c9cc1e4675922bdf790a5bc72c": {
-		},
-		"dbaf102a78de4be5ab9010ba20076684": {
-		},
-		"de2ad9d5af26460d91c6e3e29c3b036f": {
-		},
-		"df8efc583eb54904ba79b1a9ab43fac6": {
-		},
-		"e02d8f2b21234ea6ab27340ec7062543": {
-		},
-		"e05dffc4e8e64d2f9490b16370ea5274": {
-		},
-		"f038764a031541f7a73fa5af61b4fbf7": {
-		},
-		"f2e7a0cd8357410382ae084bf41e9835": {
-		},
-		"f4ec072c243a4d549c8689590e0b94ef": {
-		},
-		"f600bf16281542f58fee154901338cff": {
-		},
-		"f7c4caa5c01c41378dbd92ce8e8c1caf": {
-		},
-		"fb2a2371ab3f4067bafb4af2bdf401ed": {
 		}
 	},
 	"entityPropOverrides": {
@@ -1317,91 +641,15 @@
 		}
 	},
 	"entityProps": {
-		"0a499c1ff3074771bb301eebe5c4e44d": {
-			"innerText": "tanyaparkerdev@gmail.com"
+		"046dc9d2e1274043bc00110d9c196df8": {
 		},
 		"11ba4c32c8c349b6b112c862e6df1b1d": {
 			"classList": [
 				"Tracking-UI-Button"
 			]
 		},
-		"158c1c954ce84699b04c596cf31a3c6a": {
-			"classList": [
-				"CV-Section"
-			]
-		},
-		"1b7c37f0aa2641849167a356e79be621": {
-			"classList": [
-				"PopUp-Work-Section-Left"
-			]
-		},
-		"1c6ff0e2877f444480bbb6c4da8784bf": {
-			"classList": [
-				"font-bold"
-			],
-			"innerText": "Contact Number"
-		},
-		"1d6c6c72d2df4e7089f5983750ba91a9": {
-		},
-		"2285032947c64b3ab51f26617f17c13f": {
-			"classList": [
-				"CV-Section"
-			]
-		},
-		"249dd979408a449fa0bb21d02400fe43": {
-			"classList": [
-				"PopUp-Heading"
-			],
-			"innerText": "Profile"
-		},
-		"26dc99e732df46068d74303ac39e67bd": {
-			"classList": [
-				"PopUp-Work-Section-Left",
-				"textPurple"
-			],
-			"innerText": "BLEAK"
-		},
-		"2829e6404349484a8c6ceca5a7ff1b60": {
-			"classList": [
-				"PopUp-Work-Section"
-			]
-		},
-		"2acb99378d7645f3bc122d580d6cf6cd": {
-			"classList": [
-				"textPurple"
-			],
-			"id": "",
-			"innerText": "Work Experience"
-		},
 		"2d0baf304a9e4de49e30f98e2d7cea64": {
 			"text": "tapped place"
-		},
-		"2e4b341ca4ef4d55a0fdeaeba4e9f4ea": {
-			"classList": [
-				"PopUp-Heading"
-			],
-			"innerText": "Qualifications"
-		},
-		"2e8b934062a8462c93d05d40cafd60d1": {
-			"innerText": "Barrow-in-Furness, May & August 2011"
-		},
-		"318f18f328484fc7931613d701b66b62": {
-			"classList": [
-				"Minor-Section"
-			]
-		},
-		"32af652c8fec4d5bb7e71968b4df941f": {
-			"innerText": "A developer with eight years experience in a professional context. Deeply enjoys the problem solving aspect of the discipline, along with  ways to streamline and optimise deliverables. Areas of expertise include Typescript and THREE.js. Desires to constantly challenge and stretch her creative boundaries."
-		},
-		"33e74517d1d243ebb81b2bcebb05a21d": {
-			"classList": [
-				"PopUp-Work-Section-Right"
-			]
-		},
-		"352dfb275a574de28a2dee7a5a852c46": {
-			"classList": [
-				"PopUp-First-Section-Right"
-			]
 		},
 		"360a07d10c664540939c934db30bc80d": {
 			"classList": [
@@ -1421,9 +669,6 @@
 				"vmin"
 			]
 		},
-		"3707fdc72b454c32a966dcfccccb991c": {
-			"innerText": "Designed and developed a Resource Management game within Unity 5 as my Final Year Project. Described by others as “SimCity where you can only build Gotham.”\nBleak drew influence from games such as SimCity and Anno 2070 and films such as Blade Runner and Robocop, Bleak was an attempt to explore subverting the genre by placing it within a dark and dystopian setting."
-		},
 		"38ee93fc14bc44d692f72e3a445bedc5": {
 			"classList": [
 				"mainUI-Backing",
@@ -1432,26 +677,12 @@
 			],
 			"display": "none"
 		},
-		"3aaeac290bd94c4bba62a29777d19a45": {
-			"classList": [
-				"Minor-Section"
-			]
-		},
-		"3bdf3fd4cfd1475ebf3165aafa2a23f6": {
-			"innerText": "Avid Reader\nFrequent Cross Stitcher\nPassionate Home Cook\nPerpetual Dungeons and Dragons DM\n"
-		},
 		"3f6bd3e5afc841aeaba3569b63f442fe": {
 		},
 		"3f6db91acf244913a1984c74add31911": {
 			"classList": [
 				"tracking-UI-Button-Icon"
 			]
-		},
-		"47e6fac1f1fe43a4aba14f45fa1a66f3": {
-			"classList": [
-				"textPurple"
-			],
-			"innerText": "Barrow Sixth Form College"
 		},
 		"47e79dbda6da4c0e98c7c46bb1e0e511": {
 			"classList": [
@@ -1462,9 +693,6 @@
 				"vmin"
 			]
 		},
-		"48c92ae923eb48c0b10e9c4f35f39f7b": {
-			"innerText": "Farnham, September 2014 - May 2016"
-		},
 		"48f2d034465e4caca84fb6eb7359ee2e": {
 			"classList": [
 				"Tracking-UI-Button"
@@ -1473,129 +701,14 @@
 		"49d902748b3e49b3a82ca56e624eba64": {
 			"innerText": "Want something like this for yourself? Get in touch!"
 		},
-		"4c47396c00b143bcadcf862d4730c938": {
-		},
-		"4cd3a9487f9d4701a8aecb72ff9649aa": {
-			"innerText": "BTEC Art and Design Foundation"
-		},
-		"4f910bfaaf5348abb7102e68ed7e47c8": {
-			"innerText": "Farnham, March 2015 - May 2016"
-		},
-		"516665ad3a1040828033633d879ca2d5": {
-			"classList": [
-				"CV-Section"
-			]
-		},
-		"51fc90b6d4c04c838705faa31d550d92": {
-			"innerText": "Introduced to the laboratory and IT techniques whilst shadowing all areas of the business. Worked on my own initiative in order to contribute to a project to streamline the ergonomics of the lab in order to reduce downtime. "
-		},
-		"5359ed4471ca40b4b023caa8a144af35": {
-			"classList": [
-				"CV-Section"
-			]
-		},
-		"544b25cce7964fd89236d3910f00cb74": {
-			"innerText": "Joined Zappar as a Creative Content Developer, using their in-house content authoring software Zapworks Studio to create AR experiences delivered via the Zappar mobile app. Zapworks Studio required the use of Typescript to add interactivity and functionality to the experiences. Delivering content over the air to a user's device required extensive optimisation of filesize, as well as further over the air content streaming from an S3 bucket. This requirement became increasingly relevant as projects grew in scope. The work around in-situ activations at LEGOLAND required careful optimisation to not sacrifice visual quality whilst also being feasible for a user to load on the fly over the park Wifi / mobile data. Larger Studio projects also required extensive UI work, and during my time at Zappar I introduced a workflow / framework leveraging Studio to work around a limitation regarding adaptive UI for different screen resolutions and ratios.\n\nDuring my time at Zappar, the specifics of my workflow consistently changed. The App-based delivery of content was primarily superseded by mobile WebAR, outside of whitelabel app experiences or app embeds. This was further changed by the introduction of Mattercraft, a web-first authoring platform building off from Three JS. As the Zappar project pipeline moved from Studio to Mattercraft, I gained experience using Three JS, as well as the fundamentals of HTML and CSS. Mattercraft integrates better with traditional web development workflow, which I found an interesting adjustment to my workflow but one I adapted to quickly.\n\nIn 2019 I was promoted to Senior Developer, which primarily came with the requirement to directly manage the dev team, which at most was composed of seven other developers. This mostly involved 1:1 meetings, managing project timings with the production team and facilitating training."
-		},
-		"5bad6b2c1a924cf2ab2c2a5d01393f56": {
-			"classList": [
-				"PopUp-Work-Section"
-			]
-		},
 		"60111d9df42b4ac0b5e008deaf795e34": {
-		},
-		"603c342389ac4c4286088989364f56a2": {
-			"innerText": "Chiswick, June 2016 - February 2025"
-		},
-		"6144eb35351d49cca866ec36e7d34781": {
-			"classList": [
-				"PopUp-First-Section-Right"
-			],
-			"innerText": "1st"
-		},
-		"61a21dbeca6b4b0bacac372ef1e4c3ce": {
-			"innerText": "Awarded the role of Course Rep at the start of my second year, acting as an intermediary between course staff and the student body, raising awareness of issues with the course, and attending course board meetings and student conferences. Was nominated for ‘Undergraduate Year 3 Course Rep of the Year’ due to being ‘An Excellent conscientious student rep and exceptionally hard working student’"
-		},
-		"62fadccd6d7b486198ad445828c22b83": {
-			"LinkOption": 2
-		},
-		"64eccff14ed94357af2e97873fbc8047": {
-			"classList": [
-				"PopUp-Heading"
-			],
-			"innerText": "Other Experience"
-		},
-		"66c9c4324af14df7a53562941e6f18e4": {
-			"classList": [
-				"PopUp-First-Section-Right"
-			],
-			"innerText": "Pass"
-		},
-		"686f548561bd485d884df5e95b232217": {
-			"classList": [
-				"Minor-Section"
-			]
-		},
-		"6952c9f7d2f84a73890cc867fb91de47": {
-			"innerText": "10 A* - C"
-		},
-		"70feef9b0e0143e2bab489f0253092ad": {
-			"LinkOption": 0
 		},
 		"71529d6932a84d138b6fec387647e99e": {
 			"url": "https://forms.gle/cdj1h5dPcdU7Njup8"
 		},
-		"71e8e30cd1f74490be2fe20a2a7e6480": {
-			"innerText": "07802474557"
-		},
-		"75bfbdffeca34232b561c393cd678a58": {
-			"classList": [
-				"PopUp-skills-Section"
-			]
-		},
-		"76690ccf5a994ca7a4eb5158c1e5e9d9": {
-			"classList": [
-			],
-			"innerText": "Senior Developer || WebXR Specialist",
-			"paddingBottom": [
-				1,
-				"vmin"
-			]
-		},
 		"7ac642d7156a4ec69d3a72a8e4c77954": {
 			"horizontalAnchor": "center",
 			"verticalAnchor": "bottom"
-		},
-		"7b42ffef23e5428594e5b47121bcc75b": {
-			"classList": [
-				"CV-Section"
-			]
-		},
-		"7d588f5d7e5d440b8977767a9b9c142e": {
-			"innerText": "drewscientific.com"
-		},
-		"7eff6350ac72484d83c9ae8c19caab2f": {
-			"innerText": "uca.ac.uk"
-		},
-		"81d2e83644c14ecc8990a48a6f0bd3f3": {
-			"classList": [
-				"PopUp-Work-Section-Right"
-			]
-		},
-		"83c4ce83e93b43fca3c96d1749eb6dc6": {
-			"classList": [
-				"PopUp-Work-Section"
-			]
-		},
-		"85d48695658849b78c07a45cfe7a13f4": {
-			"innerText": "GCSE"
-		},
-		"86b4029cbb154d57b87d2b07b0738029": {
-			"classList": [
-				"textPurple"
-			],
-			"id": "",
-			"innerText": "Senior Developer"
 		},
 		"8750525cdf2d498e82b2bbfd9a3cf5d3": {
 			"bottom": [
@@ -1606,126 +719,18 @@
 				"wrapper"
 			]
 		},
-		"8990b47b7efc446f91a958afa9588a78": {
-			"classList": [
-				"PopUp-Skills-Left"
-			],
-			"id": "",
-			"innerText": "Typescript\nThree.js\nPerformance Optimisation\nFrontend Development\n(HTML & CSS)"
-		},
-		"960feec3af874616a9cedc80732fb893": {
-			"classList": [
-				"CV-Section"
-			]
-		},
-		"983856eb8ffb420f8681d07eccc873f6": {
-			"classList": [
-				"textPurple"
-			],
-			"innerText": "Course Representative"
-		},
 		"9ab788b2cce8434c991bfed8a614cdda": {
 			"LayerClipID": "537c4d4dd0ff4ff7b6e61acca2ce3a1d",
 			"trackingState": true
 		},
-		"9ad8b2c9bd3e477f8a09fde0fec7310b": {
-			"innerText": "Ba(Hons) Computer Games Arts"
-		},
-		"9d4f9bd28afa4ffeba5da8f9c1e9c4c9": {
-			"classList": [
-				"PopUp-Heading"
-			],
-			"id": "",
-			"innerText": "Work History"
-		},
-		"9d59267863474f47a8679a2a57d2d579": {
-			"classList": [
-				"CV-Section"
-			]
-		},
 		"9de4def5cc834490a0afe4323fb5367a": {
 			"text": "tapped reset"
-		},
-		"a3c2216a5741460cb533b4c5f26fbea3": {
-			"classList": [
-				"font-bold"
-			],
-			"innerText": "Portfolio"
-		},
-		"a68d2d34eec343dd98636ed979cfe462": {
-			"classList": [
-				"Minor-Section"
-			]
-		},
-		"aa2d0be0fdc94c689fd27b791340b5bc": {
-			"classList": [
-				"PopUp-Heading",
-				"mainHeading",
-				"CV-Section"
-			],
-			"innerText": "Tanya Eloise Parker"
-		},
-		"ab54dbbb8dc940668f9b6d7786c6cacd": {
-			"classList": [
-				"PopUp-Skills-Right"
-			],
-			"innerText": "Tailwind CSS\nAsset Creation / Adjustment\nAudio Editing\nAWS S3"
 		},
 		"ab95cb324bdc404faf432687bcbdf60e": {
 			"PopUpHiddenLayer": "6a1774e3757e402da2a0481dc84171f7",
 			"PopUpShownLayer": "8047b0cb11624210addd860412f1277f"
 		},
-		"b2d473381b934517831fcb8c329c5a52": {
-			"classList": [
-				"textPurple"
-			],
-			"innerText": "UCA Farnham"
-		},
 		"b3c639e834084e5daa8053c9dc85877c": {
-		},
-		"b861df6a3d484184b32e2234d268da38": {
-			"classList": [
-				"popUp-First-Section",
-				"Minor-Section"
-			]
-		},
-		"b92343ec91164ed785cd4b438e29e1ca": {
-			"classList": [
-				"popUp-MainInfo"
-			]
-		},
-		"bcfac7c2aa454bc39ce06a27d7237398": {
-			"classList": [
-				"popUp-First-Section",
-				"Minor-Section"
-			]
-		},
-		"bf10877691714cfa958e672c72d41f51": {
-			"classList": [
-				"textPurple"
-			],
-			"innerText": "Zappar"
-		},
-		"c017d74cd08c441f9e34fbe1a41ccf46": {
-			"classList": [
-				"PopUp-First-Section-Left"
-			],
-			"innerText": ""
-		},
-		"c4978671cc64420195afb491d58b9a24": {
-			"classList": [
-				"textPurple"
-			],
-			"innerText": "Student"
-		},
-		"c539e6939a48476ea8ce458918fae21f": {
-			"classList": [
-				"popUp-First-Section",
-				"Minor-Section"
-			]
-		},
-		"c800567f62094cf1824c9f496191cc72": {
-			"innerText": "Including Maths, English & Science"
 		},
 		"c9273d6a6d314de4bb2b581bfda568b9": {
 			"classList": [
@@ -1743,14 +748,6 @@
 				"%"
 			]
 		},
-		"cdd04a7a48114810b440917c659fa056": {
-			"innerText": "tanyaeloiseparker.co.uk/work"
-		},
-		"cf19745ca387464d9b5d04f3b144ca74": {
-			"classList": [
-				"PopUp-Work-Section-Right"
-			]
-		},
 		"cf40636282c64531aa71be0349e3f534": {
 			"LayerClipID": "6a1774e3757e402da2a0481dc84171f7",
 			"enabled": true,
@@ -1760,103 +757,14 @@
 			"horizontalAnchor": "right",
 			"verticalAnchor": "top"
 		},
-		"d1a3c96aeca04cb38b98a72d1cd8610b": {
-			"classList": [
-				"textPurple"
-			],
-			"innerText": "UCA"
-		},
 		"d2a3a43c5a4a4c6fb2198ea746e2b6ed": {
 			"classList": [
 				"tracking-UI-Button-Icon"
 			]
-		},
-		"d2c73bef9f064453894f2f716eeac5ff": {
-			"classList": [
-				"textPurple"
-			],
-			"innerText": "Furness Academy"
-		},
-		"da8e51bc203242adac54fb9f222a2535": {
-			"classList": [
-				"PopUp-Work-Section-Right"
-			]
-		},
-		"db3461c9cc1e4675922bdf790a5bc72c": {
-			"classList": [
-				"PopUp-Heading"
-			],
-			"id": "",
-			"innerText": "Hobbies & Interests"
-		},
-		"dbaf102a78de4be5ab9010ba20076684": {
-			"classList": [
-				"textPurple"
-			],
-			"innerText": "Drew Scientific\n"
-		},
-		"de2ad9d5af26460d91c6e3e29c3b036f": {
-			"LinkOption": 1
-		},
-		"df8efc583eb54904ba79b1a9ab43fac6": {
-			"classList": [
-				"PopUp-First-Section-Left"
-			],
-			"innerText": ""
-		},
-		"e02d8f2b21234ea6ab27340ec7062543": {
-			"classList": [
-				"PopUp-Work-Section-Left"
-			]
-		},
-		"e05dffc4e8e64d2f9490b16370ea5274": {
-			"innerText": "zappar.com"
-		},
-		"f038764a031541f7a73fa5af61b4fbf7": {
-			"classList": [
-				"PopUp-Work-Section"
-			]
-		},
-		"f2e7a0cd8357410382ae084bf41e9835": {
-			"classList": [
-				"PopUp-Heading"
-			],
-			"innerText": "Technical Skills"
-		},
-		"f4ec072c243a4d549c8689590e0b94ef": {
-			"classList": [
-				"PopUp-First-Section-Left"
-			],
-			"innerText": ""
-		},
-		"f600bf16281542f58fee154901338cff": {
-		},
-		"f7c4caa5c01c41378dbd92ce8e8c1caf": {
-			"classList": [
-				"PopUp-Work-Section-Left"
-			],
-			"id": "",
-			"innerText": ""
-		},
-		"fb2a2371ab3f4067bafb4af2bdf401ed": {
-			"classList": [
-				"font-bold"
-			],
-			"innerText": "Email"
 		}
 	},
 	"id": "3ba004cbed2a4da5a06b3e3009cc58fb",
 	"nodes": {
-		"0a499c1ff3074771bb301eebe5c4e44d": {
-			"id": "0a499c1ff3074771bb301eebe5c4e44d",
-			"label": "emailLink",
-			"parent": {
-				"id": "b92343ec91164ed785cd4b438e29e1ca",
-				"order": "a3V"
-			},
-			"scriptName": "emailLink",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
 		"11ba4c32c8c349b6b112c862e6df1b1d": {
 			"id": "11ba4c32c8c349b6b112c862e6df1b1d",
 			"label": "resetButton",
@@ -1866,146 +774,6 @@
 			},
 			"scriptName": "resetButton",
 			"type": "@zcomponent/html/lib/button#Button"
-		},
-		"158c1c954ce84699b04c596cf31a3c6a": {
-			"id": "158c1c954ce84699b04c596cf31a3c6a",
-			"label": "Hobbies",
-			"parent": {
-				"id": "38ee93fc14bc44d692f72e3a445bedc5",
-				"order": "a5"
-			},
-			"scriptName": "Hobbies",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"1b7c37f0aa2641849167a356e79be621": {
-			"id": "1b7c37f0aa2641849167a356e79be621",
-			"label": "left",
-			"parent": {
-				"id": "5bad6b2c1a924cf2ab2c2a5d01393f56",
-				"order": "a0"
-			},
-			"scriptName": "left0",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"1c6ff0e2877f444480bbb6c4da8784bf": {
-			"id": "1c6ff0e2877f444480bbb6c4da8784bf",
-			"label": "ContactNumber",
-			"parent": {
-				"id": "b92343ec91164ed785cd4b438e29e1ca",
-				"order": "Zzl"
-			},
-			"scriptName": "ContactNumber",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"2285032947c64b3ab51f26617f17c13f": {
-			"id": "2285032947c64b3ab51f26617f17c13f",
-			"label": "Other Experience",
-			"parent": {
-				"id": "38ee93fc14bc44d692f72e3a445bedc5",
-				"order": "a7"
-			},
-			"scriptName": "Other_Experience",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"249dd979408a449fa0bb21d02400fe43": {
-			"id": "249dd979408a449fa0bb21d02400fe43",
-			"label": "H2",
-			"parent": {
-				"id": "960feec3af874616a9cedc80732fb893",
-				"order": "a0"
-			},
-			"scriptName": "H2",
-			"type": "@zcomponent/html/lib/headings#H2"
-		},
-		"26dc99e732df46068d74303ac39e67bd": {
-			"id": "26dc99e732df46068d74303ac39e67bd",
-			"label": "Div 12",
-			"parent": {
-				"id": "2829e6404349484a8c6ceca5a7ff1b60",
-				"order": "a0"
-			},
-			"scriptName": "Div_12",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"2829e6404349484a8c6ceca5a7ff1b60": {
-			"id": "2829e6404349484a8c6ceca5a7ff1b60",
-			"label": "Div 11",
-			"parent": {
-				"id": "318f18f328484fc7931613d701b66b62",
-				"order": "Zy"
-			},
-			"scriptName": "Div_11",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"2acb99378d7645f3bc122d580d6cf6cd": {
-			"id": "2acb99378d7645f3bc122d580d6cf6cd",
-			"label": "Span 18",
-			"parent": {
-				"id": "33e74517d1d243ebb81b2bcebb05a21d",
-				"order": "a0"
-			},
-			"scriptName": "Span_15",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"2e4b341ca4ef4d55a0fdeaeba4e9f4ea": {
-			"id": "2e4b341ca4ef4d55a0fdeaeba4e9f4ea",
-			"label": "H6",
-			"parent": {
-				"id": "7b42ffef23e5428594e5b47121bcc75b",
-				"order": "Zz"
-			},
-			"scriptName": "H6",
-			"type": "@zcomponent/html/lib/headings#H2"
-		},
-		"2e8b934062a8462c93d05d40cafd60d1": {
-			"id": "2e8b934062a8462c93d05d40cafd60d1",
-			"label": "Span 19",
-			"parent": {
-				"id": "33e74517d1d243ebb81b2bcebb05a21d",
-				"order": "a1"
-			},
-			"scriptName": "Span_16",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"318f18f328484fc7931613d701b66b62": {
-			"id": "318f18f328484fc7931613d701b66b62",
-			"label": "Section_1",
-			"parent": {
-				"id": "2285032947c64b3ab51f26617f17c13f",
-				"order": "a0"
-			},
-			"scriptName": "Section_12",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"32af652c8fec4d5bb7e71968b4df941f": {
-			"id": "32af652c8fec4d5bb7e71968b4df941f",
-			"label": "Copy",
-			"parent": {
-				"id": "960feec3af874616a9cedc80732fb893",
-				"order": "a1"
-			},
-			"scriptName": "Copy",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"33e74517d1d243ebb81b2bcebb05a21d": {
-			"id": "33e74517d1d243ebb81b2bcebb05a21d",
-			"label": "Div 19",
-			"parent": {
-				"id": "83c4ce83e93b43fca3c96d1749eb6dc6",
-				"order": "a0V"
-			},
-			"scriptName": "Div_16",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"352dfb275a574de28a2dee7a5a852c46": {
-			"id": "352dfb275a574de28a2dee7a5a852c46",
-			"label": "Div 9",
-			"parent": {
-				"id": "c539e6939a48476ea8ce458918fae21f",
-				"order": "a0"
-			},
-			"scriptName": "Div_7",
-			"type": "@zcomponent/html/lib/div#Div"
 		},
 		"360a07d10c664540939c934db30bc80d": {
 			"id": "360a07d10c664540939c934db30bc80d",
@@ -2037,16 +805,6 @@
 			"scriptName": "get_yourown",
 			"type": "@zcomponent/html/lib/div#Div"
 		},
-		"3707fdc72b454c32a966dcfccccb991c": {
-			"id": "3707fdc72b454c32a966dcfccccb991c",
-			"label": "Span 14",
-			"parent": {
-				"id": "318f18f328484fc7931613d701b66b62",
-				"order": "Zz"
-			},
-			"scriptName": "Span_14",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
 		"38ee93fc14bc44d692f72e3a445bedc5": {
 			"id": "38ee93fc14bc44d692f72e3a445bedc5",
 			"label": "backing",
@@ -2056,26 +814,6 @@
 			},
 			"scriptName": "backing",
 			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"3aaeac290bd94c4bba62a29777d19a45": {
-			"id": "3aaeac290bd94c4bba62a29777d19a45",
-			"label": "Section 1",
-			"parent": {
-				"id": "516665ad3a1040828033633d879ca2d5",
-				"order": "a0V"
-			},
-			"scriptName": "Section_1",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"3bdf3fd4cfd1475ebf3165aafa2a23f6": {
-			"id": "3bdf3fd4cfd1475ebf3165aafa2a23f6",
-			"label": "Span 3",
-			"parent": {
-				"id": "158c1c954ce84699b04c596cf31a3c6a",
-				"order": "a1"
-			},
-			"scriptName": "Span_3",
-			"type": "@zcomponent/html/lib/span#Span"
 		},
 		"3f6bd3e5afc841aeaba3569b63f442fe": {
 			"id": "3f6bd3e5afc841aeaba3569b63f442fe",
@@ -2097,16 +835,6 @@
 			"scriptName": "resetcon",
 			"type": "@zcomponent/html/lib/img#Img"
 		},
-		"47e6fac1f1fe43a4aba14f45fa1a66f3": {
-			"id": "47e6fac1f1fe43a4aba14f45fa1a66f3",
-			"label": "Span 8",
-			"parent": {
-				"id": "df8efc583eb54904ba79b1a9ab43fac6",
-				"order": "a0"
-			},
-			"scriptName": "Span_6",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
 		"47e79dbda6da4c0e98c7c46bb1e0e511": {
 			"id": "47e79dbda6da4c0e98c7c46bb1e0e511",
 			"label": "Wrapper",
@@ -2116,16 +844,6 @@
 			},
 			"scriptName": "Wrapper",
 			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"48c92ae923eb48c0b10e9c4f35f39f7b": {
-			"id": "48c92ae923eb48c0b10e9c4f35f39f7b",
-			"label": "Span 16",
-			"parent": {
-				"id": "81d2e83644c14ecc8990a48a6f0bd3f3",
-				"order": "a1"
-			},
-			"scriptName": "Span_130",
-			"type": "@zcomponent/html/lib/span#Span"
 		},
 		"48f2d034465e4caca84fb6eb7359ee2e": {
 			"id": "48f2d034465e4caca84fb6eb7359ee2e",
@@ -2147,176 +865,6 @@
 			"scriptName": "Span_25",
 			"type": "@zcomponent/html/lib/span#Span"
 		},
-		"4cd3a9487f9d4701a8aecb72ff9649aa": {
-			"id": "4cd3a9487f9d4701a8aecb72ff9649aa",
-			"label": "Span 9",
-			"parent": {
-				"id": "df8efc583eb54904ba79b1a9ab43fac6",
-				"order": "a1"
-			},
-			"scriptName": "Span_7",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"4f910bfaaf5348abb7102e68ed7e47c8": {
-			"id": "4f910bfaaf5348abb7102e68ed7e47c8",
-			"label": "Span 13",
-			"parent": {
-				"id": "da8e51bc203242adac54fb9f222a2535",
-				"order": "a1"
-			},
-			"scriptName": "Span_13",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"516665ad3a1040828033633d879ca2d5": {
-			"id": "516665ad3a1040828033633d879ca2d5",
-			"label": "Work History",
-			"parent": {
-				"id": "38ee93fc14bc44d692f72e3a445bedc5",
-				"order": "a3"
-			},
-			"scriptName": "Work_History",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"51fc90b6d4c04c838705faa31d550d92": {
-			"id": "51fc90b6d4c04c838705faa31d550d92",
-			"label": "Span 20",
-			"parent": {
-				"id": "686f548561bd485d884df5e95b232217",
-				"order": "Zz"
-			},
-			"scriptName": "Span_17",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"5359ed4471ca40b4b023caa8a144af35": {
-			"id": "5359ed4471ca40b4b023caa8a144af35",
-			"label": "Top Copy",
-			"parent": {
-				"id": "38ee93fc14bc44d692f72e3a445bedc5",
-				"order": "a1"
-			},
-			"scriptName": "Top_Copy",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"544b25cce7964fd89236d3910f00cb74": {
-			"id": "544b25cce7964fd89236d3910f00cb74",
-			"label": "Copy",
-			"parent": {
-				"id": "3aaeac290bd94c4bba62a29777d19a45",
-				"order": "a1"
-			},
-			"scriptName": "Copy0",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"5bad6b2c1a924cf2ab2c2a5d01393f56": {
-			"id": "5bad6b2c1a924cf2ab2c2a5d01393f56",
-			"label": "WorkHistoryTitle",
-			"parent": {
-				"id": "3aaeac290bd94c4bba62a29777d19a45",
-				"order": "a0"
-			},
-			"scriptName": "WorkHistoryTitle",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"603c342389ac4c4286088989364f56a2": {
-			"id": "603c342389ac4c4286088989364f56a2",
-			"label": "Location Duration",
-			"parent": {
-				"id": "cf19745ca387464d9b5d04f3b144ca74",
-				"order": "a1"
-			},
-			"scriptName": "Location_Duration",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"6144eb35351d49cca866ec36e7d34781": {
-			"id": "6144eb35351d49cca866ec36e7d34781",
-			"label": "Div 4",
-			"parent": {
-				"id": "bcfac7c2aa454bc39ce06a27d7237398",
-				"order": "a0"
-			},
-			"scriptName": "Div_4",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"61a21dbeca6b4b0bacac372ef1e4c3ce": {
-			"id": "61a21dbeca6b4b0bacac372ef1e4c3ce",
-			"label": "Span 17",
-			"parent": {
-				"id": "a68d2d34eec343dd98636ed979cfe462",
-				"order": "Zz"
-			},
-			"scriptName": "Span_140",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"64eccff14ed94357af2e97873fbc8047": {
-			"id": "64eccff14ed94357af2e97873fbc8047",
-			"label": "H7",
-			"parent": {
-				"id": "2285032947c64b3ab51f26617f17c13f",
-				"order": "Zz"
-			},
-			"scriptName": "H7",
-			"type": "@zcomponent/html/lib/headings#H2"
-		},
-		"66c9c4324af14df7a53562941e6f18e4": {
-			"id": "66c9c4324af14df7a53562941e6f18e4",
-			"label": "Div 7",
-			"parent": {
-				"id": "b861df6a3d484184b32e2234d268da38",
-				"order": "a0"
-			},
-			"scriptName": "Div_41",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"686f548561bd485d884df5e95b232217": {
-			"id": "686f548561bd485d884df5e95b232217",
-			"label": "Section_3",
-			"parent": {
-				"id": "2285032947c64b3ab51f26617f17c13f",
-				"order": "a1"
-			},
-			"scriptName": "Section_3",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"6952c9f7d2f84a73890cc867fb91de47": {
-			"id": "6952c9f7d2f84a73890cc867fb91de47",
-			"label": "Span 5",
-			"parent": {
-				"id": "352dfb275a574de28a2dee7a5a852c46",
-				"order": "Zz"
-			},
-			"scriptName": "Span_5",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"71e8e30cd1f74490be2fe20a2a7e6480": {
-			"id": "71e8e30cd1f74490be2fe20a2a7e6480",
-			"label": "Span",
-			"parent": {
-				"id": "b92343ec91164ed785cd4b438e29e1ca",
-				"order": "a0"
-			},
-			"scriptName": "Span",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"75bfbdffeca34232b561c393cd678a58": {
-			"id": "75bfbdffeca34232b561c393cd678a58",
-			"label": "Div",
-			"parent": {
-				"id": "9d59267863474f47a8679a2a57d2d579",
-				"order": "a0"
-			},
-			"scriptName": "Div",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"76690ccf5a994ca7a4eb5158c1e5e9d9": {
-			"id": "76690ccf5a994ca7a4eb5158c1e5e9d9",
-			"label": "line1",
-			"parent": {
-				"id": "b92343ec91164ed785cd4b438e29e1ca",
-				"order": "Zz"
-			},
-			"scriptName": "line1",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
 		"7ac642d7156a4ec69d3a72a8e4c77954": {
 			"id": "7ac642d7156a4ec69d3a72a8e4c77954",
 			"label": "bottom bar",
@@ -2326,76 +874,6 @@
 			},
 			"scriptName": "bottom_bar",
 			"type": "@zcomponent/three/lib/components/HTML#HTML"
-		},
-		"7b42ffef23e5428594e5b47121bcc75b": {
-			"id": "7b42ffef23e5428594e5b47121bcc75b",
-			"label": "Qualifications",
-			"parent": {
-				"id": "38ee93fc14bc44d692f72e3a445bedc5",
-				"order": "a6"
-			},
-			"scriptName": "Qualifications",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"7d588f5d7e5d440b8977767a9b9c142e": {
-			"id": "7d588f5d7e5d440b8977767a9b9c142e",
-			"label": "Span 24",
-			"parent": {
-				"id": "e02d8f2b21234ea6ab27340ec7062543",
-				"order": "a1"
-			},
-			"scriptName": "Span_24",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"7eff6350ac72484d83c9ae8c19caab2f": {
-			"id": "7eff6350ac72484d83c9ae8c19caab2f",
-			"label": "Span 21",
-			"parent": {
-				"id": "f7c4caa5c01c41378dbd92ce8e8c1caf",
-				"order": "a1"
-			},
-			"scriptName": "Span_21",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"81d2e83644c14ecc8990a48a6f0bd3f3": {
-			"id": "81d2e83644c14ecc8990a48a6f0bd3f3",
-			"label": "Div 16",
-			"parent": {
-				"id": "f038764a031541f7a73fa5af61b4fbf7",
-				"order": "a0V"
-			},
-			"scriptName": "Div_13",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"83c4ce83e93b43fca3c96d1749eb6dc6": {
-			"id": "83c4ce83e93b43fca3c96d1749eb6dc6",
-			"label": "Div 17",
-			"parent": {
-				"id": "686f548561bd485d884df5e95b232217",
-				"order": "Zy"
-			},
-			"scriptName": "Div_14",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"85d48695658849b78c07a45cfe7a13f4": {
-			"id": "85d48695658849b78c07a45cfe7a13f4",
-			"label": "Span 11",
-			"parent": {
-				"id": "c017d74cd08c441f9e34fbe1a41ccf46",
-				"order": "a1"
-			},
-			"scriptName": "Span_9",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"86b4029cbb154d57b87d2b07b0738029": {
-			"id": "86b4029cbb154d57b87d2b07b0738029",
-			"label": "Job Title",
-			"parent": {
-				"id": "cf19745ca387464d9b5d04f3b144ca74",
-				"order": "a0"
-			},
-			"scriptName": "Job_Title",
-			"type": "@zcomponent/html/lib/span#Span"
 		},
 		"8750525cdf2d498e82b2bbfd9a3cf5d3": {
 			"id": "8750525cdf2d498e82b2bbfd9a3cf5d3",
@@ -2407,116 +885,6 @@
 			"scriptName": "top_Wrapper",
 			"type": "@zcomponent/html/lib/div#Div"
 		},
-		"8990b47b7efc446f91a958afa9588a78": {
-			"id": "8990b47b7efc446f91a958afa9588a78",
-			"label": "Div 2",
-			"parent": {
-				"id": "75bfbdffeca34232b561c393cd678a58",
-				"order": "a0"
-			},
-			"scriptName": "Div_2",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"960feec3af874616a9cedc80732fb893": {
-			"id": "960feec3af874616a9cedc80732fb893",
-			"label": "Profile",
-			"parent": {
-				"id": "38ee93fc14bc44d692f72e3a445bedc5",
-				"order": "a2"
-			},
-			"scriptName": "Profile",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"983856eb8ffb420f8681d07eccc873f6": {
-			"id": "983856eb8ffb420f8681d07eccc873f6",
-			"label": "Span 15",
-			"parent": {
-				"id": "81d2e83644c14ecc8990a48a6f0bd3f3",
-				"order": "a0"
-			},
-			"scriptName": "Span_120",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"9ad8b2c9bd3e477f8a09fde0fec7310b": {
-			"id": "9ad8b2c9bd3e477f8a09fde0fec7310b",
-			"label": "Span 7",
-			"parent": {
-				"id": "f4ec072c243a4d549c8689590e0b94ef",
-				"order": "a1"
-			},
-			"scriptName": "Span_50",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"9d4f9bd28afa4ffeba5da8f9c1e9c4c9": {
-			"id": "9d4f9bd28afa4ffeba5da8f9c1e9c4c9",
-			"label": "H3",
-			"parent": {
-				"id": "516665ad3a1040828033633d879ca2d5",
-				"order": "a0"
-			},
-			"scriptName": "H3",
-			"type": "@zcomponent/html/lib/headings#H2"
-		},
-		"9d59267863474f47a8679a2a57d2d579": {
-			"id": "9d59267863474f47a8679a2a57d2d579",
-			"label": "Technical Skills",
-			"parent": {
-				"id": "38ee93fc14bc44d692f72e3a445bedc5",
-				"order": "a4"
-			},
-			"scriptName": "Technical_Skills",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"a3c2216a5741460cb533b4c5f26fbea3": {
-			"id": "a3c2216a5741460cb533b4c5f26fbea3",
-			"label": "line2",
-			"parent": {
-				"id": "b92343ec91164ed785cd4b438e29e1ca",
-				"order": "ZzV"
-			},
-			"scriptName": "line2",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"a68d2d34eec343dd98636ed979cfe462": {
-			"id": "a68d2d34eec343dd98636ed979cfe462",
-			"label": "Section_2",
-			"parent": {
-				"id": "2285032947c64b3ab51f26617f17c13f",
-				"order": "a0V"
-			},
-			"scriptName": "Section_20",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"aa2d0be0fdc94c689fd27b791340b5bc": {
-			"id": "aa2d0be0fdc94c689fd27b791340b5bc",
-			"label": "Heading",
-			"parent": {
-				"id": "38ee93fc14bc44d692f72e3a445bedc5",
-				"order": "a0"
-			},
-			"scriptName": "Heading",
-			"type": "@zcomponent/html/lib/headings#H1"
-		},
-		"ab54dbbb8dc940668f9b6d7786c6cacd": {
-			"id": "ab54dbbb8dc940668f9b6d7786c6cacd",
-			"label": "Div 3",
-			"parent": {
-				"id": "75bfbdffeca34232b561c393cd678a58",
-				"order": "a1"
-			},
-			"scriptName": "Div_3",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"b2d473381b934517831fcb8c329c5a52": {
-			"id": "b2d473381b934517831fcb8c329c5a52",
-			"label": "Span 6",
-			"parent": {
-				"id": "f4ec072c243a4d549c8689590e0b94ef",
-				"order": "a0"
-			},
-			"scriptName": "Span_40",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
 		"b3c639e834084e5daa8053c9dc85877c": {
 			"id": "b3c639e834084e5daa8053c9dc85877c",
 			"label": "CSS",
@@ -2526,86 +894,6 @@
 			},
 			"scriptName": "CSS",
 			"type": "@zcomponent/html/lib/CSS#CSS"
-		},
-		"b861df6a3d484184b32e2234d268da38": {
-			"id": "b861df6a3d484184b32e2234d268da38",
-			"label": "Section_2",
-			"parent": {
-				"id": "7b42ffef23e5428594e5b47121bcc75b",
-				"order": "a1"
-			},
-			"scriptName": "Section_11",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"b92343ec91164ed785cd4b438e29e1ca": {
-			"id": "b92343ec91164ed785cd4b438e29e1ca",
-			"label": "Div 10",
-			"parent": {
-				"id": "5359ed4471ca40b4b023caa8a144af35",
-				"order": "Zw"
-			},
-			"scriptName": "Div_10",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"bcfac7c2aa454bc39ce06a27d7237398": {
-			"id": "bcfac7c2aa454bc39ce06a27d7237398",
-			"label": "Section_1",
-			"parent": {
-				"id": "7b42ffef23e5428594e5b47121bcc75b",
-				"order": "a0"
-			},
-			"scriptName": "Section_10",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"bf10877691714cfa958e672c72d41f51": {
-			"id": "bf10877691714cfa958e672c72d41f51",
-			"label": "Zappar",
-			"parent": {
-				"id": "1b7c37f0aa2641849167a356e79be621",
-				"order": "a0"
-			},
-			"scriptName": "Zappar",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"c017d74cd08c441f9e34fbe1a41ccf46": {
-			"id": "c017d74cd08c441f9e34fbe1a41ccf46",
-			"label": "Div 8",
-			"parent": {
-				"id": "c539e6939a48476ea8ce458918fae21f",
-				"order": "Zz"
-			},
-			"scriptName": "Div_6",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"c4978671cc64420195afb491d58b9a24": {
-			"id": "c4978671cc64420195afb491d58b9a24",
-			"label": "Span 12",
-			"parent": {
-				"id": "da8e51bc203242adac54fb9f222a2535",
-				"order": "a0"
-			},
-			"scriptName": "Span_12",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"c539e6939a48476ea8ce458918fae21f": {
-			"id": "c539e6939a48476ea8ce458918fae21f",
-			"label": "Section_3",
-			"parent": {
-				"id": "7b42ffef23e5428594e5b47121bcc75b",
-				"order": "a1V"
-			},
-			"scriptName": "Section_2",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"c800567f62094cf1824c9f496191cc72": {
-			"id": "c800567f62094cf1824c9f496191cc72",
-			"label": "Span 4",
-			"parent": {
-				"id": "352dfb275a574de28a2dee7a5a852c46",
-				"order": "a0"
-			},
-			"scriptName": "Span_4",
-			"type": "@zcomponent/html/lib/span#Span"
 		},
 		"c9273d6a6d314de4bb2b581bfda568b9": {
 			"id": "c9273d6a6d314de4bb2b581bfda568b9",
@@ -2617,26 +905,6 @@
 			"scriptName": "exit",
 			"type": "@zcomponent/html/lib/button#Button"
 		},
-		"cdd04a7a48114810b440917c659fa056": {
-			"id": "cdd04a7a48114810b440917c659fa056",
-			"label": "PortfolioLink",
-			"parent": {
-				"id": "b92343ec91164ed785cd4b438e29e1ca",
-				"order": "Zzd"
-			},
-			"scriptName": "PortfolioLink",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"cf19745ca387464d9b5d04f3b144ca74": {
-			"id": "cf19745ca387464d9b5d04f3b144ca74",
-			"label": "right",
-			"parent": {
-				"id": "5bad6b2c1a924cf2ab2c2a5d01393f56",
-				"order": "a1"
-			},
-			"scriptName": "right0",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
 		"d0b38b13f55d4f72b5e201a32b16a8bb": {
 			"id": "d0b38b13f55d4f72b5e201a32b16a8bb",
 			"label": "top bar",
@@ -2647,16 +915,6 @@
 			"scriptName": "top_bar",
 			"type": "@zcomponent/three/lib/components/HTML#HTML"
 		},
-		"d1a3c96aeca04cb38b98a72d1cd8610b": {
-			"id": "d1a3c96aeca04cb38b98a72d1cd8610b",
-			"label": "Span 22",
-			"parent": {
-				"id": "f7c4caa5c01c41378dbd92ce8e8c1caf",
-				"order": "a0V"
-			},
-			"scriptName": "Span_210",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
 		"d2a3a43c5a4a4c6fb2198ea746e2b6ed": {
 			"id": "d2a3a43c5a4a4c6fb2198ea746e2b6ed",
 			"label": "placementIcon",
@@ -2666,126 +924,6 @@
 			},
 			"scriptName": "placementIcon",
 			"type": "@zcomponent/html/lib/img#Img"
-		},
-		"d2c73bef9f064453894f2f716eeac5ff": {
-			"id": "d2c73bef9f064453894f2f716eeac5ff",
-			"label": "Span 10",
-			"parent": {
-				"id": "c017d74cd08c441f9e34fbe1a41ccf46",
-				"order": "a0"
-			},
-			"scriptName": "Span_8",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"da8e51bc203242adac54fb9f222a2535": {
-			"id": "da8e51bc203242adac54fb9f222a2535",
-			"label": "Div 13",
-			"parent": {
-				"id": "2829e6404349484a8c6ceca5a7ff1b60",
-				"order": "a0V"
-			},
-			"scriptName": "Div_120",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"db3461c9cc1e4675922bdf790a5bc72c": {
-			"id": "db3461c9cc1e4675922bdf790a5bc72c",
-			"label": "H5",
-			"parent": {
-				"id": "158c1c954ce84699b04c596cf31a3c6a",
-				"order": "a0"
-			},
-			"scriptName": "H5",
-			"type": "@zcomponent/html/lib/headings#H2"
-		},
-		"dbaf102a78de4be5ab9010ba20076684": {
-			"id": "dbaf102a78de4be5ab9010ba20076684",
-			"label": "Span 23",
-			"parent": {
-				"id": "e02d8f2b21234ea6ab27340ec7062543",
-				"order": "a0"
-			},
-			"scriptName": "Span_23",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"df8efc583eb54904ba79b1a9ab43fac6": {
-			"id": "df8efc583eb54904ba79b1a9ab43fac6",
-			"label": "Div 6",
-			"parent": {
-				"id": "b861df6a3d484184b32e2234d268da38",
-				"order": "Zz"
-			},
-			"scriptName": "Div_5",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"e02d8f2b21234ea6ab27340ec7062543": {
-			"id": "e02d8f2b21234ea6ab27340ec7062543",
-			"label": "Div 18",
-			"parent": {
-				"id": "83c4ce83e93b43fca3c96d1749eb6dc6",
-				"order": "a0"
-			},
-			"scriptName": "Div_15",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"e05dffc4e8e64d2f9490b16370ea5274": {
-			"id": "e05dffc4e8e64d2f9490b16370ea5274",
-			"label": "Span 2",
-			"parent": {
-				"id": "1b7c37f0aa2641849167a356e79be621",
-				"order": "a1"
-			},
-			"scriptName": "Span_2",
-			"type": "@zcomponent/html/lib/span#Span"
-		},
-		"f038764a031541f7a73fa5af61b4fbf7": {
-			"id": "f038764a031541f7a73fa5af61b4fbf7",
-			"label": "Div 14",
-			"parent": {
-				"id": "a68d2d34eec343dd98636ed979cfe462",
-				"order": "Zy"
-			},
-			"scriptName": "Div_110",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"f2e7a0cd8357410382ae084bf41e9835": {
-			"id": "f2e7a0cd8357410382ae084bf41e9835",
-			"label": "H4",
-			"parent": {
-				"id": "9d59267863474f47a8679a2a57d2d579",
-				"order": "Zz"
-			},
-			"scriptName": "H4",
-			"type": "@zcomponent/html/lib/headings#H2"
-		},
-		"f4ec072c243a4d549c8689590e0b94ef": {
-			"id": "f4ec072c243a4d549c8689590e0b94ef",
-			"label": "Div 5",
-			"parent": {
-				"id": "bcfac7c2aa454bc39ce06a27d7237398",
-				"order": "Zz"
-			},
-			"scriptName": "Div_40",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"f7c4caa5c01c41378dbd92ce8e8c1caf": {
-			"id": "f7c4caa5c01c41378dbd92ce8e8c1caf",
-			"label": "Div 15",
-			"parent": {
-				"id": "f038764a031541f7a73fa5af61b4fbf7",
-				"order": "a0"
-			},
-			"scriptName": "Div_121",
-			"type": "@zcomponent/html/lib/div#Div"
-		},
-		"fb2a2371ab3f4067bafb4af2bdf401ed": {
-			"id": "fb2a2371ab3f4067bafb4af2bdf401ed",
-			"label": "email",
-			"parent": {
-				"id": "b92343ec91164ed785cd4b438e29e1ca",
-				"order": "a3"
-			},
-			"scriptName": "email",
-			"type": "@zcomponent/html/lib/span#Span"
 		},
 		"root": {
 			"id": "root",

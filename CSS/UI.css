@@ -10,6 +10,42 @@
 }
 
 
+h1
+{
+	font-family: 'charm';
+	color: #402d5a;
+}
+h2
+{
+	font-style: italic;
+}
+h3
+{
+	color: #402d5a;
+	text-decoration: underline;
+}
+h4
+{
+	color: #402d5a;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+}
+.CV_Job_Span
+{
+	font-style: italic
+}
+li
+{
+	margin: .75rem 0rem 0rem 0rem;
+}
+#CV_Skills_Table
+{
+	width: 100%;
+	color: white;
+}
 .Wrapper
 {
     position: relative;
@@ -105,91 +141,6 @@
 	font-size: 1.75rem;
 	padding-bottom: 1vmin;
 	font-style: italic;
-}
-
-.mainHeading
-{
-	font-size: 2.25rem;
-}
-
-.Minor-Section
-{
-	padding-bottom: 2.5vmin;
-}
-
-.CV-Section
-{
-	padding-bottom: 5vmin;
-}
-
-.popUp-MainInfo
-{
-	display: flex;
-	flex-direction: column;
-}
-
-.PopUp-First-Section
-{
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-}
-
-.PopUp-First-Section-Left
-{
-	display: flex;
-	flex-direction: column;
-	grid-column: 1;
-}
-.PopUp-First-Section-Right
-{
-	display: flex;
-	flex-direction: column;
-	grid-column: 2;
-}
-
-.PopUp-Work-Section
-{
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-}
-
-.PopUp-Work-Section-Left
-{
-	display: flex;
-	flex-direction: column;
-	grid-column: 1;
-}
-.PopUp-Work-Section-Right
-{
-	display: flex;
-	flex-direction: column;
-	grid-column: 2;
-}
-
-.PopUp-skills-Section
-{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.PopUp-Skills-Left
-{
-	display: flex;
-	flex-direction: column;
-	grid-column: 1;
-}
-.PopUp-Skills-Right
-{
-	display: flex;
-	flex-direction: column;
-	grid-column: 2;
-}
-
-.textPurple
-{
-/*	font-family: "Charm";*/
-	font-weight: bold;
-	color: #402d5a;
 }
 
 .popupExit
