@@ -1,18 +1,18 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
 import { default as Buttons_zcomp_0 } from "../AR UI/Buttons.zcomp";
-import { DefaultEnvironment as DefaultEnvironment_1 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
-import { DefaultLoader as DefaultLoader_2 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
-import { GoogleAnalytics as GoogleAnalytics_4 } from "@zcomponent/google-analytics/lib/components/GoogleAnalytics";
-import { InstantWorldTracker as InstantWorldTracker_5 } from "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker";
-import { togglePlacement as togglePlacement_6 } from "./togglePlacement";
-import { RenderSettings as RenderSettings_7 } from "@zcomponent/three/lib/components/RenderSettings";
-import { ShadowPlane as ShadowPlane_8 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { default as UI_zcomp_9 } from "../Screen UI/UI.zcomp";
-import { ZapparCamera as ZapparCamera_10 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
-import { default as cardContent_zcomp_11 } from "../Content/cardContent.zcomp";
-import { DefaultCookieConsent as DefaultCookieConsent_12 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
+import { DefaultCookieConsent as DefaultCookieConsent_1 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
+import { DefaultEnvironment as DefaultEnvironment_2 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
+import { DefaultLoader as DefaultLoader_3 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { Group as Group_4 } from "@zcomponent/three/lib/components/Group";
+import { GoogleAnalytics as GoogleAnalytics_5 } from "@zcomponent/google-analytics/lib/components/GoogleAnalytics";
+import { InstantWorldTracker as InstantWorldTracker_6 } from "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker";
+import { togglePlacement as togglePlacement_7 } from "./togglePlacement";
+import { RenderSettings as RenderSettings_8 } from "@zcomponent/three/lib/components/RenderSettings";
+import { ShadowPlane as ShadowPlane_9 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { default as UI_zcomp_10 } from "../Screen UI/UI.zcomp";
+import { ZapparCamera as ZapparCamera_11 } from "@zcomponent/zappar-three/lib/components/cameras/Camera";
+import { default as cardContent_zcomp_12 } from "../Content/cardContent.zcomp";
 
 interface ConstructorProps {
 
@@ -32,58 +32,58 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		DefaultEnvironment: DefaultEnvironment_1 & {
+		DefaultCookieConsent: DefaultCookieConsent_1 & {
 			behaviors: {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_2 & {
+		DefaultEnvironment: DefaultEnvironment_2 & {
 			behaviors: {
 
 			}
 		},
-		Defaults: Group_3 & {
+		DefaultLoader: DefaultLoader_3 & {
 			behaviors: {
 
 			}
 		},
-		GoogleAnalytics: GoogleAnalytics_4 & {
+		Defaults: Group_4 & {
 			behaviors: {
 
 			}
 		},
-		InstantWorldTracker: InstantWorldTracker_5 & {
-			behaviors: {
-				0: togglePlacement_6,
-				togglePlacement: togglePlacement_6,
-			}
-		},
-		RenderSettings: RenderSettings_7 & {
+		GoogleAnalytics: GoogleAnalytics_5 & {
 			behaviors: {
 
 			}
 		},
-		ShadowPlane: ShadowPlane_8 & {
+		InstantWorldTracker: InstantWorldTracker_6 & {
+			behaviors: {
+				0: togglePlacement_7,
+				togglePlacement: togglePlacement_7,
+			}
+		},
+		RenderSettings: RenderSettings_8 & {
 			behaviors: {
 
 			}
 		},
-		UI: UI_zcomp_9 & {
+		ShadowPlane: ShadowPlane_9 & {
 			behaviors: {
 
 			}
 		},
-		ZapparCamera: ZapparCamera_10 & {
+		UI: UI_zcomp_10 & {
 			behaviors: {
 
 			}
 		},
-		cardContent: cardContent_zcomp_11 & {
+		ZapparCamera: ZapparCamera_11 & {
 			behaviors: {
 
 			}
 		},
-		DefaultCookieConsent: DefaultCookieConsent_12 & {
+		cardContent: cardContent_zcomp_12 & {
 			behaviors: {
 
 			}
