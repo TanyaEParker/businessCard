@@ -1,4 +1,4 @@
-import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
+import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event, ConstructorForComponent } from "@zcomponent/core";
 
 
 
@@ -9,6 +9,7 @@ interface ConstructorProps {
 /**
 * @zcomponent
 * @zicon zcomponent
+* @ztag zcomponent
 */
 declare class Comp extends ZComponent {
 

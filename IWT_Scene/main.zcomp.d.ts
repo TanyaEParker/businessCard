@@ -1,4 +1,4 @@
-import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
+import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event, ConstructorForComponent } from "@zcomponent/core";
 
 import { default as Buttons_zcomp_0 } from "../AR UI/Buttons.zcomp";
 import { DefaultCookieConsent as DefaultCookieConsent_1 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
@@ -21,6 +21,7 @@ interface ConstructorProps {
 /**
 * @zcomponent
 * @zicon zcomponent
+* @ztag zcomponent
 */
 declare class Comp extends ZComponent {
 

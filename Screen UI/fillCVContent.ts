@@ -57,8 +57,16 @@ const CVContent =
         </tr>
     </table>
     <h3>Employment History</h3>
+    <h4>Contract Lecturer in Immersive and Emerging Technology</h4>
+    <span class="CV_Job_Span">Skills Used: WebXR, Public Speaking, Personal Development, Content Presentation, Teaching.</span>
+    <ul>
+        <li>Delivered eight hours of in person tuition to a final year university cohort, focused on XR design and best practices.
+</li>
+        <li>Followed up with portfolio reviews and project appraisal and review.
+        </li>
+    </ul>
     <h4>Freelance Frontend Developer</h4>
-    <span class="CV_Job_Span">Six months Skills used: HTML, CSS, Typescript, PixiJS, WebGL, Source Control</span>
+    <span class="CV_Job_Span">Skills used: HTML, CSS, Typescript, PixiJS, WebGL, Source Control</span>
     <ul>
         <li>Key developer for an interactive training experience for customers of a US home
             improvement supplier. The project made extensive use of HTML5, Three.js, WebGL and
@@ -69,7 +77,7 @@ const CVContent =
         </li>
     </ul>
     <h4>Senior Developer - Zappar</h4>
-    <span class="CV_Job_Span">Chiswick, Six Years Skills Used: Typescript, Three.JS, AWS, RESTful APIs</span>
+    <span class="CV_Job_Span">Skills Used: Typescript, Three.JS, AWS, RESTful APIs</span>
     <ul>
         <li> Directly managed junior developer team, conducting 1:1 meetings to discuss
             workloads, wellbeing, project issues and blockers, and facilitating any necessary

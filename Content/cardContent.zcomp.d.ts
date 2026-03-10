@@ -1,4 +1,4 @@
-import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
+import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event, ConstructorForComponent } from "@zcomponent/core";
 
 import { DirectionalLight as DirectionalLight_0 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
 import { GLTF as GLTF_1 } from "@zcomponent/three/lib/components/models/GLTF";
@@ -13,6 +13,7 @@ interface ConstructorProps {
 /**
 * @zcomponent
 * @zicon zcomponent
+* @ztag zcomponent
 */
 declare class Comp extends ZComponent {
 
